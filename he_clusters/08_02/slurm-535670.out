@@ -1,0 +1,26 @@
+
+The following have been reloaded with a version change:
+  1) Julia/1.7.2-linux-x86_64 => Julia/1.5.1-linux-x86_64
+
+Mon Jun 13 16:35:15 EDT 2022
+ERROR: LoadError: setfield! immutable struct of type InCoreInts cannot be changed
+Stacktrace:
+ [1] setproperty! at ./Base.jl:34 [inlined]
+ [2] form_casci_ints(::InCoreInts, ::Cluster, ::Array{Float64,2}, ::Array{Float64,2}) at /home/nbraunsc/FermiCG/src/CMFs.jl:121
+ [3] cmf_ci_iteration(::InCoreInts, ::Array{Cluster,1}, ::Array{Float64,2}, ::Array{Float64,2}, ::Array{Tuple{Int64,Int64},1}; verbose::Int64, sequential::Bool) at /home/nbraunsc/FermiCG/src/CMFs.jl:337
+ [4] cmf_ci(::InCoreInts, ::Array{Cluster,1}, ::Array{Tuple{Int64,Int64},1}, ::Array{Float64,2}, ::Array{Float64,2}; max_iter::Int64, dconv::Float64, econv::Float64, verbose::Int64, sequential::Bool) at /home/nbraunsc/FermiCG/src/CMFs.jl:528
+ [5] (::FermiCG.var"#g#478"{Float64,Int64,InCoreInts,Array{Cluster,1},Array{Tuple{Int64,Int64},1}})(::Array{Float64,1}) at /home/nbraunsc/FermiCG/src/CMFs.jl:814
+ [6] (::NLSolversBase.var"#gg!#2"{FermiCG.var"#g#478"{Float64,Int64,InCoreInts,Array{Cluster,1},Array{Tuple{Int64,Int64},1}}})(::Array{Float64,1}, ::Array{Float64,1}) at /home/nbraunsc/.julia/packages/NLSolversBase/cfJrN/src/objective_types/inplace_factory.jl:21
+ [7] (::NLSolversBase.var"#fg!#8"{FermiCG.var"#f#476"{Float64,Bool,InCoreInts,Array{Cluster,1},Array{Tuple{Int64,Int64},1}},NLSolversBase.var"#gg!#2"{FermiCG.var"#g#478"{Float64,Int64,InCoreInts,Array{Cluster,1},Array{Tuple{Int64,Int64},1}}}})(::Array{Float64,1}, ::Array{Float64,1}) at /home/nbraunsc/.julia/packages/NLSolversBase/cfJrN/src/objective_types/abstract.jl:13
+ [8] value_gradient!!(::NLSolversBase.OnceDifferentiable{Float64,Array{Float64,1},Array{Float64,1}}, ::Array{Float64,1}) at /home/nbraunsc/.julia/packages/NLSolversBase/cfJrN/src/interface.jl:82
+ [9] initial_state(::Optim.BFGS{LineSearches.InitialStatic{Float64},LineSearches.HagerZhang{Float64,Base.RefValue{Bool}},Nothing,Nothing,Optim.Flat}, ::Optim.Options{Float64,FermiCG.var"#callback#477"{Float64,InCoreInts}}, ::NLSolversBase.OnceDifferentiable{Float64,Array{Float64,1},Array{Float64,1}}, ::Array{Float64,1}) at /home/nbraunsc/.julia/packages/Optim/6Lpjy/src/multivariate/solvers/first_order/bfgs.jl:94
+ [10] optimize at /home/nbraunsc/.julia/packages/Optim/6Lpjy/src/multivariate/optimize/optimize.jl:36 [inlined]
+ [11] optimize(::Function, ::Function, ::Array{Float64,1}, ::Optim.BFGS{LineSearches.InitialStatic{Float64},LineSearches.HagerZhang{Float64,Base.RefValue{Bool}},Nothing,Nothing,Optim.Flat}, ::Optim.Options{Float64,FermiCG.var"#callback#477"{Float64,InCoreInts}}; inplace::Bool, autodiff::Symbol) at /home/nbraunsc/.julia/packages/Optim/6Lpjy/src/multivariate/optimize/interface.jl:155
+ [12] cmf_oo(::InCoreInts, ::Array{Cluster,1}, ::Array{Tuple{Int64,Int64},1}, ::Array{Float64,2}, ::Array{Float64,2}; max_iter_oo::Int64, max_iter_ci::Int64, gconv::Float64, verbose::Int64, method::String, alpha::Nothing, sequential::Bool) at /home/nbraunsc/FermiCG/src/CMFs.jl:890
+ [13] top-level scope at /home/nbraunsc/FermiCG-data/he_clusters/08_02/tpsci.jl:80
+ [14] include(::Function, ::Module, ::String) at ./Base.jl:380
+ [15] include(::Module, ::String) at ./Base.jl:368
+ [16] exec_options(::Base.JLOptions) at ./client.jl:296
+ [17] _start() at ./client.jl:506
+in expression starting at /home/nbraunsc/FermiCG-data/he_clusters/08_02/tpsci.jl:80
+Mon Jun 13 16:36:42 EDT 2022
