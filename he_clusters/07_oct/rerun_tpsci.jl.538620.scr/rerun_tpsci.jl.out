@@ -1,0 +1,13 @@
+ERROR: LoadError: DimensionMismatch("expected input array of length 2, got length 8")
+Stacktrace:
+ [1] dimension_mismatch_fail(SA::Type, a::Vector{Int64})
+   @ StaticArrays ~/.julia/packages/StaticArrays/LJQEe/src/convert.jl:24
+ [2] convert
+   @ ~/.julia/packages/StaticArrays/LJQEe/src/convert.jl:29 [inlined]
+ [3] setindex!(h::OrderedCollections.OrderedDict{ClusterConfig{7}, StaticArrays.MVector{2, Float64}}, v0::Vector{Int64}, key0::ClusterConfig{7})
+   @ OrderedCollections ~/.julia/packages/OrderedCollections/PRayh/src/ordered_dict.jl:325
+ [4] top-level scope
+   @ /localscratch/538620/rerun_tpsci.jl:22
+in expression starting at /localscratch/538620/rerun_tpsci.jl:22
+ Remove duplicates
+ Number of terms reduced from  9667 to  4039
