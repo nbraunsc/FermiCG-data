@@ -1,0 +1,142 @@
+ Remove duplicates
+ Number of terms reduced from 16472 to  6784
+ --------------------------------------------------
+ ---------- Fockspaces in state ------: Dim =     9  
+ ----------                root ------:     =     1  
+ --------------------------------------------------
+ Printing contributions greater than: 0.001000
+ Weight              # Configs           Fock space(α,β)...  
+ -------             ---------           ----------          
+ 1.000               9                   ( 1,1 )( 1,1 )( 1,1 )( 1,1 )( 1,1 )( 1,1 )( 1,1 )( 1,1 )
+ --------------------------------------------------
+ ci_vector     : (9, 9)
+ thresh_cipsi  : 0.001
+ thresh_foi    : 1.0e-7
+ thresh_asci   : 0.001
+ thresh_var    : -1.0
+ max_iter      : 10
+ conv_thresh   : 0.0001
+ nbody         : 4
+ incremental   : true
+ ci_conv       : 1.0e-5
+ ci_max_iter   : 50
+ ci_max_ss_vecs: 12
+ davidson      : false
+ max_mem_ci    : 20.0
+ matvec        : 3
+
+
+ ===================================================================
+     Selected CI Iteration:    1 epsilon:   0.00100000
+ ===================================================================
+ Memory needed to hold full CI matrix:   0.00000065 (Gb)
+
+ |== Tensor Product State CI =======================================
+ Hamiltonian matrix dimension =     9: 
+ Build full Hamiltonian matrix with dimension:       1.005692 seconds (980.22 k allocations: 50.632 MiB, 4.08% gc time, 96.49% compilation time)
+ Diagonalize: 
+                                      0.000250 seconds (11 allocations: 5.922 KiB)
+ Compute S2 expectation values:                      0.428255 seconds (518.40 k allocations: 28.392 MiB, 99.87% compilation time)
+  Root       Energy           S2
+     1 -40.14609592   0.00000000
+     2 -38.65806709   2.00000000
+     3 -38.65804653   2.00000000
+     4 -38.65796404   2.00000000
+     5 -38.65795018   2.00000000
+     6 -38.65795018   2.00000000
+     7 -38.65791754   2.00000000
+     8 -38.65791754   2.00000000
+     9 -38.65790002   2.00000000
+ ==================================================================|
+ Length of ASCI vector        9 →        9 
+ Norm of delta v:
+   1.00000000
+   1.00000000
+   1.00000000
+   1.00000000
+   1.00000000
+   1.00000000
+   1.00000000
+   1.00000000
+   1.00000000
+ In open_matvec_thread2
+ Setup threaded jobs:                                0.003301 seconds (13.30 k allocations: 1.867 MiB)
+ Number of jobs:    4425
+ Number of threads: 20
+ Compute matrix-vector:                              8.559869 seconds (17.40 M allocations: 857.592 MiB, 7.72% gc time, 93.60% compilation time)
+ Now collect thread results:                         0.526247 seconds (1.27 M allocations: 144.892 MiB, 32.27% gc time)
+ Length of FOIS vector: 389235
+ Compute diagonal:                                   1.396253 seconds (25.30 M allocations: 674.044 MiB, 31.71% gc time)
+
+  Root         E(0)         E(2)
+     1 -40.14609592 -226827879140341760.00000000
+     2 -38.65806709 506524945.11881435
+     3 -38.65804653 1485397930.22363472
+     4 -38.65796404 -506522321.02943033
+     5 -38.65795018 -120204926531774144.00000000
+     6 -38.65795018 -62444493593002.51562500
+     7 -38.65791754 70083592778863528.00000000
+     8 -38.65791754 -62444506703519.47656250
+     9 -38.65790002 -1485386774.48070526
+ Length of PT1  vector   389235 →      109 
+ TPSCI Iter 1   Dim: 9      E(var):  -40.14609592  -38.65806709  -38.65804653  -38.65796404  -38.65795018  -38.65795018  -38.65791754  -38.65791754  -38.65790002 
+
+
+ ===================================================================
+     Selected CI Iteration:    2 epsilon:   0.00100000
+ ===================================================================
+ Clip values < -1.0e+00              9 →      9
+ Add pt vector to current space      9 →    109
+ Memory needed to hold full CI matrix:   0.00009505 (Gb)
+
+ |== Tensor Product State CI =======================================
+ Hamiltonian matrix dimension =   109: 
+ Fill old/old Hamiltonian:                           0.000005 seconds (2 allocations: 256 bytes)
+ Build old/new Hamiltonian matrix with dimension:    0.267568 seconds (480.09 k allocations: 23.764 MiB, 98.51% compilation time)
+ Build new/new Hamiltonian matrix with dimension:    0.389764 seconds (823.78 k allocations: 38.035 MiB, 96.87% compilation time)
+ Now diagonalize
+ Iter:   1 SS: 9    E:  -40.14609592   -38.65806709   -38.65804653   -38.65796404   -38.65795018   -38.65795018   -38.65791754   -38.65791754   -38.65790002   R: 1.0e-02  5.2e-02  5.5e-02  5.2e-02  5.3e-02  5.3e-02  5.7e-02  5.7e-02  5.9e-02   LinDep: 1.0e+00* 
+ Iter:   2 SS: 18   E:  -40.14612514   -38.66508059   -38.66393444   -38.66376279   -38.66320079   -38.66307934   -38.66295152   -38.66191537   -38.66008295   R: 2.0e-03  1.7e-02  1.6e-02  1.3e-02  1.7e-02  1.5e-02  2.2e-02  2.1e-02  1.9e-02   LinDep: 1.0e+00* 
+ Iter:   3 SS: 27   E:  -40.14612698   -38.66522973   -38.66407405   -38.66387463   -38.66333513   -38.66324179   -38.66312637   -38.66210309   -38.66025017   R: 5.2e-05  4.9e-03  3.0e-03  2.8e-03  4.6e-03  4.8e-03  2.8e-03  3.7e-03  4.9e-03   LinDep: 1.0e+00* 
+ Iter:   4 SS: 36   E:  -40.14612698   -38.66526098   -38.66408315   -38.66388320   -38.66335469   -38.66326387   -38.66313479   -38.66211491   -38.66028159   R: 1.1e-05  3.4e-03  1.3e-03  3.9e-04  2.2e-03  2.1e-03  4.3e-04  1.1e-03  3.4e-03   LinDep: 1.0e+00* 
+ Iter:   5 SS: 45   E:  -40.14612698*  -38.67448835   -38.66904701   -38.66408472   -38.66391895   -38.66335863   -38.66326788   -38.66316476   -38.66211601   R: 9.7e-07* 9.1e-02  1.1e-01  3.2e-04  4.9e-03  4.1e-04  3.3e-04  4.4e-03  1.2e-04   LinDep: 1.0e+00* 
+ Iter:   6 SS: 53   E: -156.50110807*  -54.12990815   -40.14612698*  -38.78405651   -38.66477023   -38.66408487   -38.66335882   -38.66335652   -38.66326692   R: 2.4e+02* 1.9e+01  9.8e-07* 3.0e-01  1.9e-02  3.2e-04  4.2e-04  5.4e-03  4.2e-04   LinDep: 9.4e-11* 
+ Iter:   7 SS: 61   E: -413.11078327*  -91.66456318   -40.14612698*  -38.83416053   -38.66478444   -38.66408488   -38.66335887   -38.66335761   -38.66326693   R: 1.2e+03* 8.3e+01  9.7e-07* 3.5e-01  1.8e-02  3.2e-04  1.0e-03  5.0e-03  3.9e-04   LinDep: 8.1e-77* 
+ERROR: LoadError: MethodError: no method matching isless(::ComplexF64, ::ComplexF64)
+Closest candidates are:
+  isless(::Any, !Matched::PyCall.PyObject) at ~/.julia/packages/PyCall/L0fLP/src/pyoperators.jl:76
+  isless(!Matched::PyCall.PyObject, ::Any) at ~/.julia/packages/PyCall/L0fLP/src/pyoperators.jl:75
+  isless(::Any, !Matched::Missing) at /apps/easybuild/software/tinkercliffs-rome/Julia/1.7.2-linux-x86_64/share/julia/base/missing.jl:88
+  ...
+Stacktrace:
+  [1] lt(o::Base.Order.ForwardOrdering, a::ComplexF64, b::ComplexF64)
+    @ Base.Order ./ordering.jl:109
+  [2] lt
+    @ ./ordering.jl:117 [inlined]
+  [3] selectpivot!
+    @ ./sort.jl:532 [inlined]
+  [4] partition!(v::Vector{Int64}, lo::Int64, hi::Int64, o::Base.Order.Perm{Base.Order.ForwardOrdering, Vector{ComplexF64}})
+    @ Base.Sort ./sort.jl:554
+  [5] sort!
+    @ ./sort.jl:575 [inlined]
+  [6] sort!(v::Vector{Int64}, alg::Base.Sort.QuickSortAlg, order::Base.Order.Perm{Base.Order.ForwardOrdering, Vector{ComplexF64}})
+    @ Base.Sort ./sort.jl:662
+  [7] sortperm(v::Vector{ComplexF64}; alg::Base.Sort.QuickSortAlg, lt::Function, by::Function, rev::Nothing, order::Base.Order.ForwardOrdering)
+    @ Base.Sort ./sort.jl:928
+  [8] sortperm(v::Vector{ComplexF64})
+    @ Base.Sort ./sort.jl:911
+  [9] iteration(solver::FermiCG.Davidson; Adiag::Nothing, iprint::Int64)
+    @ FermiCG ~/FermiCG/src/Solvers.jl:0
+ [10] solve(solver::FermiCG.Davidson; Adiag::Nothing, iprint::Int64)
+    @ FermiCG ~/FermiCG/src/Solvers.jl:188
+ [11] solve
+    @ ~/FermiCG/src/Solvers.jl:186 [inlined]
+ [12] macro expansion
+    @ ./timing.jl:299 [inlined]
+ [13] tps_ci_direct(ci_vector::TPSCIstate{Float64, 8, 9}, cluster_ops::Vector{FermiCG.ClusterOps}, clustered_ham::FermiCG.ClusteredOperator; conv_thresh::Float64, max_ss_vecs::Int64, max_iter::Int64, shift::Nothing, precond::Bool, H_old::Matrix{Float64}, v_old::TPSCIstate{Float64, 8, 9}, verbose::Int64)
+    @ FermiCG ~/FermiCG/src/tpsci_outer.jl:246
+ [14] tpsci_ci(ci_vector::TPSCIstate{Float64, 8, 9}, cluster_ops::Vector{FermiCG.ClusterOps}, clustered_ham::FermiCG.ClusteredOperator; thresh_cipsi::Float64, thresh_foi::Float64, thresh_asci::Float64, thresh_var::Float64, max_iter::Int64, conv_thresh::Float64, nbody::Int64, incremental::Bool, ci_conv::Float64, ci_max_iter::Int64, ci_max_ss_vecs::Int64, davidson::Bool, max_mem_ci::Float64, matvec::Int64)
+    @ FermiCG ~/FermiCG/src/tpsci_outer.jl:607
+ [15] top-level scope
+    @ /localscratch/539197/rerun_tpsci.jl:34
+in expression starting at /localscratch/539197/rerun_tpsci.jl:34
