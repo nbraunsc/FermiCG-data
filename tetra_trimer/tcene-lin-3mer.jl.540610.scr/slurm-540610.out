@@ -1,0 +1,81 @@
+tc061
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+Usage: sbatch submit.sh {input file} {data file} {data file}
+tcene-lin-3mer.jl
+tcene-lin-3mer.jl.out
+/home/nbraunsc/FermiCG-data/tetra_trimer
+/localscratch/540610
+sending incremental file list
+tcene-lin-3mer.jl.out
+
+sent 127 bytes  received 35 bytes  324.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 84 bytes  received 12 bytes  192.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+tcene-lin-3mer.jl.out
+
+sent 262 bytes  received 35 bytes  594.00 bytes/sec
+total size is 131  speedup is 0.44
+sending incremental file list
+tcene-lin-3mer.jl.out
+
+sent 3,407 bytes  received 35 bytes  6,884.00 bytes/sec
+total size is 3,276  speedup is 0.95
+sending incremental file list
+tcene-lin-3mer.jl.out
+
+sent 11,841 bytes  received 35 bytes  23,752.00 bytes/sec
+total size is 11,711  speedup is 0.99
+sending incremental file list
+tcene-lin-3mer.jl.out
+
+sent 60,711 bytes  received 35 bytes  121,492.00 bytes/sec
+total size is 60,577  speedup is 1.00
+sending incremental file list
+tcene-lin-3mer.jl.out
+
+sent 64,403 bytes  received 35 bytes  128,876.00 bytes/sec
+total size is 64,269  speedup is 1.00
+sending incremental file list
+tcene-lin-3mer.jl.out
+
+sent 67,961 bytes  received 35 bytes  135,992.00 bytes/sec
+total size is 67,818  speedup is 1.00
+sending incremental file list
+tcene-lin-3mer.jl.out
+
+sent 85,190 bytes  received 35 bytes  170,450.00 bytes/sec
+total size is 85,047  speedup is 1.00
+sending incremental file list
+tcene-lin-3mer.jl.out
+
+sent 85,258 bytes  received 35 bytes  170,586.00 bytes/sec
+total size is 85,115  speedup is 1.00
+sending incremental file list
+tcene-lin-3mer.jl.out
+
+sent 88,711 bytes  received 35 bytes  177,492.00 bytes/sec
+total size is 88,568  speedup is 1.00
+sending incremental file list
+tcene-lin-3mer.jl.out
+
+sent 88,885 bytes  received 35 bytes  177,840.00 bytes/sec
+total size is 88,742  speedup is 1.00
+sending incremental file list
+tcene-lin-3mer.jl.out
+
+sent 92,270 bytes  received 35 bytes  184,610.00 bytes/sec
+total size is 92,127  speedup is 1.00
+sending incremental file list
+
+sent 84 bytes  received 12 bytes  192.00 bytes/sec
+total size is 92,127  speedup is 959.66
+sending incremental file list
+tcene-lin-3mer.jl.out
+
+sent 92,437 bytes  received 35 bytes  184,944.00 bytes/sec
+total size is 92,294  speedup is 1.00
+rm: cannot remove ‘tmpfs’: Device or resource busy
