@@ -1,0 +1,782 @@
+tc181
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+Usage: sbatch submit.sh {input file} {data file} {data file}
+pes_tpsci.jl
+pes_tpsci.jl.out
+/home/nbraunsc/FermiCG-data/he_clusters/07_oct
+/localscratch/546032
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 122 bytes  received 35 bytes  314.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 166 bytes  received 35 bytes  402.00 bytes/sec
+total size is 41  speedup is 0.20
+sending incremental file list
+
+sent 78 bytes  received 12 bytes  180.00 bytes/sec
+total size is 41  speedup is 0.46
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 370,548 bytes  received 35 bytes  741,166.00 bytes/sec
+total size is 370,338  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 373,182 bytes  received 35 bytes  746,434.00 bytes/sec
+total size is 372,972  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 375,641 bytes  received 35 bytes  751,352.00 bytes/sec
+total size is 375,431  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 375,810 bytes  received 35 bytes  751,690.00 bytes/sec
+total size is 375,600  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 375,600  speedup is 4,127.47
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 375,878 bytes  received 35 bytes  751,826.00 bytes/sec
+total size is 375,668  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 375,668  speedup is 4,128.22
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 375,962 bytes  received 35 bytes  751,994.00 bytes/sec
+total size is 375,752  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 376,338 bytes  received 35 bytes  752,746.00 bytes/sec
+total size is 376,128  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 376,128  speedup is 4,133.27
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 376,128  speedup is 4,133.27
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 378,210 bytes  received 35 bytes  756,490.00 bytes/sec
+total size is 378,000  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 378,378 bytes  received 35 bytes  756,826.00 bytes/sec
+total size is 378,169  speedup is 1.00
+sending incremental file list
+
+sent 78 bytes  received 12 bytes  180.00 bytes/sec
+total size is 378,169  speedup is 4,201.88
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 378,446 bytes  received 35 bytes  756,962.00 bytes/sec
+total size is 378,237  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 378,530 bytes  received 35 bytes  757,130.00 bytes/sec
+total size is 378,321  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 378,901 bytes  received 35 bytes  757,872.00 bytes/sec
+total size is 378,691  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 378,691  speedup is 4,161.44
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 378,691  speedup is 4,161.44
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 381,065 bytes  received 35 bytes  762,200.00 bytes/sec
+total size is 380,855  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 380,855  speedup is 4,185.22
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 381,430 bytes  received 35 bytes  762,930.00 bytes/sec
+total size is 381,221  speedup is 1.00
+sending incremental file list
+
+sent 78 bytes  received 12 bytes  180.00 bytes/sec
+total size is 381,221  speedup is 4,235.79
+sending incremental file list
+
+sent 78 bytes  received 12 bytes  180.00 bytes/sec
+total size is 381,221  speedup is 4,235.79
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 383,573 bytes  received 35 bytes  767,216.00 bytes/sec
+total size is 383,363  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 383,939 bytes  received 35 bytes  767,948.00 bytes/sec
+total size is 383,729  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 383,729  speedup is 4,216.80
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 383,729  speedup is 4,216.80
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 384,906 bytes  received 35 bytes  769,882.00 bytes/sec
+total size is 384,696  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 384,928 bytes  received 35 bytes  769,926.00 bytes/sec
+total size is 384,719  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 384,947 bytes  received 35 bytes  769,964.00 bytes/sec
+total size is 384,738  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 384,966 bytes  received 35 bytes  770,002.00 bytes/sec
+total size is 384,756  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 384,995 bytes  received 35 bytes  770,060.00 bytes/sec
+total size is 384,785  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 705,287 bytes  received 35 bytes  470,214.67 bytes/sec
+total size is 704,452  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 758,830 bytes  received 35 bytes  1,517,730.00 bytes/sec
+total size is 758,525  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 760,684 bytes  received 35 bytes  1,521,438.00 bytes/sec
+total size is 760,378  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 760,838 bytes  received 35 bytes  1,521,746.00 bytes/sec
+total size is 760,532  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 760,905 bytes  received 35 bytes  1,521,880.00 bytes/sec
+total size is 760,600  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 760,990 bytes  received 35 bytes  1,522,050.00 bytes/sec
+total size is 760,684  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 761,369 bytes  received 35 bytes  1,522,808.00 bytes/sec
+total size is 761,063  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 761,063  speedup is 8,363.33
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 763,223 bytes  received 35 bytes  1,526,516.00 bytes/sec
+total size is 762,917  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 763,392 bytes  received 35 bytes  1,526,854.00 bytes/sec
+total size is 763,087  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 763,545 bytes  received 35 bytes  1,527,160.00 bytes/sec
+total size is 763,239  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 763,909 bytes  received 35 bytes  1,527,888.00 bytes/sec
+total size is 763,605  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 763,605  speedup is 8,579.83
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 763,605  speedup is 8,579.83
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 766,085 bytes  received 35 bytes  1,532,240.00 bytes/sec
+total size is 765,780  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 766,452 bytes  received 35 bytes  1,532,974.00 bytes/sec
+total size is 766,146  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 766,146  speedup is 8,419.19
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 766,146  speedup is 8,419.19
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 768,608 bytes  received 35 bytes  1,537,286.00 bytes/sec
+total size is 768,302  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 768,974 bytes  received 35 bytes  1,538,018.00 bytes/sec
+total size is 768,668  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 768,668  speedup is 8,446.90
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 768,668  speedup is 8,446.90
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 769,949 bytes  received 35 bytes  513,322.67 bytes/sec
+total size is 769,643  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 769,977 bytes  received 35 bytes  1,540,024.00 bytes/sec
+total size is 769,671  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 769,999 bytes  received 35 bytes  1,540,068.00 bytes/sec
+total size is 769,693  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 770,030 bytes  received 35 bytes  1,540,130.00 bytes/sec
+total size is 769,724  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 775,019 bytes  received 35 bytes  1,550,108.00 bytes/sec
+total size is 774,714  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,143,894 bytes  received 35 bytes  2,287,858.00 bytes/sec
+total size is 1,143,500  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,146,281 bytes  received 35 bytes  2,292,632.00 bytes/sec
+total size is 1,145,887  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,146,449 bytes  received 35 bytes  2,292,968.00 bytes/sec
+total size is 1,146,056  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,146,518 bytes  received 35 bytes  2,293,106.00 bytes/sec
+total size is 1,146,124  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,146,602 bytes  received 35 bytes  2,293,274.00 bytes/sec
+total size is 1,146,208  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,146,982 bytes  received 35 bytes  2,294,034.00 bytes/sec
+total size is 1,146,588  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,148,858 bytes  received 35 bytes  2,297,786.00 bytes/sec
+total size is 1,148,457  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,149,179 bytes  received 35 bytes  2,298,428.00 bytes/sec
+total size is 1,148,778  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,149,548 bytes  received 35 bytes  2,299,166.00 bytes/sec
+total size is 1,149,147  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,151,687 bytes  received 35 bytes  2,303,444.00 bytes/sec
+total size is 1,151,285  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,152,055 bytes  received 35 bytes  2,304,180.00 bytes/sec
+total size is 1,151,653  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 1,151,653  speedup is 12,655.53
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,153,030 bytes  received 35 bytes  2,306,130.00 bytes/sec
+total size is 1,152,629  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,153,063 bytes  received 35 bytes  2,306,196.00 bytes/sec
+total size is 1,152,661  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,153,094 bytes  received 35 bytes  2,306,258.00 bytes/sec
+total size is 1,152,692  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,159,662 bytes  received 35 bytes  773,131.33 bytes/sec
+total size is 1,159,260  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,524,492 bytes  received 35 bytes  3,049,054.00 bytes/sec
+total size is 1,524,002  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,526,530 bytes  received 35 bytes  3,053,130.00 bytes/sec
+total size is 1,526,040  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,526,682 bytes  received 35 bytes  3,053,434.00 bytes/sec
+total size is 1,526,192  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,527,060 bytes  received 35 bytes  3,054,190.00 bytes/sec
+total size is 1,526,570  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,528,911 bytes  received 35 bytes  3,057,892.00 bytes/sec
+total size is 1,528,421  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,529,065 bytes  received 35 bytes  3,058,200.00 bytes/sec
+total size is 1,528,575  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,529,217 bytes  received 35 bytes  3,058,504.00 bytes/sec
+total size is 1,528,727  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,529,590 bytes  received 35 bytes  3,059,250.00 bytes/sec
+total size is 1,529,101  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,532,129 bytes  received 35 bytes  3,064,328.00 bytes/sec
+total size is 1,531,639  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,532,818 bytes  received 35 bytes  3,065,706.00 bytes/sec
+total size is 1,532,329  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,533,128 bytes  received 35 bytes  3,066,326.00 bytes/sec
+total size is 1,532,639  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,533,174 bytes  received 35 bytes  3,066,418.00 bytes/sec
+total size is 1,532,684  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,902,750 bytes  received 35 bytes  3,805,570.00 bytes/sec
+total size is 1,902,164  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,905,527 bytes  received 35 bytes  3,811,124.00 bytes/sec
+total size is 1,904,941  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,905,678 bytes  received 35 bytes  3,811,426.00 bytes/sec
+total size is 1,905,092  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,908,074 bytes  received 35 bytes  3,816,218.00 bytes/sec
+total size is 1,907,489  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,908,592 bytes  received 35 bytes  3,817,254.00 bytes/sec
+total size is 1,908,007  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,911,114 bytes  received 35 bytes  3,822,298.00 bytes/sec
+total size is 1,910,528  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,912,087 bytes  received 35 bytes  3,824,244.00 bytes/sec
+total size is 1,911,502  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 1,912,152 bytes  received 35 bytes  3,824,374.00 bytes/sec
+total size is 1,911,567  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 2,278,757 bytes  received 35 bytes  4,557,584.00 bytes/sec
+total size is 2,278,084  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 2,283,661 bytes  received 35 bytes  4,567,392.00 bytes/sec
+total size is 2,282,987  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 2,283,980 bytes  received 35 bytes  4,568,030.00 bytes/sec
+total size is 2,283,307  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 2,286,216 bytes  received 35 bytes  4,572,502.00 bytes/sec
+total size is 2,285,542  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 2,286,520 bytes  received 35 bytes  4,573,110.00 bytes/sec
+total size is 2,285,847  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 2,286,899 bytes  received 35 bytes  4,573,868.00 bytes/sec
+total size is 2,286,225  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 2,289,404 bytes  received 35 bytes  4,578,878.00 bytes/sec
+total size is 2,288,730  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 2,290,386 bytes  received 35 bytes  4,580,842.00 bytes/sec
+total size is 2,289,712  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 2,290,458 bytes  received 35 bytes  4,580,986.00 bytes/sec
+total size is 2,289,784  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 2,659,279 bytes  received 35 bytes  1,772,876.00 bytes/sec
+total size is 2,658,509  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 2,661,383 bytes  received 35 bytes  5,322,836.00 bytes/sec
+total size is 2,660,613  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 2,663,868 bytes  received 35 bytes  5,327,806.00 bytes/sec
+total size is 2,663,098  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 2,666,524 bytes  received 35 bytes  5,333,118.00 bytes/sec
+total size is 2,665,754  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 2,667,882 bytes  received 35 bytes  5,335,834.00 bytes/sec
+total size is 2,667,113  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 2,670,518 bytes  received 35 bytes  5,341,106.00 bytes/sec
+total size is 2,669,749  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 3,038,645 bytes  received 35 bytes  6,077,360.00 bytes/sec
+total size is 3,037,788  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 3,039,330 bytes  received 35 bytes  6,078,730.00 bytes/sec
+total size is 3,038,472  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 3,041,856 bytes  received 35 bytes  6,083,782.00 bytes/sec
+total size is 3,040,999  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 3,045,340 bytes  received 35 bytes  6,090,750.00 bytes/sec
+total size is 3,044,482  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 3,048,745 bytes  received 35 bytes  2,032,520.00 bytes/sec
+total size is 3,047,879  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 3,416,440 bytes  received 35 bytes  6,832,950.00 bytes/sec
+total size is 3,415,486  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 3,419,316 bytes  received 35 bytes  6,838,702.00 bytes/sec
+total size is 3,418,362  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 3,422,187 bytes  received 35 bytes  6,844,444.00 bytes/sec
+total size is 3,421,233  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 3,425,069 bytes  received 35 bytes  6,850,208.00 bytes/sec
+total size is 3,422,360  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 3,794,157 bytes  received 35 bytes  7,588,384.00 bytes/sec
+total size is 3,793,115  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 3,796,726 bytes  received 35 bytes  7,593,522.00 bytes/sec
+total size is 3,795,685  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 3,799,939 bytes  received 35 bytes  7,599,948.00 bytes/sec
+total size is 3,798,898  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 3,801,063 bytes  received 35 bytes  7,602,196.00 bytes/sec
+total size is 3,800,021  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 4,171,682 bytes  received 35 bytes  8,343,434.00 bytes/sec
+total size is 4,170,544  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 4,174,776 bytes  received 35 bytes  8,349,622.00 bytes/sec
+total size is 4,173,638  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 4,178,292 bytes  received 35 bytes  8,356,654.00 bytes/sec
+total size is 4,177,155  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 4,546,237 bytes  received 35 bytes  9,092,544.00 bytes/sec
+total size is 4,545,012  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 4,552,098 bytes  received 35 bytes  3,034,755.33 bytes/sec
+total size is 4,550,872  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 4,557,158 bytes  received 35 bytes  9,114,386.00 bytes/sec
+total size is 4,555,924  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 4,923,809 bytes  received 35 bytes  9,847,688.00 bytes/sec
+total size is 4,922,487  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 4,931,577 bytes  received 35 bytes  9,863,224.00 bytes/sec
+total size is 4,930,256  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 4,938,508 bytes  received 35 bytes  9,877,086.00 bytes/sec
+total size is 4,937,187  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 5,308,544 bytes  received 35 bytes  10,617,158.00 bytes/sec
+total size is 5,307,135  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 5,315,864 bytes  received 35 bytes  10,631,798.00 bytes/sec
+total size is 5,314,447  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 5,685,841 bytes  received 35 bytes  11,371,752.00 bytes/sec
+total size is 5,684,335  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 6,054,715 bytes  received 35 bytes  12,109,500.00 bytes/sec
+total size is 6,053,121  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 6,066,474 bytes  received 35 bytes  12,133,018.00 bytes/sec
+total size is 6,064,872  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 6,440,593 bytes  received 35 bytes  12,881,256.00 bytes/sec
+total size is 6,438,902  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 6,814,759 bytes  received 35 bytes  13,629,588.00 bytes/sec
+total size is 6,812,981  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 7,190,779 bytes  received 35 bytes  4,793,876.00 bytes/sec
+total size is 7,188,905  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 7,927,707 bytes  received 35 bytes  15,855,484.00 bytes/sec
+total size is 7,925,657  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 8,301,708 bytes  received 35 bytes  16,603,486.00 bytes/sec
+total size is 8,299,562  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 8,680,726 bytes  received 35 bytes  17,361,522.00 bytes/sec
+total size is 8,678,492  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 9,423,248 bytes  received 35 bytes  18,846,566.00 bytes/sec
+total size is 9,420,829  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 9,796,897 bytes  received 35 bytes  19,593,864.00 bytes/sec
+total size is 9,794,390  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 10,543,879 bytes  received 35 bytes  21,087,828.00 bytes/sec
+total size is 10,541,188  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 10,922,619 bytes  received 35 bytes  21,845,308.00 bytes/sec
+total size is 10,919,832  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 11,666,875 bytes  received 35 bytes  7,777,940.00 bytes/sec
+total size is 11,663,912  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 12,044,408 bytes  received 35 bytes  24,088,886.00 bytes/sec
+total size is 12,041,350  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 12,779,330 bytes  received 35 bytes  25,558,730.00 bytes/sec
+total size is 12,776,095  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 13,150,152 bytes  received 35 bytes  26,300,374.00 bytes/sec
+total size is 13,146,821  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 13,520,964 bytes  received 35 bytes  27,041,998.00 bytes/sec
+total size is 13,517,546  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 14,261,877 bytes  received 35 bytes  28,523,824.00 bytes/sec
+total size is 14,258,274  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 14,632,276 bytes  received 35 bytes  29,264,622.00 bytes/sec
+total size is 14,628,585  speedup is 1.00
+sending incremental file list
+pes_tpsci.jl.out
+
+sent 15,009,318 bytes  received 35 bytes  30,018,706.00 bytes/sec
+total size is 15,005,539  speedup is 1.00
+rm: cannot remove ‘tmpfs’: Device or resource busy
