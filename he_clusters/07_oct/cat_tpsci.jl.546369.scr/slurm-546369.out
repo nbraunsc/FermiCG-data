@@ -1,0 +1,158 @@
+tc148
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+Usage: sbatch submit.sh {input file} {data file} {data file}
+cat_tpsci.jl
+cat_tpsci.jl.out
+/home/nbraunsc/FermiCG-data/he_clusters/07_oct
+/localscratch/546369
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 121 bytes  received 35 bytes  312.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 166 bytes  received 35 bytes  402.00 bytes/sec
+total size is 40  speedup is 0.20
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 40  speedup is 0.44
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 364,311 bytes  received 35 bytes  728,692.00 bytes/sec
+total size is 364,102  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 369,407 bytes  received 35 bytes  738,884.00 bytes/sec
+total size is 369,197  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 369,727 bytes  received 35 bytes  739,524.00 bytes/sec
+total size is 369,517  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 371,028 bytes  received 35 bytes  742,126.00 bytes/sec
+total size is 370,818  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 371,096 bytes  received 35 bytes  742,262.00 bytes/sec
+total size is 370,886  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 372,033 bytes  received 35 bytes  744,136.00 bytes/sec
+total size is 371,825  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 372,734 bytes  received 35 bytes  745,538.00 bytes/sec
+total size is 372,525  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 373,542 bytes  received 35 bytes  747,154.00 bytes/sec
+total size is 373,332  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 373,731 bytes  received 35 bytes  747,532.00 bytes/sec
+total size is 373,521  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 374,671 bytes  received 35 bytes  749,412.00 bytes/sec
+total size is 374,461  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 375,369 bytes  received 35 bytes  750,808.00 bytes/sec
+total size is 375,160  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 376,349 bytes  received 35 bytes  752,768.00 bytes/sec
+total size is 376,139  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 376,919 bytes  received 35 bytes  753,908.00 bytes/sec
+total size is 376,709  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 377,986 bytes  received 35 bytes  756,042.00 bytes/sec
+total size is 377,776  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 378,574 bytes  received 35 bytes  757,218.00 bytes/sec
+total size is 378,364  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 378,364  speedup is 4,157.85
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 378,364  speedup is 4,157.85
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 378,364  speedup is 4,157.85
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 378,364  speedup is 4,157.85
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 378,967 bytes  received 35 bytes  758,004.00 bytes/sec
+total size is 378,757  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 378,978 bytes  received 35 bytes  758,026.00 bytes/sec
+total size is 378,768  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 378,991 bytes  received 35 bytes  758,052.00 bytes/sec
+total size is 378,781  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 379,001 bytes  received 35 bytes  252,690.67 bytes/sec
+total size is 378,791  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 379,014 bytes  received 35 bytes  758,098.00 bytes/sec
+total size is 378,804  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 379,023 bytes  received 35 bytes  758,116.00 bytes/sec
+total size is 378,813  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 379,036 bytes  received 35 bytes  758,142.00 bytes/sec
+total size is 378,826  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 379,049 bytes  received 35 bytes  758,168.00 bytes/sec
+total size is 378,839  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 379,058 bytes  received 35 bytes  758,186.00 bytes/sec
+total size is 378,848  speedup is 1.00
+rm: cannot remove ‘tmpfs’: Device or resource busy
