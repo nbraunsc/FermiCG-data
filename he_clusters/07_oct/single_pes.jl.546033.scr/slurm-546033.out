@@ -1,0 +1,1220 @@
+tc184
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+Usage: sbatch submit.sh {input file} {data file} {data file}
+single_pes.jl
+single_pes.jl.out
+/home/nbraunsc/FermiCG-data/he_clusters/07_oct
+/localscratch/546033
+sending incremental file list
+single_pes.jl.out
+
+sent 122 bytes  received 35 bytes  314.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+single_pes.jl.out
+
+sent 168 bytes  received 35 bytes  406.00 bytes/sec
+total size is 41  speedup is 0.20
+sending incremental file list
+single_pes.jl.out
+
+sent 1,054 bytes  received 35 bytes  2,178.00 bytes/sec
+total size is 928  speedup is 0.85
+sending incremental file list
+single_pes.jl.out
+
+sent 370,549 bytes  received 35 bytes  741,168.00 bytes/sec
+total size is 370,338  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 373,250 bytes  received 35 bytes  746,570.00 bytes/sec
+total size is 373,039  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 375,619 bytes  received 35 bytes  751,308.00 bytes/sec
+total size is 375,408  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 375,788 bytes  received 35 bytes  751,646.00 bytes/sec
+total size is 375,577  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 375,577  speedup is 4,082.36
+sending incremental file list
+single_pes.jl.out
+
+sent 375,856 bytes  received 35 bytes  751,782.00 bytes/sec
+total size is 375,645  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 375,645  speedup is 4,083.10
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 375,645  speedup is 4,083.10
+sending incremental file list
+single_pes.jl.out
+
+sent 375,940 bytes  received 35 bytes  751,950.00 bytes/sec
+total size is 375,729  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 376,326 bytes  received 35 bytes  752,722.00 bytes/sec
+total size is 376,115  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 376,115  speedup is 4,088.21
+sending incremental file list
+single_pes.jl.out
+
+sent 378,181 bytes  received 35 bytes  756,432.00 bytes/sec
+total size is 377,970  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 377,970  speedup is 4,108.37
+sending incremental file list
+single_pes.jl.out
+
+sent 378,350 bytes  received 35 bytes  756,770.00 bytes/sec
+total size is 378,139  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 378,139  speedup is 4,110.21
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 378,139  speedup is 4,110.21
+sending incremental file list
+single_pes.jl.out
+
+sent 378,419 bytes  received 35 bytes  756,908.00 bytes/sec
+total size is 378,208  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 378,208  speedup is 4,110.96
+sending incremental file list
+single_pes.jl.out
+
+sent 378,503 bytes  received 35 bytes  252,358.67 bytes/sec
+total size is 378,292  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 378,292  speedup is 4,111.87
+sending incremental file list
+single_pes.jl.out
+
+sent 378,880 bytes  received 35 bytes  757,830.00 bytes/sec
+total size is 378,669  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 378,669  speedup is 4,115.97
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 378,669  speedup is 4,115.97
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 378,669  speedup is 4,115.97
+sending incremental file list
+single_pes.jl.out
+
+sent 380,905 bytes  received 35 bytes  761,880.00 bytes/sec
+total size is 380,694  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 381,057 bytes  received 35 bytes  762,184.00 bytes/sec
+total size is 380,846  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 380,846  speedup is 4,139.63
+sending incremental file list
+single_pes.jl.out
+
+sent 381,423 bytes  received 35 bytes  762,916.00 bytes/sec
+total size is 381,213  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 381,213  speedup is 4,189.15
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 381,213  speedup is 4,189.15
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 381,213  speedup is 4,189.15
+sending incremental file list
+single_pes.jl.out
+
+sent 383,565 bytes  received 35 bytes  767,200.00 bytes/sec
+total size is 383,355  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 383,932 bytes  received 35 bytes  767,934.00 bytes/sec
+total size is 383,721  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 383,721  speedup is 4,170.88
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 383,721  speedup is 4,170.88
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 383,721  speedup is 4,170.88
+sending incremental file list
+single_pes.jl.out
+
+sent 384,899 bytes  received 35 bytes  769,868.00 bytes/sec
+total size is 384,688  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 384,919 bytes  received 35 bytes  769,908.00 bytes/sec
+total size is 384,708  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 384,937 bytes  received 35 bytes  769,944.00 bytes/sec
+total size is 384,726  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 384,956 bytes  received 35 bytes  769,982.00 bytes/sec
+total size is 384,745  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 384,973 bytes  received 35 bytes  770,016.00 bytes/sec
+total size is 384,762  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 387,831 bytes  received 35 bytes  775,732.00 bytes/sec
+total size is 387,620  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 758,236 bytes  received 35 bytes  1,516,542.00 bytes/sec
+total size is 757,930  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 760,662 bytes  received 35 bytes  507,131.33 bytes/sec
+total size is 760,355  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 760,816 bytes  received 35 bytes  1,521,702.00 bytes/sec
+total size is 760,509  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 760,509  speedup is 8,266.40
+sending incremental file list
+single_pes.jl.out
+
+sent 760,884 bytes  received 35 bytes  1,521,838.00 bytes/sec
+total size is 760,577  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 760,577  speedup is 8,267.14
+sending incremental file list
+single_pes.jl.out
+
+sent 760,968 bytes  received 35 bytes  1,522,006.00 bytes/sec
+total size is 760,661  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 761,353 bytes  received 35 bytes  1,522,776.00 bytes/sec
+total size is 761,046  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 761,046  speedup is 8,272.24
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 761,046  speedup is 8,272.24
+sending incremental file list
+single_pes.jl.out
+
+sent 763,207 bytes  received 35 bytes  1,526,484.00 bytes/sec
+total size is 762,900  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 762,900  speedup is 8,292.39
+sending incremental file list
+single_pes.jl.out
+
+sent 763,377 bytes  received 35 bytes  1,526,824.00 bytes/sec
+total size is 763,070  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 763,070  speedup is 8,294.24
+sending incremental file list
+single_pes.jl.out
+
+sent 763,445 bytes  received 35 bytes  1,526,960.00 bytes/sec
+total size is 763,138  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 763,529 bytes  received 35 bytes  1,527,128.00 bytes/sec
+total size is 763,222  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 763,222  speedup is 8,295.89
+sending incremental file list
+single_pes.jl.out
+
+sent 763,910 bytes  received 35 bytes  1,527,890.00 bytes/sec
+total size is 763,603  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 763,603  speedup is 8,300.03
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 763,603  speedup is 8,300.03
+sending incremental file list
+single_pes.jl.out
+
+sent 765,935 bytes  received 35 bytes  1,531,940.00 bytes/sec
+total size is 765,628  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 766,086 bytes  received 35 bytes  1,532,242.00 bytes/sec
+total size is 765,780  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 766,454 bytes  received 35 bytes  1,532,978.00 bytes/sec
+total size is 766,148  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 766,148  speedup is 8,419.21
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 766,148  speedup is 8,419.21
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 766,148  speedup is 8,419.21
+sending incremental file list
+single_pes.jl.out
+
+sent 768,612 bytes  received 35 bytes  1,537,294.00 bytes/sec
+total size is 768,306  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 768,979 bytes  received 35 bytes  1,538,028.00 bytes/sec
+total size is 768,672  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 768,672  speedup is 8,355.13
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 768,672  speedup is 8,355.13
+sending incremental file list
+single_pes.jl.out
+
+sent 769,946 bytes  received 35 bytes  1,539,962.00 bytes/sec
+total size is 769,639  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 769,970 bytes  received 35 bytes  1,540,010.00 bytes/sec
+total size is 769,663  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 769,988 bytes  received 35 bytes  1,540,046.00 bytes/sec
+total size is 769,682  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 770,008 bytes  received 35 bytes  1,540,086.00 bytes/sec
+total size is 769,701  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 770,035 bytes  received 35 bytes  1,540,140.00 bytes/sec
+total size is 769,728  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,141,354 bytes  received 35 bytes  2,282,778.00 bytes/sec
+total size is 1,140,959  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,146,297 bytes  received 35 bytes  2,292,664.00 bytes/sec
+total size is 1,145,902  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,146,466 bytes  received 35 bytes  2,293,002.00 bytes/sec
+total size is 1,146,071  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 1,146,071  speedup is 12,457.29
+sending incremental file list
+single_pes.jl.out
+
+sent 1,146,534 bytes  received 35 bytes  2,293,138.00 bytes/sec
+total size is 1,146,139  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,146,618 bytes  received 35 bytes  2,293,306.00 bytes/sec
+total size is 1,146,223  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,147,002 bytes  received 35 bytes  2,294,074.00 bytes/sec
+total size is 1,146,608  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 1,146,608  speedup is 12,600.09
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 1,146,608  speedup is 12,600.09
+sending incremental file list
+single_pes.jl.out
+
+sent 1,148,878 bytes  received 35 bytes  2,297,826.00 bytes/sec
+total size is 1,148,476  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 1,148,476  speedup is 12,620.62
+sending incremental file list
+single_pes.jl.out
+
+sent 1,149,047 bytes  received 35 bytes  2,298,164.00 bytes/sec
+total size is 1,148,645  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 1,148,645  speedup is 12,622.47
+sending incremental file list
+single_pes.jl.out
+
+sent 1,149,116 bytes  received 35 bytes  766,100.67 bytes/sec
+total size is 1,148,713  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,149,199 bytes  received 35 bytes  2,298,468.00 bytes/sec
+total size is 1,148,797  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,149,576 bytes  received 35 bytes  2,299,222.00 bytes/sec
+total size is 1,149,174  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 1,149,174  speedup is 12,628.29
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 1,149,174  speedup is 12,628.29
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 1,149,174  speedup is 12,628.29
+sending incremental file list
+single_pes.jl.out
+
+sent 1,151,769 bytes  received 35 bytes  2,303,608.00 bytes/sec
+total size is 1,151,366  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 1,151,366  speedup is 12,514.85
+sending incremental file list
+single_pes.jl.out
+
+sent 1,152,141 bytes  received 35 bytes  2,304,352.00 bytes/sec
+total size is 1,151,739  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 1,151,739  speedup is 12,656.47
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 1,151,739  speedup is 12,656.47
+sending incremental file list
+single_pes.jl.out
+
+sent 1,154,300 bytes  received 35 bytes  2,308,670.00 bytes/sec
+total size is 1,153,897  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,154,673 bytes  received 35 bytes  2,309,416.00 bytes/sec
+total size is 1,154,270  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 1,154,270  speedup is 12,546.41
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 1,154,270  speedup is 12,546.41
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 1,154,270  speedup is 12,546.41
+sending incremental file list
+single_pes.jl.out
+
+sent 1,155,652 bytes  received 35 bytes  2,311,374.00 bytes/sec
+total size is 1,155,249  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,155,681 bytes  received 35 bytes  2,311,432.00 bytes/sec
+total size is 1,155,278  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,155,702 bytes  received 35 bytes  2,311,474.00 bytes/sec
+total size is 1,155,300  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,157,966 bytes  received 35 bytes  772,000.67 bytes/sec
+total size is 1,157,563  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,526,590 bytes  received 35 bytes  3,053,250.00 bytes/sec
+total size is 1,526,099  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,528,946 bytes  received 35 bytes  3,057,962.00 bytes/sec
+total size is 1,528,455  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,529,115 bytes  received 35 bytes  3,058,300.00 bytes/sec
+total size is 1,528,624  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,529,182 bytes  received 35 bytes  3,058,434.00 bytes/sec
+total size is 1,528,692  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,529,267 bytes  received 35 bytes  3,058,604.00 bytes/sec
+total size is 1,528,776  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,529,657 bytes  received 35 bytes  3,059,384.00 bytes/sec
+total size is 1,529,166  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,531,541 bytes  received 35 bytes  3,063,152.00 bytes/sec
+total size is 1,531,050  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 1,531,050  speedup is 16,641.85
+sending incremental file list
+single_pes.jl.out
+
+sent 1,531,709 bytes  received 35 bytes  3,063,488.00 bytes/sec
+total size is 1,531,219  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,531,778 bytes  received 35 bytes  3,063,626.00 bytes/sec
+total size is 1,531,287  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,531,862 bytes  received 35 bytes  3,063,794.00 bytes/sec
+total size is 1,531,371  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,532,242 bytes  received 35 bytes  3,064,554.00 bytes/sec
+total size is 1,531,751  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 1,531,751  speedup is 16,649.47
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 1,531,751  speedup is 16,649.47
+sending incremental file list
+single_pes.jl.out
+
+sent 1,534,417 bytes  received 35 bytes  1,022,968.00 bytes/sec
+total size is 1,533,926  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,534,791 bytes  received 35 bytes  3,069,652.00 bytes/sec
+total size is 1,534,300  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 1,534,300  speedup is 16,677.17
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 1,534,300  speedup is 16,677.17
+sending incremental file list
+single_pes.jl.out
+
+sent 1,536,949 bytes  received 35 bytes  3,073,968.00 bytes/sec
+total size is 1,536,458  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,537,323 bytes  received 35 bytes  3,074,716.00 bytes/sec
+total size is 1,536,832  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 1,536,832  speedup is 16,704.70
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 1,536,832  speedup is 16,704.70
+sending incremental file list
+single_pes.jl.out
+
+sent 1,538,294 bytes  received 35 bytes  3,076,658.00 bytes/sec
+total size is 1,537,804  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,538,328 bytes  received 35 bytes  3,076,726.00 bytes/sec
+total size is 1,537,837  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,538,360 bytes  received 35 bytes  3,076,790.00 bytes/sec
+total size is 1,537,869  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,543,114 bytes  received 35 bytes  3,086,298.00 bytes/sec
+total size is 1,542,615  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,910,200 bytes  received 35 bytes  3,820,470.00 bytes/sec
+total size is 1,909,613  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,910,739 bytes  received 35 bytes  3,821,548.00 bytes/sec
+total size is 1,910,152  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,910,807 bytes  received 35 bytes  3,821,684.00 bytes/sec
+total size is 1,910,220  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,911,275 bytes  received 35 bytes  3,822,620.00 bytes/sec
+total size is 1,910,689  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,912,775 bytes  received 35 bytes  3,825,620.00 bytes/sec
+total size is 1,912,189  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,913,298 bytes  received 35 bytes  1,275,555.33 bytes/sec
+total size is 1,912,712  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,913,367 bytes  received 35 bytes  3,826,804.00 bytes/sec
+total size is 1,912,780  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,913,451 bytes  received 35 bytes  3,826,972.00 bytes/sec
+total size is 1,912,864  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,913,835 bytes  received 35 bytes  3,827,740.00 bytes/sec
+total size is 1,913,248  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,916,014 bytes  received 35 bytes  3,832,098.00 bytes/sec
+total size is 1,915,427  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,916,393 bytes  received 35 bytes  3,832,856.00 bytes/sec
+total size is 1,915,806  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 1,915,806  speedup is 20,823.98
+sending incremental file list
+single_pes.jl.out
+
+sent 1,918,930 bytes  received 35 bytes  3,837,930.00 bytes/sec
+total size is 1,918,343  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 1,918,343  speedup is 20,851.55
+sending incremental file list
+single_pes.jl.out
+
+sent 1,919,924 bytes  received 35 bytes  3,839,918.00 bytes/sec
+total size is 1,919,337  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 1,919,966 bytes  received 35 bytes  3,840,002.00 bytes/sec
+total size is 1,919,379  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,286,573 bytes  received 35 bytes  4,573,216.00 bytes/sec
+total size is 2,285,898  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,291,501 bytes  received 35 bytes  4,583,072.00 bytes/sec
+total size is 2,290,827  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,291,738 bytes  received 35 bytes  4,583,546.00 bytes/sec
+total size is 2,291,064  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,292,206 bytes  received 35 bytes  4,584,482.00 bytes/sec
+total size is 2,291,531  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,294,077 bytes  received 35 bytes  4,588,224.00 bytes/sec
+total size is 2,293,402  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,294,246 bytes  received 35 bytes  4,588,562.00 bytes/sec
+total size is 2,293,571  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,294,398 bytes  received 35 bytes  4,588,866.00 bytes/sec
+total size is 2,293,723  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,294,788 bytes  received 35 bytes  4,589,646.00 bytes/sec
+total size is 2,294,105  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,296,639 bytes  received 35 bytes  4,593,348.00 bytes/sec
+total size is 2,295,957  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,296,810 bytes  received 35 bytes  4,593,690.00 bytes/sec
+total size is 2,296,127  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,297,344 bytes  received 35 bytes  4,594,758.00 bytes/sec
+total size is 2,296,661  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 2,296,661  speedup is 24,963.71
+sending incremental file list
+single_pes.jl.out
+
+sent 2,299,879 bytes  received 35 bytes  4,599,828.00 bytes/sec
+total size is 2,299,196  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,300,839 bytes  received 35 bytes  4,601,748.00 bytes/sec
+total size is 2,300,157  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,300,899 bytes  received 35 bytes  4,601,868.00 bytes/sec
+total size is 2,300,216  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,666,690 bytes  received 35 bytes  5,333,450.00 bytes/sec
+total size is 2,665,919  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,671,606 bytes  received 35 bytes  5,343,282.00 bytes/sec
+total size is 2,670,835  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,671,843 bytes  received 35 bytes  1,781,252.00 bytes/sec
+total size is 2,671,072  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,672,309 bytes  received 35 bytes  5,344,688.00 bytes/sec
+total size is 2,671,539  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,674,181 bytes  received 35 bytes  5,348,432.00 bytes/sec
+total size is 2,673,410  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,674,417 bytes  received 35 bytes  5,348,904.00 bytes/sec
+total size is 2,673,647  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,674,882 bytes  received 35 bytes  5,349,834.00 bytes/sec
+total size is 2,674,111  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,676,734 bytes  received 35 bytes  5,353,538.00 bytes/sec
+total size is 2,675,963  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,677,421 bytes  received 35 bytes  5,354,912.00 bytes/sec
+total size is 2,676,651  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,679,561 bytes  received 35 bytes  5,359,192.00 bytes/sec
+total size is 2,678,790  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,679,940 bytes  received 35 bytes  5,359,950.00 bytes/sec
+total size is 2,679,169  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,680,921 bytes  received 35 bytes  5,361,912.00 bytes/sec
+total size is 2,680,150  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 2,680,987 bytes  received 35 bytes  5,362,044.00 bytes/sec
+total size is 2,680,217  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,049,373 bytes  received 35 bytes  6,098,816.00 bytes/sec
+total size is 3,048,506  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,051,914 bytes  received 35 bytes  2,034,632.67 bytes/sec
+total size is 3,051,048  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,052,381 bytes  received 35 bytes  6,104,832.00 bytes/sec
+total size is 3,051,514  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,054,390 bytes  received 35 bytes  6,108,850.00 bytes/sec
+total size is 3,053,523  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,054,918 bytes  received 35 bytes  6,109,906.00 bytes/sec
+total size is 3,054,052  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 3,054,052  speedup is 33,561.01
+sending incremental file list
+single_pes.jl.out
+
+sent 3,057,457 bytes  received 35 bytes  6,114,984.00 bytes/sec
+total size is 3,056,590  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,059,595 bytes  received 35 bytes  6,119,260.00 bytes/sec
+total size is 3,058,728  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,059,974 bytes  received 35 bytes  6,120,018.00 bytes/sec
+total size is 3,059,107  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,060,996 bytes  received 35 bytes  6,122,062.00 bytes/sec
+total size is 3,060,130  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,427,120 bytes  received 35 bytes  6,854,310.00 bytes/sec
+total size is 3,426,165  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,432,203 bytes  received 35 bytes  6,864,476.00 bytes/sec
+total size is 3,431,249  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,432,737 bytes  received 35 bytes  6,865,544.00 bytes/sec
+total size is 3,431,783  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,435,285 bytes  received 35 bytes  2,290,213.33 bytes/sec
+total size is 3,434,330  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,437,793 bytes  received 35 bytes  6,875,656.00 bytes/sec
+total size is 3,436,838  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,438,791 bytes  received 35 bytes  6,877,652.00 bytes/sec
+total size is 3,437,836  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,441,839 bytes  received 35 bytes  6,883,748.00 bytes/sec
+total size is 3,440,876  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,809,810 bytes  received 35 bytes  7,619,690.00 bytes/sec
+total size is 3,808,759  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,810,510 bytes  received 35 bytes  7,621,090.00 bytes/sec
+total size is 3,809,459  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,812,687 bytes  received 35 bytes  7,625,444.00 bytes/sec
+total size is 3,811,636  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,815,567 bytes  received 35 bytes  7,631,204.00 bytes/sec
+total size is 3,814,516  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,816,559 bytes  received 35 bytes  7,633,188.00 bytes/sec
+total size is 3,815,508  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 3,819,274 bytes  received 35 bytes  7,638,618.00 bytes/sec
+total size is 3,818,224  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 4,187,114 bytes  received 35 bytes  8,374,298.00 bytes/sec
+total size is 4,185,975  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 4,187,799 bytes  received 35 bytes  2,791,889.33 bytes/sec
+total size is 4,186,661  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 4,190,330 bytes  received 35 bytes  8,380,730.00 bytes/sec
+total size is 4,189,191  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 4,192,858 bytes  received 35 bytes  8,385,786.00 bytes/sec
+total size is 4,191,719  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 4,193,859 bytes  received 35 bytes  8,387,788.00 bytes/sec
+total size is 4,192,720  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 4,559,512 bytes  received 35 bytes  9,119,094.00 bytes/sec
+total size is 4,558,278  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 4,564,765 bytes  received 35 bytes  9,129,600.00 bytes/sec
+total size is 4,563,530  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 4,567,687 bytes  received 35 bytes  9,135,444.00 bytes/sec
+total size is 4,566,452  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 4,571,162 bytes  received 35 bytes  9,142,394.00 bytes/sec
+total size is 4,569,927  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 4,586,384 bytes  received 35 bytes  9,172,838.00 bytes/sec
+total size is 4,585,149  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 4,942,072 bytes  received 35 bytes  9,884,214.00 bytes/sec
+total size is 4,940,749  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 4,945,011 bytes  received 35 bytes  9,890,092.00 bytes/sec
+total size is 4,943,688  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 4,947,580 bytes  received 35 bytes  9,895,230.00 bytes/sec
+total size is 4,946,257  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 4,952,293 bytes  received 35 bytes  9,904,656.00 bytes/sec
+total size is 4,950,962  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 4,953,787 bytes  received 35 bytes  3,302,548.00 bytes/sec
+total size is 4,952,456  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 5,324,368 bytes  received 35 bytes  10,648,806.00 bytes/sec
+total size is 5,322,949  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 5,329,377 bytes  received 35 bytes  10,658,824.00 bytes/sec
+total size is 5,327,959  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 5,333,310 bytes  received 35 bytes  10,666,690.00 bytes/sec
+total size is 5,331,891  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 5,698,811 bytes  received 35 bytes  11,397,692.00 bytes/sec
+total size is 5,697,305  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 5,706,951 bytes  received 35 bytes  11,413,972.00 bytes/sec
+total size is 5,705,437  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 5,712,032 bytes  received 35 bytes  11,424,134.00 bytes/sec
+total size is 5,710,517  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 6,078,014 bytes  received 35 bytes  12,156,098.00 bytes/sec
+total size is 6,076,411  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 6,086,164 bytes  received 35 bytes  12,172,398.00 bytes/sec
+total size is 6,084,561  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 6,092,210 bytes  received 35 bytes  4,061,496.67 bytes/sec
+total size is 6,090,607  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 6,462,158 bytes  received 35 bytes  12,924,386.00 bytes/sec
+total size is 6,460,459  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 6,468,975 bytes  received 35 bytes  12,938,020.00 bytes/sec
+total size is 6,467,276  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 6,841,396 bytes  received 35 bytes  13,682,862.00 bytes/sec
+total size is 6,839,609  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 6,850,094 bytes  received 35 bytes  13,700,258.00 bytes/sec
+total size is 6,848,307  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 7,221,227 bytes  received 35 bytes  14,442,524.00 bytes/sec
+total size is 7,219,344  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 7,592,216 bytes  received 35 bytes  15,184,502.00 bytes/sec
+total size is 7,590,246  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 7,605,904 bytes  received 35 bytes  15,211,878.00 bytes/sec
+total size is 7,603,925  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 7,980,462 bytes  received 35 bytes  5,320,331.33 bytes/sec
+total size is 7,978,395  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 8,350,962 bytes  received 35 bytes  16,701,994.00 bytes/sec
+total size is 8,348,807  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 8,721,683 bytes  received 35 bytes  17,443,436.00 bytes/sec
+total size is 8,719,431  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 9,098,069 bytes  received 35 bytes  18,196,208.00 bytes/sec
+total size is 9,095,729  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 9,474,444 bytes  received 35 bytes  18,948,958.00 bytes/sec
+total size is 9,472,009  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 9,848,119 bytes  received 35 bytes  19,696,308.00 bytes/sec
+total size is 9,845,595  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 10,221,658 bytes  received 35 bytes  6,814,462.00 bytes/sec
+total size is 10,219,046  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 10,597,790 bytes  received 35 bytes  21,195,650.00 bytes/sec
+total size is 10,595,082  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 10,979,740 bytes  received 35 bytes  21,959,550.00 bytes/sec
+total size is 10,976,944  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 11,715,631 bytes  received 35 bytes  23,431,332.00 bytes/sec
+total size is 11,712,651  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 12,089,051 bytes  received 35 bytes  24,178,172.00 bytes/sec
+total size is 12,085,983  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 12,462,504 bytes  received 35 bytes  24,925,078.00 bytes/sec
+total size is 12,459,340  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 12,835,920 bytes  received 35 bytes  8,557,303.33 bytes/sec
+total size is 12,832,668  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 13,218,210 bytes  received 35 bytes  26,436,490.00 bytes/sec
+total size is 13,214,862  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 13,950,625 bytes  received 35 bytes  27,901,320.00 bytes/sec
+total size is 13,947,101  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 14,321,036 bytes  received 35 bytes  28,642,142.00 bytes/sec
+total size is 14,317,424  speedup is 1.00
+sending incremental file list
+single_pes.jl.out
+
+sent 15,010,525 bytes  received 35 bytes  30,021,120.00 bytes/sec
+total size is 15,006,745  speedup is 1.00
+rm: cannot remove ‘tmpfs’: Device or resource busy
