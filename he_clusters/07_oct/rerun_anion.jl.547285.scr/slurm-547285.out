@@ -1,0 +1,325 @@
+tc105
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+Usage: sbatch submit.sh {input file} {data file} {data file}
+rerun_anion.jl
+rerun_anion.jl.out
+/home/nbraunsc/FermiCG-data/he_clusters/07_oct
+/localscratch/547285
+sending incremental file list
+rerun_anion.jl.out
+
+sent 124 bytes  received 35 bytes  318.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 51,965 bytes  received 35 bytes  104,000.00 bytes/sec
+total size is 51,834  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 141,910 bytes  received 35 bytes  283,890.00 bytes/sec
+total size is 141,755  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 196,407 bytes  received 35 bytes  392,884.00 bytes/sec
+total size is 196,243  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 274,880 bytes  received 35 bytes  549,830.00 bytes/sec
+total size is 274,693  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 369,691 bytes  received 35 bytes  739,452.00 bytes/sec
+total size is 369,479  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 464,501 bytes  received 35 bytes  929,072.00 bytes/sec
+total size is 464,265  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 544,708 bytes  received 35 bytes  1,089,486.00 bytes/sec
+total size is 544,456  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 629,788 bytes  received 35 bytes  1,259,646.00 bytes/sec
+total size is 629,512  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 663,786 bytes  received 35 bytes  1,327,642.00 bytes/sec
+total size is 663,502  speedup is 1.00
+sending incremental file list
+
+sent 81 bytes  received 12 bytes  186.00 bytes/sec
+total size is 663,502  speedup is 7,134.43
+sending incremental file list
+
+sent 81 bytes  received 12 bytes  186.00 bytes/sec
+total size is 663,502  speedup is 7,134.43
+sending incremental file list
+
+sent 81 bytes  received 12 bytes  186.00 bytes/sec
+total size is 663,502  speedup is 7,134.43
+sending incremental file list
+
+sent 81 bytes  received 12 bytes  186.00 bytes/sec
+total size is 663,502  speedup is 7,134.43
+sending incremental file list
+
+sent 81 bytes  received 12 bytes  186.00 bytes/sec
+total size is 663,502  speedup is 7,134.43
+sending incremental file list
+
+sent 81 bytes  received 12 bytes  186.00 bytes/sec
+total size is 663,502  speedup is 7,134.43
+sending incremental file list
+rerun_anion.jl.out
+
+sent 668,821 bytes  received 35 bytes  1,337,712.00 bytes/sec
+total size is 668,538  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 675,109 bytes  received 35 bytes  1,350,288.00 bytes/sec
+total size is 674,825  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 675,138 bytes  received 35 bytes  1,350,346.00 bytes/sec
+total size is 674,854  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 675,173 bytes  received 35 bytes  1,350,416.00 bytes/sec
+total size is 674,889  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 704,646 bytes  received 35 bytes  1,409,362.00 bytes/sec
+total size is 704,354  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 704,657 bytes  received 35 bytes  1,409,384.00 bytes/sec
+total size is 704,365  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 704,670 bytes  received 35 bytes  1,409,410.00 bytes/sec
+total size is 704,379  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 704,680 bytes  received 35 bytes  1,409,430.00 bytes/sec
+total size is 704,388  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 704,691 bytes  received 35 bytes  1,409,452.00 bytes/sec
+total size is 704,399  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 704,703 bytes  received 35 bytes  1,409,476.00 bytes/sec
+total size is 704,411  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 704,717 bytes  received 35 bytes  1,409,504.00 bytes/sec
+total size is 704,425  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 704,729 bytes  received 35 bytes  1,409,528.00 bytes/sec
+total size is 704,437  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 704,738 bytes  received 35 bytes  469,848.67 bytes/sec
+total size is 704,446  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 743,428 bytes  received 35 bytes  1,486,926.00 bytes/sec
+total size is 743,128  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 744,017 bytes  received 35 bytes  1,488,104.00 bytes/sec
+total size is 743,718  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 745,989 bytes  received 35 bytes  1,492,048.00 bytes/sec
+total size is 745,690  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,077 bytes  received 35 bytes  1,496,224.00 bytes/sec
+total size is 747,777  speedup is 1.00
+sending incremental file list
+
+sent 81 bytes  received 12 bytes  186.00 bytes/sec
+total size is 747,777  speedup is 8,040.61
+sending incremental file list
+
+sent 81 bytes  received 12 bytes  186.00 bytes/sec
+total size is 747,777  speedup is 8,040.61
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,465 bytes  received 35 bytes  1,497,000.00 bytes/sec
+total size is 748,165  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,470 bytes  received 35 bytes  1,497,010.00 bytes/sec
+total size is 748,170  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,474 bytes  received 35 bytes  1,497,018.00 bytes/sec
+total size is 748,175  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,477 bytes  received 35 bytes  1,497,024.00 bytes/sec
+total size is 748,177  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,482 bytes  received 35 bytes  1,497,034.00 bytes/sec
+total size is 748,182  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,487 bytes  received 35 bytes  1,497,044.00 bytes/sec
+total size is 748,187  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,489 bytes  received 35 bytes  1,497,048.00 bytes/sec
+total size is 748,189  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,491 bytes  received 35 bytes  1,497,052.00 bytes/sec
+total size is 748,191  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,497 bytes  received 35 bytes  1,497,064.00 bytes/sec
+total size is 748,197  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,498 bytes  received 35 bytes  1,497,066.00 bytes/sec
+total size is 748,199  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,504 bytes  received 35 bytes  1,497,078.00 bytes/sec
+total size is 748,204  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,508 bytes  received 35 bytes  1,497,086.00 bytes/sec
+total size is 748,208  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,510 bytes  received 35 bytes  1,497,090.00 bytes/sec
+total size is 748,210  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,514 bytes  received 35 bytes  1,497,098.00 bytes/sec
+total size is 748,214  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,519 bytes  received 35 bytes  1,497,108.00 bytes/sec
+total size is 748,219  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,522 bytes  received 35 bytes  1,497,114.00 bytes/sec
+total size is 748,223  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,526 bytes  received 35 bytes  1,497,122.00 bytes/sec
+total size is 748,226  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,528 bytes  received 35 bytes  1,497,126.00 bytes/sec
+total size is 748,228  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,533 bytes  received 35 bytes  1,497,136.00 bytes/sec
+total size is 748,233  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,539 bytes  received 35 bytes  1,497,148.00 bytes/sec
+total size is 748,239  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,541 bytes  received 35 bytes  1,497,152.00 bytes/sec
+total size is 748,242  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,544 bytes  received 35 bytes  1,497,158.00 bytes/sec
+total size is 748,245  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,549 bytes  received 35 bytes  1,497,168.00 bytes/sec
+total size is 748,250  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,553 bytes  received 35 bytes  1,497,176.00 bytes/sec
+total size is 748,253  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,555 bytes  received 35 bytes  1,497,180.00 bytes/sec
+total size is 748,256  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,556 bytes  received 35 bytes  1,497,182.00 bytes/sec
+total size is 748,257  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,558 bytes  received 35 bytes  1,497,186.00 bytes/sec
+total size is 748,258  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,559 bytes  received 35 bytes  1,497,188.00 bytes/sec
+total size is 748,259  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,560 bytes  received 35 bytes  1,497,190.00 bytes/sec
+total size is 748,260  speedup is 1.00
+sending incremental file list
+rerun_anion.jl.out
+
+sent 748,561 bytes  received 35 bytes  1,497,192.00 bytes/sec
+total size is 748,261  speedup is 1.00
+rm: cannot remove ‘tmpfs’: Device or resource busy
