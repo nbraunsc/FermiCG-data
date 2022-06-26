@@ -41,7 +41,7 @@ ci_vector[ref_fock][ClusterConfig([1,1,1,1,1,1,2])] = [0,0,0,0,0,0,0,1]
 
 display(ci_vector)
 
-thresh_list = [0.01, 0.001, 0.003, 0.005, 0.0001]
+thresh_list = [0.01, 0.001, 0.0001]
 
 for thresh_cipsi in thresh_list
     e0, v0 = FermiCG.tpsci_ci(ci_vector, cluster_ops, cluster_ham,

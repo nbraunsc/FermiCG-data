@@ -2,13 +2,14 @@
 
 #SBATCH --nodes=1
 #SBATCH -p normal_q
-#SBATCH --cpus-per-task=20
-#SBATCH -t 01:00:00
+#SBATCH --cpus-per-task=16
+#SBATCH -t 10:00:00
 #SBATCH --account=nmayhall_group
 ##SBATCH --account=nmayhall_group-paid
-#SBATCH --job-name 7_oct
+#SBATCH --job-name anion_aug
+#SBATCH --exclusive
 
-export NTHREAD=20
+export NTHREAD=16
 export JULIAENV=/home/nbraunsc/FermiCG/
 
 

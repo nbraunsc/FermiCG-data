@@ -70,6 +70,7 @@ nb=8
 clusters = [Cluster(i,collect(clusters_in[i])) for i = 1:length(clusters_in)]
 display(clusters)
 
+@save "before_cmf.jld2" ints clusters init_fspace
 
 print(size(ints.h1))
 rdm1 = zeros(size(ints.h1))
@@ -78,7 +79,6 @@ rdm1 = zeros(size(ints.h1))
 
 e_cmf, U, Da, Db = FermiCG.cmf_oo(ints, clusters, init_fspace, rdm1, rdm1, max_iter_oo=100, verbose=0, gconv=1e-6, method="bfgs");
 
-@save "before_cmf.jld2" ints clusters init_fspace
 
 #rotate the integrals by the cmf calculation
 ints = FermiCG.orbital_rotation(ints, U);

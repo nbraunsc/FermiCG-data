@@ -27,6 +27,14 @@ FermiCG.add_cmf_operators!(cluster_ops, cluster_bases, ints, Da, Db);
 #Need to find reference state 
 ref_fock = FermiCG.FockConfig(init_fspace)
 
+cat1 = [(1,2),(1,1),(1,1),(1,1),(1,1),(1,1),(1,1)]
+cat2 = [(1,1),(1,2),(1,1),(1,1),(1,1),(1,1),(1,1)]
+cat3 = [(1,1),(1,1),(1,2),(1,1),(1,1),(1,1),(1,1)]
+cat4 = [(1,1),(1,1),(1,1),(1,2),(1,1),(1,1),(1,1)]
+cat5 = [(1,1),(1,1),(1,1),(1,1),(1,2),(1,1),(1,1)]
+cat6 = [(1,1),(1,1),(1,1),(1,1),(1,1),(1,2),(1,1)]
+cat7 = [(1,1),(1,1),(1,1),(1,1),(1,1),(1,1),(1,2)]
+
 nroots = 7
 #ci_vector = FermiCG.TPSCIstate(clusters, ref_fock, R=nroots)
 ci_vector = FermiCG.TPSCIstate(clusters, FermiCG.FockConfig([(1,2),(1,1),(1,1),(1,1),(1,1),(1,1),(1,1)]), R=nroots);
@@ -34,13 +42,29 @@ ci_vector = FermiCG.TPSCIstate(clusters, FermiCG.FockConfig([(1,2),(1,1),(1,1),(
 #Need to find the automated way to define these other excited configs away from ref state, example is to large
 #to do by hand
 #probably something to do with building p spaces and q spaces
-ci_vector[FermiCG.FockConfig([(1,2),(1,1),(1,1),(1,1),(1,1),(1,1),(1,1)][ClusterConfig([1,1,1,1,1,1,1])] = [1,0,0,0,0,0,0]
-ci_vector[FermiCG.FockConfig([(1,1),(1,2),(1,1),(1,1),(1,1),(1,1),(1,1)][ClusterConfig([1,1,1,1,1,1,1])] = [0,1,0,0,0,0,0]
-ci_vector[FermiCG.FockConfig([(1,1),(1,1),(1,2),(1,1),(1,1),(1,1),(1,1)][ClusterConfig([1,1,1,1,1,1,1])] = [0,0,1,0,0,0,0]
-ci_vector[FermiCG.FockConfig([(1,1),(1,1),(1,1),(1,2),(1,1),(1,1),(1,1)][ClusterConfig([1,1,1,1,1,1,1])] = [0,0,0,1,0,0,0]
-ci_vector[FermiCG.FockConfig([(1,1),(1,1),(1,1),(1,1),(1,2),(1,1),(1,1)][ClusterConfig([1,1,1,1,1,1,1])] = [0,0,0,0,1,0,0]
-ci_vector[FermiCG.FockConfig([(1,1),(1,1),(1,1),(1,1),(1,1),(1,2),(1,1)][ClusterConfig([1,1,1,1,1,1,1])] = [0,0,0,0,0,1,0]
-ci_vector[FermiCG.FockConfig([(1,1),(1,1),(1,1),(1,1),(1,1),(1,1),(1,2)][ClusterConfig([1,1,1,1,1,1,1])] = [0,0,0,0,0,0,1]
+CAT1 = FermiCG.FockConfig(cat1)
+CAT2 = FermiCG.FockConfig(cat2)
+CAT3 = FermiCG.FockConfig(cat3)
+CAT4 = FermiCG.FockConfig(cat4)
+CAT5 = FermiCG.FockConfig(cat5)
+CAT6 = FermiCG.FockConfig(cat6)
+CAT7 = FermiCG.FockConfig(cat7)
+
+FermiCG.add_fockconfig!(ci_vector,CAT1)
+FermiCG.add_fockconfig!(ci_vector,CAT2)
+FermiCG.add_fockconfig!(ci_vector,CAT3)
+FermiCG.add_fockconfig!(ci_vector,CAT4)
+FermiCG.add_fockconfig!(ci_vector,CAT5)
+FermiCG.add_fockconfig!(ci_vector,CAT6)
+FermiCG.add_fockconfig!(ci_vector,CAT7)
+
+ci_vector[CAT1][ClusterConfig([1,1,1,1,1,1,1])] = [1,0,0,0,0,0,0]
+ci_vector[CAT2][ClusterConfig([1,1,1,1,1,1,1])] = [0,1,0,0,0,0,0]
+ci_vector[CAT3][ClusterConfig([1,1,1,1,1,1,1])] = [0,0,1,0,0,0,0]
+ci_vector[CAT4][ClusterConfig([1,1,1,1,1,1,1])] = [0,0,0,1,0,0,0]
+ci_vector[CAT5][ClusterConfig([1,1,1,1,1,1,1])] = [0,0,0,0,1,0,0]
+ci_vector[CAT6][ClusterConfig([1,1,1,1,1,1,1])] = [0,0,0,0,0,1,0]
+ci_vector[CAT7][ClusterConfig([1,1,1,1,1,1,1])] = [0,0,0,0,0,0,1]
 
 display(ci_vector)
 
@@ -50,8 +74,8 @@ for thresh_cipsi in thresh_list
     e0, v0 = FermiCG.tpsci_ci(ci_vector, cluster_ops, cluster_ham,
                               #thresh_cipsi=1e-4, # Threshold for adding to P-space
                               thresh_cipsi=thresh_cipsi, # Threshold for adding to P-space
-                              thresh_foi=1e-7,    # Threshold for keeping terms when defining FOIS
-                              thresh_asci=0.001,     # Threshold of P-space configs to search from
+                              thresh_foi=1e-5,    # Threshold for keeping terms when defining FOIS
+                              thresh_asci=1e-2,     # Threshold of P-space configs to search from
                               max_iter=10,
                               matvec=3);
 
