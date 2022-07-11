@@ -1,0 +1,62 @@
+tc176
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+Usage: sbatch submit.sh {input file} {data file} {data file}
+cat_tpsci.jl
+cat_tpsci.jl.out
+/home/nbraunsc/FermiCG-data/he_clusters/07_oct
+/localscratch/546704
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 121 bytes  received 35 bytes  312.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 166 bytes  received 35 bytes  402.00 bytes/sec
+total size is 40  speedup is 0.20
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 40  speedup is 0.44
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 364,312 bytes  received 35 bytes  728,694.00 bytes/sec
+total size is 364,102  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 388,708 bytes  received 35 bytes  777,486.00 bytes/sec
+total size is 388,498  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 394,133 bytes  received 35 bytes  788,336.00 bytes/sec
+total size is 393,916  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 522,598 bytes  received 35 bytes  1,045,266.00 bytes/sec
+total size is 522,356  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 526,980 bytes  received 35 bytes  1,054,030.00 bytes/sec
+total size is 526,731  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 528,951 bytes  received 35 bytes  1,057,972.00 bytes/sec
+total size is 528,701  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 528,988 bytes  received 35 bytes  1,058,046.00 bytes/sec
+total size is 528,738  speedup is 1.00
+sending incremental file list
+cat_tpsci.jl.out
+
+sent 529,024 bytes  received 35 bytes  1,058,118.00 bytes/sec
+total size is 528,774  speedup is 1.00
+rm: cannot remove ‘tmpfs’: Device or resource busy
