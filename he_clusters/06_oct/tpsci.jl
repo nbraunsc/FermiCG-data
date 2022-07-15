@@ -83,7 +83,7 @@ max_roots = 100
 #Build Cluster Basis (delta n is here)
 cluster_bases = FermiCG.compute_cluster_eigenbasis(ints, clusters, verbose=1, max_roots=max_roots, init_fspace=init_fspace, rdm1a=Da, rdm1b=Db);
 
-#@save "after_cmf.jld2" ints Da Db e_cmf cluster_bases clusters init_fspace
+@save "after_cmf.jld2" ints Da Db e_cmf cluster_bases clusters init_fspace
 
 #FermiCG.pyscf_write_molden(mol,lo_ao*U, filename="cmf_he06_oct.molden");
 
@@ -103,8 +103,8 @@ ci_vector = FermiCG.TPSCIstate(clusters, FermiCG.FockConfig(init_fspace), R=nroo
 #to do by hand
 #probably something to do with building p spaces and q spaces
 ci_vector[ref_fock][ClusterConfig([1,1,1,1,1,1])] = [1,0,0]
-ci_vector[ref_fock][ClusterConfig([2,1,1,1,1,1])] = [0,1,0]
-ci_vector[ref_fock][ClusterConfig([3,1,1,1,1,1])] = [0,0,1]
+ci_vector[ref_fock][ClusterConfig([1,2,1,1,1,1])] = [0,1,0]
+ci_vector[ref_fock][ClusterConfig([1,1,3,1,1,1])] = [0,0,1]
 #ci_vector[ref_fock][ClusterConfig([1,2,1,1,1,1,1])] = [0,0,1,0,0,0,0,0]
 #ci_vector[ref_fock][ClusterConfig([1,1,2,1,1,1,1])] = [0,0,0,1,0,0,0,0]
 #ci_vector[ref_fock][ClusterConfig([1,1,1,2,1,1,1])] = [0,0,0,0,1,0,0,0]
@@ -123,30 +123,34 @@ e0, v0 = FermiCG.tpsci_ci(ci_vector, cluster_ops, cluster_ham,
 
 #ci_vec = deepcopy(v0)
 
-FermiCG.clip!(v0, thresh=0.001)
-@time e22 = FermiCG.compute_pt2_energy(v0, cluster_ops, cluster_ham, thresh_foi=1e-8)
-
-FermiCG.clip!(v0, thresh = 0.01)
-@time e23 = FermiCG.compute_pt2_energy(v0, cluster_ops, cluster_ham, thresh_foi=1e-8)
-
-FermiCG.clip!(v0, thresh = 0.1)
-@time e24 = FermiCG.compute_pt2_energy(v0, cluster_ops, cluster_ham, thresh_foi=1e-8)
-
-
-println("0.0001")
-println(e0)
-println(e2)
-
-println("0.001")
-println(e22)
-
-println("0.01")
-println(e23)
-
-println("0.1")
-println(e24)
-@save "clipping_scan_results.jld2" e0 e2 e22 e23 e24
-
+#FermiCG.clip!(v0, thresh=0.001)
+#e, v0 = FermiCG.tps_ci_direct(v0, cluster_ops, cluster_ham)
+#@time e22 = FermiCG.compute_pt2_energy(v0, cluster_ops, cluster_ham, thresh_foi=1e-8)
+#
+#FermiCG.clip!(v0, thresh = 0.01)
+#e, v0 = FermiCG.tps_ci_direct(v0, cluster_ops, cluster_ham)
+#@time e23 = FermiCG.compute_pt2_energy(v0, cluster_ops, cluster_ham, thresh_foi=1e-8)
+#
+#FermiCG.clip!(v0, thresh = 0.1)
+#e, v0 = FermiCG.tps_ci_direct(v0, cluster_ops, cluster_ham)
+#@time e24 = FermiCG.compute_pt2_energy(v0, cluster_ops, cluster_ham, thresh_foi=1e-8)
+#
+#
+#println("0.0001")
+#println(e0)
+#println(e2)
+#
+#println("0.001")
+#println(e22)
+#
+#println("0.01")
+#println(e23)
+#
+#println("0.1")
+#println(e24)
+#@save "clipping_scan_results.jld2" e0 e2 e22 e23 e24 
+#
+#error("stop here for testing")
 
 e0_001, v0 = FermiCG.tpsci_ci(ci_vector, cluster_ops, cluster_ham,
                           thresh_cipsi=0.001, # Threshold for adding to P-space
@@ -164,5 +168,17 @@ e0_01, v0 = FermiCG.tpsci_ci(ci_vector, cluster_ops, cluster_ham,
                           max_iter=10);
 
 @time e2_01 = FermiCG.compute_pt2_energy(v0, cluster_ops, cluster_ham, thresh_foi=1e-8)
+
+println("0.0001")
+println(e0)
+println(e2)
+
+println("0.001")
+println(e0_001)
+println(e2_001)
+
+println("0.01")
+println(e0_01)
+println(e2_01)
 
 @save "tpsci_scan.jld2" e0 e2 e0_001 e2_001 e0_01 e2_01
