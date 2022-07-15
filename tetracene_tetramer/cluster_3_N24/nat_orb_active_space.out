@@ -1109,13 +1109,17 @@
  Number of active orbitals:  24
  Number of doc    orbitals:  228
 Set conv_tol_grad to 0.000316228
-macro= 1  f(x)= 1.7257782239558  delta_f= 1.72578  |g|= 0.40611  4 KF 21 Hx
-macro= 2  f(x)= 2.9967313775446  delta_f= 1.27095  |g|= 0.470078  4 KF 21 Hx
-macro= 3  f(x)= 3.7346980787614  delta_f= 0.737967  |g|= 0.451408  4 KF 21 Hx
-macro= 4  f(x)= 4.8300394471912  delta_f= 1.09534  |g|= 0.374172  4 KF 21 Hx
-macro= 5  f(x)= 5.9794328443422  delta_f= 1.14939  |g|= 0.530996  4 KF 21 Hx
-macro= 6  f(x)= 6.4009375538244  delta_f= 0.421505  |g|= 0.280153  4 KF 21 Hx
-macro= 7  f(x)= 6.4612070966181  delta_f= 0.0602695  |g|= 0.251752  2 KF 3 Hx
-macro= 8  f(x)= 6.4689732167464  delta_f= 0.00776612  |g|= 0.000642521  2 KF 5 Hx
-macro= 9  f(x)= 6.4689732168713  delta_f= 1.24933e-10  |g|= 4.11683e-05  1 KF 1 Hx
-macro X = 9  f(x)= 6.4689732168713  |g|= 4.11683e-05  18 intor 29 KF 135 Hx
+macro= 1  f(x)= 1.7257782212813  delta_f= 1.72578  |g|= 0.40611  4 KF 21 Hx
+macro= 2  f(x)= 2.9898492783716  delta_f= 1.26407  |g|= 0.470349  4 KF 21 Hx
+macro= 3  f(x)= 3.7436320016332  delta_f= 0.753783  |g|= 0.460076  4 KF 21 Hx
+macro= 4  f(x)= 4.7231459054867  delta_f= 0.979514  |g|= 0.404508  4 KF 21 Hx
+macro= 5  f(x)= 6.1271735556306  delta_f= 1.40403  |g|= 0.50465  4 KF 21 Hx
+macro= 6  f(x)= 6.4487482953202  delta_f= 0.321575  |g|= 0.169918  3 KF 9 Hx
+macro= 7  f(x)= 6.4687893553056  delta_f= 0.0200411  |g|= 0.141684  2 KF 3 Hx
+macro= 8  f(x)= 6.4689732173112  delta_f= 0.000183862  |g|= 0.0114797  1 KF 3 Hx
+macro= 9  f(x)= 6.4689732173848  delta_f= 7.36673e-11  |g|= 3.52662e-05  1 KF 1 Hx
+macro X = 9  f(x)= 6.4689732173848  |g|= 3.52662e-05  18 intor 27 KF 121 Hx
+done making molden
+11283.617217902925
+dont getting h, j, k
+dont ao2mo

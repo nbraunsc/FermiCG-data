@@ -1,0 +1,9 @@
+tc216
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+Usage: sbatch submit.sh {input file} {data file} {data file}
+
+.out
+/home/nbraunsc/FermiCG-data/tetracene_tetramer/cluster_3_N24
+/localscratch/567532
+/home/nbraunsc/.conda/envs/mim_env/lib/python3.7/site-packages/pyscf/lib/misc.py:46: H5pyDeprecationWarning: Using default_file_mode other than 'r' is deprecated. Pass the mode to h5py.File() instead.
+  h5py.get_config().default_file_mode = 'a'
