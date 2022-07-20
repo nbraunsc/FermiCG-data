@@ -6,7 +6,7 @@
 #SBATCH -t 10:00:00
 #SBATCH --account=nmayhall_group
 ##SBATCH --account=nmayhall_group-paid
-#SBATCH --job-name anion_aug
+#SBATCH --job-name pes
 #SBATCH --exclusive
 
 export NTHREAD=16
@@ -53,7 +53,6 @@ cd $TMPDIR
 #Start an rsync command which runs in the background and keeps a local version of the output file up to date
 touch $OUTFILE
 while true; do rsync -av $OUTFILE $WORKDIR/"${INFILE}.${SLURM_JOB_ID}.out"; sleep 60; done &
-
 
 julia --project=$JULIAENV -t $NTHREAD $INFILE >& $OUTFILE
 
