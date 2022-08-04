@@ -5,13 +5,22 @@ using LinearAlgebra
 using Printf
 using JLD2
 
+#molecule = "
+#He 0.00000000 0.00000000 0.00000000
+#He 1.41421356 0.00000000 0.00000000
+#He 0.00000000 1.41421356 0.00000000
+#He 1.41421356 1.41421356 0.00000000
+#He 0.70710678 0.70710678 1.00000000
+#He 0.70710678 0.70710678 -1.00000000
+#"
+
 molecule = "
-He 0.00000000 0.00000000 0.00000000
-He 1.41421356 0.00000000 0.00000000
-He 0.00000000 1.41421356 0.00000000
-He 1.41421356 1.41421356 0.00000000
-He 0.70710678 0.70710678 1.00000000
-He 0.70710678 0.70710678 -1.00000000
+He       0.0000000000000000       0.0000000000000000       0.0000000000000000
+He       3.8890872900000004       0.0000000000000000       0.0000000000000000
+He       0.0000000000000000       3.8890872900000004       0.0000000000000000
+He       3.8890872900000004       3.8890872900000004       0.0000000000000000
+He       1.9445436450000002       1.9445436450000002       2.7500000000000000
+He       1.9445436450000002       1.9445436450000002      -2.7500000000000000
 "
 
 atoms = []
@@ -23,7 +32,7 @@ end
 basis = "aug-cc-pvdz"
 
 # Create FermiCG.Molecule type
-mol     = Molecule(0, 1, atoms,basis);
+mol = Molecule(0, 1, atoms,basis);
 
 pyscf = pyimport("pyscf")
 
@@ -62,29 +71,83 @@ lo = pyimport("pyscf.lo.orth")
 tools = pyimport("pyscf.tools")
 fcidump = pyimport("pyscf.tools.fcidump");
 
+pymol = deepcopy(pymol_init)
+scale = 1
+
+#move to smaller geometry
+coords = @sprintf("%5i\n\n", length(mol.atoms))
+tmp = []
+for a in mol.atoms
+    push!(tmp, ["He", (a.xyz[1]/scale, a.xyz[2]/scale, a.xyz[3]/scale)])
+    global coords = coords * @sprintf("%6s %24.16f %24.16f %24.16f \n", a.symbol, a.xyz[1]/scale, a.xyz[2]/scale, a.xyz[3]/scale)
+end    
+pymol.atom = tmp
+pymol.build()
+
+mf = pyscf.scf.RHF(pymol).run()
+s = mf.get_ovlp(pymol)
+lo_ao = lo.lowdin(s)
+println("size of Lowdin ortho AO's:", size(lo_ao))
+    
+tools.fcidump.from_mo(pymol, "fcidump.he06_oct", lo_ao)
+
+#Can just read in pyscf dump file for integrals (once you have already run an scf calculation)
+ctx = fcidump.read("fcidump.he06_oct");
+h = ctx["H1"];
+g = ctx["H2"];
+ecore = ctx["ECORE"];
+g = pyscf.ao2mo.restore("1", g, size(h,2))
+
+#This one below was not working. Error: setfield! immutable struct of type InCoreInts cannot be changed
+ints = InCoreInts(ecore,h,g);
+
+#Define clusters and intial Fock space for inital CMF calc for 9 orbs each He
+clusters_in = [(1:9),(10:18), (19:27), (28:36), (37:45), (46:54)]
+
+#Define clusters and intial Fock space for inital CMF calc for 5 orbs each He
+init_fspace = [(1,1),(1,1),(1,1),(1,1),(1,1),(1,1)]
+rdm1 = zeros(size(ints.h1))
+na=6
+nb=6
+
+#Define clusters now using FermiCG code
+clusters = [Cluster(i,collect(clusters_in[i])) for i = 1:length(clusters_in)]
+display(clusters)
+        
+#do a CMF calculation to optimize cluster orbitals
+e_cmf, U, Da, Db = FermiCG.cmf_oo(ints, clusters, init_fspace, rdm1, rdm1, max_iter_oo=100, verbose=0, gconv=1e-6, method="bfgs", sequential=true);
+#FermiCG.pyscf_write_molden(mol,lo_ao*U, filename="cmf.molden");
+
+U_old = U
+Da_old = Da
+Db_old = Db
+
 for R in 1:n_steps
 
     pymol = deepcopy(pymol_init)
     scale = 1+R*step_size
 
-    xyz = @sprintf("%5i\n\n", length(mol.atoms))
+    #move to smaller geometry
+    coords = @sprintf("%5i\n\n", length(mol.atoms))
     tmp = []
     for a in mol.atoms
-        push!(tmp, ["He", (a.xyz[1]*scale, a.xyz[2]*scale, a.xyz[3]*scale)])
-        xyz = xyz * @sprintf("%6s %24.16f %24.16f %24.16f \n", a.symbol, a.xyz[1]*scale, a.xyz[2]*scale, a.xyz[3]*scale)
+        push!(tmp, ["He", (a.xyz[1]/scale, a.xyz[2]/scale, a.xyz[3]/scale)])
+        global coords = coords * @sprintf("%6s %24.16f %24.16f %24.16f \n", a.symbol, a.xyz[1]/scale, a.xyz[2]/scale, a.xyz[3]/scale)
     end
+
+    #Move to a larger geometry
+    #xyz = @sprintf("%5i\n\n", length(mol.atoms))
+    #tmp = []
+    #for a in mol.atoms
+    #    push!(tmp, ["He", (a.xyz[1]*scale, a.xyz[2]*scale, a.xyz[3]*scale)])
+    #    xyz = xyz * @sprintf("%6s %24.16f %24.16f %24.16f \n", a.symbol, a.xyz[1]*scale, a.xyz[2]*scale, a.xyz[3]*scale)
+    #end
+
     pymol.atom = tmp
     pymol.build()
 
-
-    println(xyz)
-    write(io, xyz);
-
-
-    #println(pymol.format_atom(1))
-
-    #     mol_R = Molecule(0, 1, [a[0]pymol.atom, pymol.basis)
-
+    println(coords)
+    write(io, coords);
 
     mf = pyscf.scf.RHF(pymol).run()
     
@@ -93,8 +156,10 @@ for R in 1:n_steps
     lo_ao = lo.lowdin(s)
     println("size of Lowdin ortho AO's:", size(lo_ao))
 
+    C_new = lo_ao*U_old
+    
     #write fci dump file from the modified mo coefficients
-    tools.fcidump.from_mo(pymol, "fcidump.he06_oct", lo_ao)
+    tools.fcidump.from_mo(pymol, "fcidump.he06_oct", C_new)
 
     #Can just read in pyscf dump file for integrals (once you have already run an scf calculation)
     ctx = fcidump.read("fcidump.he06_oct");
@@ -131,8 +196,12 @@ for R in 1:n_steps
 
     #do a CMF calculation to optimize cluster orbitals
 
-    e_cmf, U, Da, Db = FermiCG.cmf_oo(ints, clusters, init_fspace, rdm1, rdm1, max_iter_oo=100, verbose=0, gconv=1e-6, method="bfgs");
+    e_cmf, U, Da, Db = FermiCG.cmf_oo(ints, clusters, init_fspace, Da_old, Db_old, max_iter_oo=100, verbose=0, gconv=1e-6, method="bfgs");
+    #e_cmf, U, Da, Db = FermiCG.cmf_oo(ints, clusters, init_fspace, rdm1, rdm1, max_iter_oo=100, verbose=0, gconv=1e-6, method="bfgs");
 
+    U_old = U
+    Da_old = Da
+    Db_old = Db
 
     #rotate the integrals by the cmf calculation
     ints = FermiCG.orbital_rotation(ints, U);
