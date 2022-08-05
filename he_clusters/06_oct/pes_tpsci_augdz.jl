@@ -54,11 +54,12 @@ function run()
     pymol_obj = deepcopy(pymol_init)
     
     U_old, Da_old, Db_old = first_iter(pymol_obj, mol_obj)
-    run_pes(U_old, Da_old, Db_old, pymol, mol)
+    run_pes(U_old, Da_old, Db_old, pymol_obj, mol_obj)
 end
     
 
 function first_iter(pymol, mol)
+    pyscf = pyimport("pyscf")
     lo = pyimport("pyscf.lo.orth")
     tools = pyimport("pyscf.tools")
     fcidump = pyimport("pyscf.tools.fcidump");
@@ -70,7 +71,7 @@ function first_iter(pymol, mol)
     tmp = []
     for a in mol.atoms
         push!(tmp, ["He", (a.xyz[1]/scale, a.xyz[2]/scale, a.xyz[3]/scale)])
-        global coords = coords * @sprintf("%6s %24.16f %24.16f %24.16f \n", a.symbol, a.xyz[1]/scale, a.xyz[2]/scale, a.xyz[3]/scale)
+        coords = coords * @sprintf("%6s %24.16f %24.16f %24.16f \n", a.symbol, a.xyz[1]/scale, a.xyz[2]/scale, a.xyz[3]/scale)
     end    
     pymol.atom = tmp
     pymol.build()
@@ -116,6 +117,7 @@ function first_iter(pymol, mol)
 end
 
 function run_pes(U_old, Da_old, Db_old, pymol, mol)
+    pyscf = pyimport("pyscf")
     lo = pyimport("pyscf.lo.orth")
     tools = pyimport("pyscf.tools")
     fcidump = pyimport("pyscf.tools.fcidump");
@@ -143,6 +145,9 @@ function run_pes(U_old, Da_old, Db_old, pymol, mol)
     energies_t11 = []
     energies_t12 = []
     
+    n_steps = 35
+    step_size = 0.05
+
     for R in 1:n_steps
         println("\n************* ITERATION: ", R, " *************")
 
@@ -154,7 +159,7 @@ function run_pes(U_old, Da_old, Db_old, pymol, mol)
         tmp = []
         for a in mol.atoms
             push!(tmp, ["He", (a.xyz[1]/scale, a.xyz[2]/scale, a.xyz[3]/scale)])
-            global coords = coords * @sprintf("%6s %24.16f %24.16f %24.16f \n", a.symbol, a.xyz[1]/scale, a.xyz[2]/scale, a.xyz[3]/scale)
+            coords = coords * @sprintf("%6s %24.16f %24.16f %24.16f \n", a.symbol, a.xyz[1]/scale, a.xyz[2]/scale, a.xyz[3]/scale)
         end
 
         #Move to a larger geometry
