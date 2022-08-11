@@ -53,8 +53,8 @@ function run()
     
     pymol_obj = deepcopy(pymol_init)
     
-    U_old, Da_old, Db_old = first_iter(pymol_obj, mol_obj)
-    run_pes(U_old, Da_old, Db_old, pymol_obj, mol_obj)
+    U_old, Da_old, Db_old, C_old = first_iter(pymol_obj, mol_obj)
+    run_pes(U_old, Da_old, Db_old, pymol_obj, mol_obj, C_old)
 end
     
 
@@ -107,16 +107,19 @@ function first_iter(pymol, mol)
     display(clusters)
 
     #do a CMF calculation to optimize cluster orbitals
-    e_cmf, U, Da, Db = FermiCG.cmf_oo(ints, clusters, init_fspace, rdm1, rdm1, max_iter_oo=100, verbose=0, gconv=1e-6, method="bfgs", sequential=true);
+    #e_cmf, U, Da, Db = FermiCG.cmf_oo(ints, clusters, init_fspace, rdm1, rdm1, max_iter_oo=100, verbose=0, gconv=1e-6, method="bfgs", sequential=true);
+    @load "/Users/nicole/code/FermiCG-data/he_clusters/06_oct/cmf_pes/cmf_1.jld2"
     #FermiCG.pyscf_write_molden(mol,lo_ao*U, filename="cmf.molden");
 
     U_old = U
+    C_old = lo_ao*U
+    lo_ao_old = lo_ao
     Da_old = Da
     Db_old = Db
-    return U_old, Da, Db
+    return U_old, Da, Db, C_old
 end
 
-function run_pes(U_old, Da_old, Db_old, pymol, mol)
+function run_pes(U_old, Da_old, Db_old, pymol, mol, C_old)
     pyscf = pyimport("pyscf")
     lo = pyimport("pyscf.lo.orth")
     tools = pyimport("pyscf.tools")
@@ -144,6 +147,7 @@ function run_pes(U_old, Da_old, Db_old, pymol, mol)
     energies_t10 = []
     energies_t11 = []
     energies_t12 = []
+    pt2_energies = []
     
     n_steps = 35
     step_size = 0.05
@@ -162,14 +166,6 @@ function run_pes(U_old, Da_old, Db_old, pymol, mol)
             coords = coords * @sprintf("%6s %24.16f %24.16f %24.16f \n", a.symbol, a.xyz[1]/scale, a.xyz[2]/scale, a.xyz[3]/scale)
         end
 
-        #Move to a larger geometry
-        #xyz = @sprintf("%5i\n\n", length(mol.atoms))
-        #tmp = []
-        #for a in mol.atoms
-        #    push!(tmp, ["He", (a.xyz[1]*scale, a.xyz[2]*scale, a.xyz[3]*scale)])
-        #    xyz = xyz * @sprintf("%6s %24.16f %24.16f %24.16f \n", a.symbol, a.xyz[1]*scale, a.xyz[2]*scale, a.xyz[3]*scale)
-        #end
-
         pymol.atom = tmp
         pymol.build()
 
@@ -177,13 +173,10 @@ function run_pes(U_old, Da_old, Db_old, pymol, mol)
         write(io, coords);
 
         mf = pyscf.scf.RHF(pymol).run()
-
         s = mf.get_ovlp(pymol)
 
-        lo_ao = lo.lowdin(s)
-        println("size of Lowdin ortho AO's:", size(lo_ao))
-
-        C_new = lo_ao*U_old
+        P = C_old'*s*C_old
+        C_new = C_old * inv(sqrt(P))
 
         #write fci dump file from the modified mo coefficients
         tools.fcidump.from_mo(pymol, "fcidump.he06_oct", C_new)
@@ -216,28 +209,17 @@ function run_pes(U_old, Da_old, Db_old, pymol, mol)
         clusters = [Cluster(i,collect(clusters_in[i])) for i = 1:length(clusters_in)]
         display(clusters)
 
-        #@save "before_cmf.jld2" ints clusters init_fspace
-
-        print(size(ints.h1))
-        rdm1 = zeros(size(ints.h1))
-
         #do a CMF calculation to optimize cluster orbitals
-
-        e_cmf, U, Da, Db = FermiCG.cmf_oo(ints, clusters, init_fspace, Da_old, Db_old, max_iter_oo=100, verbose=0, gconv=1e-6, method="bfgs");
-        #e_cmf, U, Da, Db = FermiCG.cmf_oo(ints, clusters, init_fspace, rdm1, rdm1, max_iter_oo=100, verbose=0, gconv=1e-6, method="bfgs");
-
-        U_old = U
-        Da_old = Da
-        Db_old = Db
+        #e_cmf, U, Da, Db = FermiCG.cmf_oo(ints, clusters, init_fspace, Da_old, Db_old, max_iter_oo=100, verbose=0, gconv=1e-6, method="bfgs");
+        
+        load("/Users/nicole/code/FermiCG-data/he_clusters/06_oct/cmf_pes/cmf_"*string(R)*".jld2")
 
         #rotate the integrals by the cmf calculation
         ints = FermiCG.orbital_rotation(ints, U);
         max_roots = 40
-
+        
         #Build Cluster Basis (delta n is here)
         cluster_bases = FermiCG.compute_cluster_eigenbasis(ints, clusters, verbose=1, max_roots=max_roots, init_fspace=init_fspace, rdm1a=Da, rdm1b=Db);
-
-        #@save "scan_after_cmf.jld2" ints Da Db e_cmf cluster_bases clusters init_fspace
 
         #Build Clustered Operator
         cluster_ham = FermiCG.extract_ClusteredTerms(ints, clusters);
@@ -252,9 +234,6 @@ function run_pes(U_old, Da_old, Db_old, pymol, mol)
         #ci_vector = FermiCG.TPSCIstate(clusters, ref_fock, R=nroots)
         ci_vector = FermiCG.TPSCIstate(clusters, FermiCG.FockConfig(init_fspace), R=nroots);
         #ci_vector = FermiCG.ClusteredState(clusters, ref_fock, R=nroots);
-        #Need to find the automated way to define these other excited configs away from ref state, example is to large
-        #to do by hand
-        #probably something to do with building p spaces and q spaces
 
         ci_vector[ref_fock][ClusterConfig([1,1,1,1,1,1])] = zeros(Float64,nroots)
         ci_vector[ref_fock][ClusterConfig([2,1,1,1,1,1])] = zeros(Float64,nroots)
@@ -329,6 +308,11 @@ function run_pes(U_old, Da_old, Db_old, pymol, mol)
         push!(energies_t12, e0[19]+ecore)
 
         push!(pt2_energies, e2)
+        
+        U_old = U
+        Da_old = Da
+        Db_old = Db
+        C_old = C_new*U
     end
 
     @save "scan_energies_triplet.jld2" energies_ground energies_t1 energies_t2 energies_t3 energies_t4 energies_t5 energies_t6
