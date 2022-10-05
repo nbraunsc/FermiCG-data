@@ -1,9 +1,11 @@
-pwd()
-using Pkg; Pkg.activate("../../FermiCG/")
 using FermiCG, NPZ, JLD2
+using PyCall
 using Plots
-
-readdir()
+using LinearAlgebra
+using Printf
+using QCBase
+using RDM
+using ClusterMeanField
 
 # build this just so we can print out molden files to view the MOs
 molecule = "
@@ -143,16 +145,15 @@ mol     = Molecule(0, 1, atoms,basis);
 
 #load integrals from disk
 ints = InCoreInts(
-    npzread("integrals_h0.npy"), 
-    npzread("integrals_h1.npy"), 
-    npzread("integrals_h2.npy") 
+    npzread("../integrals_h0.npy"), 
+    npzread("../integrals_h1.npy"), 
+    npzread("../integrals_h2.npy") 
 );
-C = npzread("mo_coeffs_act.npy")
-S = npzread("overlap_mat.npy");
-D = npzread("density_mat.npy");
+C = npzread("../mo_coeffs_act.npy")
+S = npzread("../overlap_mat.npy");
+D = npzread("../density_mat.npy");
 
 
-using LinearAlgebra, Printf
 using Clustering
 using SpectralClustering
 using Random
@@ -197,10 +198,10 @@ end
 n_clusters = 4
 adjacency = abs.(C'*D*C)
 perm, cluster_list = cluster_orbitals(adjacency, n_clusters)
-print(perm)
+println(perm)
     
-p1 = heatmap(adjacency, aspect_ratio=:equal, title="Adjacency", yflip = true) 
-p2 = heatmap(adjacency[perm, perm], aspect_ratio=:equal, title="Adjacency (sorted)", yflip = true) 
+#p1 = heatmap(adjacency, aspect_ratio=:equal, title="Adjacency", yflip = true) 
+#p2 = heatmap(adjacency[perm, perm], aspect_ratio=:equal, title="Adjacency (sorted)", yflip = true) 
 
 ints_sorted = deepcopy(ints)
 ints_sorted.h1 .= ints.h1[perm,perm]
@@ -208,33 +209,36 @@ ints_sorted.h2 .= ints.h2[perm,perm,perm,perm];
 C_sorted = C[:,perm]
 FermiCG.pyscf_write_molden(mol,C_sorted,filename="orbitals.molden");
 
-plot(p1, p2, layout = @layout [a b])
+#plot(p1, p2, layout = @layout [a b])
 
 # define clusters
 cluster_list = [collect(1:10), collect(11:20), collect(21:30), collect(31:40)]
-clusters = [Cluster(i,collect(cluster_list[i])) for i = 1:length(cluster_list)]
+clusters = [MOCluster(i,collect(cluster_list[i])) for i = 1:length(cluster_list)]
 init_fspace = [ (5,5) for i in 1:n_clusters]
 display(clusters)
 
 
 rdm1 =  C_sorted' * S * D * S * C_sorted * .5
 
-e_cmf, U_cmf, Da, Db  = FermiCG.cmf_oo(ints_sorted, clusters, init_fspace, rdm1, rdm1,
+#e_cmf, U_cmf, d1  = ClusterMeanField.cmf_oo(ints_sorted, clusters, init_fspace, rdm1, rdm1,
                                         max_iter_oo=150, verbose=0, gconv=1e-6, method="bfgs");
+e_cmf, U_cmf, d1  = ClusterMeanField.cmf_oo(ints_sorted, clusters, init_fspace, RDM1(n_orb(ints_sorted)),
+                                        verbose=0, gconv=1e-6, method="bfgs", sequential=true);
 
 C_cmf = C_sorted * U_cmf
-ints_cmf = FermiCG.orbital_rotation(ints_sorted, U_cmf);
+ints_cmf = orbital_rotation(ints_sorted, U_cmf);
 
 
 ints = deepcopy(ints_cmf)
 C = deepcopy(C_cmf);
 
-max_roots = 10
+M = 10
 
 #
 # Build Cluster basis
-cluster_bases = FermiCG.compute_cluster_eigenbasis(ints, clusters, verbose=1, max_roots=max_roots,
-        init_fspace=init_fspace, rdm1a=Da, rdm1b=Db, delta_elec=2);
+#cluster_bases = FermiCG.compute_cluster_eigenbasis(ints, clusters, verbose=1, max_roots=max_roots,
+#        init_fspace=init_fspace, rdm1a=Da, rdm1b=Db, delta_elec=2);
+cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [5,5,5,5], init_fspace, max_roots=M, verbose=1);
 #
 # Build ClusteredOperator
 clustered_ham = FermiCG.extract_ClusteredTerms(ints, clusters);
@@ -245,7 +249,7 @@ cluster_ops = FermiCG.compute_cluster_ops(cluster_bases, ints);
 
 #
 # Add cmf hamiltonians for doing MP-style PT2 
-FermiCG.add_cmf_operators!(cluster_ops, cluster_bases, ints, Da, Db, verbose=0);
+FermiCG.add_cmf_operators!(cluster_ops, cluster_bases, ints, d1.a, d1.b, verbose=0);
 
 
 nroots = 27
@@ -279,6 +283,8 @@ ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([2,1,1,2])] = z
 ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,2,2,1])] = zeros(Float64,nroots)
 ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,2,1,2])] = zeros(Float64,nroots)
 ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,1,2,2])] = zeros(Float64,nroots)
+
+ci_vector = FermiCG.add_spin_focksectors(ci_vector)
 
 # Spin-flip states
 fspace_0 = FermiCG.FockConfig(init_fspace)
@@ -340,7 +346,7 @@ e0, v0 = FermiCG.tpsci_ci(ci_vector, cluster_ops, clustered_ham,
 
 @time e2 = FermiCG.compute_pt2_energy(v0, cluster_ops, clustered_ham, thresh_foi=1e-8);
 
-@save "M10.jld2" clusters Da Db ints C cluster_bases ci_vector  
+@save "M10.jld2" clusters d1 ints C cluster_bases ci_vector  
 
 max_roots = 20
 
