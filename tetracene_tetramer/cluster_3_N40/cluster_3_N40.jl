@@ -147,13 +147,13 @@ mol     = Molecule(0, 1, atoms,basis);
 
 #load integrals from disk
 ints = InCoreInts(
-    npzread("../integrals_h0.npy"), 
-    npzread("../integrals_h1.npy"), 
-    npzread("../integrals_h2.npy") 
+    npzread("/Users/nicole/code/FermiCG-data/tetracene_tetramer/integrals_h0.npy"), 
+    npzread("/Users/nicole/code/FermiCG-data/tetracene_tetramer/integrals_h1.npy"), 
+    npzread("/Users/nicole/code/FermiCG-data/tetracene_tetramer/integrals_h2.npy") 
 );
-C = npzread("../mo_coeffs_act.npy")
-S = npzread("../overlap_mat.npy");
-D = npzread("../density_mat.npy");
+C = npzread("/Users/nicole/code/FermiCG-data/tetracene_tetramer/mo_coeffs_act.npy")
+S = npzread("/Users/nicole/code/FermiCG-data/tetracene_tetramer/overlap_mat.npy");
+D = npzread("/Users/nicole/code/FermiCG-data/tetracene_tetramer/density_mat.npy");
 
 
 using Clustering
@@ -209,7 +209,7 @@ ints_sorted = deepcopy(ints)
 ints_sorted.h1 .= ints.h1[perm,perm]
 ints_sorted.h2 .= ints.h2[perm,perm,perm,perm];
 C_sorted = C[:,perm]
-FermiCG.pyscf_write_molden(mol,C_sorted,filename="orbitals.molden");
+FermiCG.pyscf_write_molden(mol,C_sorted,filename="/Users/nicole/code/FermiCG-data/tetracene_tetramer/cluster_3_N40/orbitals.molden");
 
 #plot(p1, p2, layout = @layout [a b])
 
@@ -220,15 +220,16 @@ init_fspace = [ (5,5) for i in 1:n_clusters]
 display(clusters)
 
 
-rdm1 =  C_sorted' * S * D * S * C_sorted * .5
+#rdm1 =  C_sorted' * S * D * S * C_sorted * .5
 
 #e_cmf, U_cmf, d1  = ClusterMeanField.cmf_oo(ints_sorted, clusters, init_fspace, rdm1, rdm1,
-                                        max_iter_oo=150, verbose=0, gconv=1e-6, method="bfgs");
+#                                        max_iter_oo=150, verbose=0, gconv=1e-6, method="bfgs");
 e_cmf, U_cmf, d1  = ClusterMeanField.cmf_oo(ints_sorted, clusters, init_fspace, RDM1(n_orb(ints_sorted)),
                                         verbose=0, gconv=1e-6, method="bfgs", sequential=true);
 
 C_cmf = C_sorted * U_cmf
 ints_cmf = orbital_rotation(ints_sorted, U_cmf);
+@save  "/Users/nicole/code/FermiCG-data/tetracene_tetramer/cluster_3_N40/cmf_tetracence.jld2" ints_cmf d1 clusters init_fspace C_cmf
 
 
 ints = deepcopy(ints_cmf)
@@ -256,6 +257,8 @@ FermiCG.add_cmf_operators!(cluster_ops, cluster_bases, ints, d1.a, d1.b, verbose
 
 nroots = 27
 ci_vector = FermiCG.TPSCIstate(clusters, FermiCG.FockConfig(init_fspace), R=nroots);
+#ci_vector = FermiCG.add_spin_focksectors(ci_vector)
+
 # Add the lowest energy single exciton to basis
 ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,1,1,1])] = zeros(Float64,nroots)
 ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([2,1,1,1])] = zeros(Float64,nroots)
@@ -286,7 +289,6 @@ ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,2,2,1])] = z
 ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,2,1,2])] = zeros(Float64,nroots)
 ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,1,2,2])] = zeros(Float64,nroots)
 
-ci_vector = FermiCG.add_spin_focksectors(ci_vector)
 
 # Spin-flip states
 fspace_0 = FermiCG.FockConfig(init_fspace)
@@ -348,14 +350,16 @@ e0, v0 = FermiCG.tpsci_ci(ci_vector, cluster_ops, clustered_ham,
 
 @time e2 = FermiCG.compute_pt2_energy(v0, cluster_ops, clustered_ham, thresh_foi=1e-8);
 
-@save "M10.jld2" clusters d1 ints C cluster_bases ci_vector  
+@save "/Users/nicole/code/FermiCG-data/tetracene_tetramer/cluster_3_N40/M10.jld2" clusters d1 ints C cluster_bases ci_vector  
 
 max_roots = 20
 
 #
 # Build Cluster basis
-cluster_bases = FermiCG.compute_cluster_eigenbasis(ints, clusters, verbose=1, max_roots=max_roots,
-        init_fspace=init_fspace, rdm1a=Da, rdm1b=Db, delta_elec=4);
+#cluster_bases = FermiCG.compute_cluster_eigenbasis(ints, clusters, verbose=1, max_roots=max_roots,
+#        init_fspace=init_fspace, rdm1a=Da, rdm1b=Db, delta_elec=4);
+
+cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [5,5,5,5], init_fspace, max_roots=M, verbose=1);
 #
 # Build ClusteredOperator
 clustered_ham = FermiCG.extract_ClusteredTerms(ints, clusters);
@@ -379,14 +383,15 @@ e0, v0 = FermiCG.tpsci_ci(ci_vector, cluster_ops, clustered_ham,
 
 @time e2 = FermiCG.compute_pt2_energy(v0, cluster_ops, clustered_ham, thresh_foi=1e-8);
 
-@save "M20.jld2" clusters Da Db ints C cluster_bases ci_vector  
+@save "/Users/nicole/code/FermiCG-data/tetracene_tetramer/cluster_3_N40/M20.jld2" clusters Da Db ints C cluster_bases ci_vector  
 
 max_roots = 40
 
 #
 # Build Cluster basis
-cluster_bases = FermiCG.compute_cluster_eigenbasis(ints, clusters, verbose=1, max_roots=max_roots,
-        init_fspace=init_fspace, rdm1a=Da, rdm1b=Db, delta_elec=4);
+#cluster_bases = FermiCG.compute_cluster_eigenbasis(ints, clusters, verbose=1, max_roots=max_roots,
+#        init_fspace=init_fspace, rdm1a=Da, rdm1b=Db, delta_elec=4);
+cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [5,5,5,5], init_fspace, max_roots=M, verbose=1);
 #
 # Build ClusteredOperator
 clustered_ham = FermiCG.extract_ClusteredTerms(ints, clusters);
@@ -401,21 +406,22 @@ FermiCG.add_cmf_operators!(cluster_ops, cluster_bases, ints, Da, Db, verbose=0);
 
 
 e0, v0 = FermiCG.tpsci_ci(ci_vector, cluster_ops, clustered_ham,
-                            thresh_asci =1e-2,     # Threshold of P-space configs to search from
+                            thresh_asci =-1,     # Threshold of P-space configs to search from
                             thresh_foi  =1e-5,    # Threshold for keeping terms when defining FOIS
                             thresh_cipsi=1e-3, # Threshold for adding to P-space
                             max_iter=10,
                             incremental=false,	# turn this off,  as it wasn't well tested for multistate
 			    matvec=3);
 @time e2 = FermiCG.compute_pt2_energy(v0, cluster_ops, clustered_ham, thresh_foi=1e-8);
-@save "M40.jld2" clusters Da Db ints C cluster_bases ci_vector  
+@save "/Users/nicole/code/FermiCG-data/tetracene_tetramer/cluster_3_N40/M40.jld2" clusters Da Db ints C cluster_bases ci_vector  
 
 max_roots = 60
 
 #
 # Build Cluster basis
-cluster_bases = FermiCG.compute_cluster_eigenbasis(ints, clusters, verbose=1, max_roots=max_roots,
-        init_fspace=init_fspace, rdm1a=Da, rdm1b=Db, delta_elec=4);
+#cluster_bases = FermiCG.compute_cluster_eigenbasis(ints, clusters, verbose=1, max_roots=max_roots,
+#        init_fspace=init_fspace, rdm1a=Da, rdm1b=Db, delta_elec=4);
+cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [5,5,5,5], init_fspace, max_roots=M, verbose=1);
 #
 # Build ClusteredOperator
 clustered_ham = FermiCG.extract_ClusteredTerms(ints, clusters);
@@ -431,19 +437,20 @@ FermiCG.add_cmf_operators!(cluster_ops, cluster_bases, ints, Da, Db, verbose=0);
 
 
 e0, v0 = FermiCG.tpsci_ci(ci_vector, cluster_ops, clustered_ham,
-                            thresh_asci =1e-2,     # Threshold of P-space configs to search from
+                            thresh_asci =-1,     # Threshold of P-space configs to search from
                             thresh_foi  =1e-5,    # Threshold for keeping terms when defining FOIS
                             thresh_cipsi=1e-3, # Threshold for adding to P-space
                             max_iter=10);
 @time e2 = FermiCG.compute_pt2_energy(v0, cluster_ops, clustered_ham, thresh_foi=1e-8);
-@save "M60.jld2" clusters Da Db ints C cluster_bases ci_vector  
+@save "/Users/nicole/code/FermiCG-data/tetracene_tetramer/cluster_3_N40/M60.jld2" clusters Da Db ints C cluster_bases ci_vector  
 
 max_roots = 80
 
 #
 # Build Cluster basis
-cluster_bases = FermiCG.compute_cluster_eigenbasis(ints, clusters, verbose=1, max_roots=max_roots,
-        init_fspace=init_fspace, rdm1a=Da, rdm1b=Db, delta_elec=4);
+#cluster_bases = FermiCG.compute_cluster_eigenbasis(ints, clusters, verbose=1, max_roots=max_roots,
+#        init_fspace=init_fspace, rdm1a=Da, rdm1b=Db, delta_elec=4);
+cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [5,5,5,5], init_fspace, max_roots=M, verbose=1);
 #
 # Build ClusteredOperator
 clustered_ham = FermiCG.extract_ClusteredTerms(ints, clusters);
@@ -456,12 +463,12 @@ cluster_ops = FermiCG.compute_cluster_ops(cluster_bases, ints);
 # Add cmf hamiltonians for doing MP-style PT2 
 FermiCG.add_cmf_operators!(cluster_ops, cluster_bases, ints, Da, Db, verbose=0);
 e0, v0 = FermiCG.tpsci_ci(ci_vector, cluster_ops, clustered_ham,
-                            thresh_asci =1e-2,     # Threshold of P-space configs to search from
+                            thresh_asci =-1,     # Threshold of P-space configs to search from
                             thresh_foi  =1e-5,    # Threshold for keeping terms when defining FOIS
                             thresh_cipsi=1e-3, # Threshold for adding to P-space
                             max_iter=10);
 @time e2 = FermiCG.compute_pt2_energy(v0, cluster_ops, clustered_ham, thresh_foi=1e-8);
-@save "M80.jld2" clusters Da Db ints C cluster_bases ci_vector  
+@save "/Users/nicole/code/FermiCG-data/tetracene_tetramer/cluster_3_N40/M80.jld2" clusters Da Db ints C cluster_bases ci_vector  
 
 for i in 1:length(e0)
     @printf(" %12.8f %12.8f\n",e0[i], e0[i]+e2[i])
@@ -471,8 +478,9 @@ max_roots = 100
 
 #
 # Build Cluster basis
-cluster_bases = FermiCG.compute_cluster_eigenbasis(ints, clusters, verbose=0, max_roots=max_roots,
-        init_fspace=init_fspace, rdm1a=Da, rdm1b=Db, delta_elec=4);
+#cluster_bases = FermiCG.compute_cluster_eigenbasis(ints, clusters, verbose=0, max_roots=max_roots,
+#        init_fspace=init_fspace, rdm1a=Da, rdm1b=Db, delta_elec=4);
+cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [5,5,5,5], init_fspace, max_roots=M, verbose=1);
 #
 # Build ClusteredOperator
 clustered_ham = FermiCG.extract_ClusteredTerms(ints, clusters);
@@ -485,11 +493,11 @@ cluster_ops = FermiCG.compute_cluster_ops(cluster_bases, ints);
 # Add cmf hamiltonians for doing MP-style PT2 
 FermiCG.add_cmf_operators!(cluster_ops, cluster_bases, ints, Da, Db, verbose=0);
 e0, v0 = FermiCG.tpsci_ci(ci_vector, cluster_ops, clustered_ham,
-                            thresh_asci =1e-2,     # Threshold of P-space configs to search from
+                            thresh_asci =-1,     # Threshold of P-space configs to search from
                             thresh_foi  =1e-5,    # Threshold for keeping terms when defining FOIS
                             thresh_cipsi=1e-3, # Threshold for adding to P-space
                             max_iter=10);
 @time e2 = FermiCG.compute_pt2_energy(v0, cluster_ops, clustered_ham, thresh_foi=1e-8);
-@save "M100.jld2" clusters Da Db ints C cluster_bases ci_vector  
+@save "/Users/nicole/code/FermiCG-data/tetracene_tetramer/cluster_3_N40/M100.jld2" clusters Da Db ints C cluster_bases ci_vector  
 
 
