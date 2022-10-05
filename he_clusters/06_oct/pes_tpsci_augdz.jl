@@ -14,49 +14,7 @@ using JLD2
 #He 0.70710678 0.70710678 -1.00000000
 #"
 
-function run()
-    U_old = []
-    Da_old = []
-    Db_old = []
-    
-    molecule = "
-    He       0.0000000000000000       0.0000000000000000       0.0000000000000000
-    He       3.8890872900000004       0.0000000000000000       0.0000000000000000
-    He       0.0000000000000000       3.8890872900000004       0.0000000000000000
-    He       3.8890872900000004       3.8890872900000004       0.0000000000000000
-    He       1.9445436450000002       1.9445436450000002       2.7500000000000000
-    He       1.9445436450000002       1.9445436450000002      -2.7500000000000000
-    "
 
-    atoms = []
-    for (li,line) in enumerate(split(rstrip(lstrip(molecule)), "\n"))
-        l = split(line)
-        push!(atoms, Atom(li, l[1], parse.(Float64,l[2:4])))
-    end
-
-    basis = "aug-cc-pvdz"
-
-    # Create FermiCG.Molecule type
-    mol_obj = Molecule(0, 1, atoms,basis);
-
-    pyscf = pyimport("pyscf")
-
-    n_steps = 35
-    step_size = .05
-
-    pymol_init = pyscf.gto.Mole(atom=molecule,
-                                symmetry = false, spin =0,charge=0,
-                                basis = basis)
-    pymol_init.build()
-
-
-    
-    pymol_obj = deepcopy(pymol_init)
-    
-    U_old, Da_old, Db_old = first_iter(pymol_obj, mol_obj)
-    run_pes(U_old, Da_old, Db_old, pymol_obj, mol_obj)
-end
-    
 
 function first_iter(pymol, mol)
     pyscf = pyimport("pyscf")
@@ -336,3 +294,44 @@ function run_pes(U_old, Da_old, Db_old, pymol, mol)
     @save "scan_energies_second_triple.jld2" energies_t7 energies_t8 energies_t9 energies_t10 energies_t11 energies_t12
     @save "pt2_energies.jld2" pt2_energies
 end
+
+U_old = []
+Da_old = []
+Db_old = []
+
+molecule = "
+He       0.0000000000000000       0.0000000000000000       0.0000000000000000
+He       3.8890872900000004       0.0000000000000000       0.0000000000000000
+He       0.0000000000000000       3.8890872900000004       0.0000000000000000
+He       3.8890872900000004       3.8890872900000004       0.0000000000000000
+He       1.9445436450000002       1.9445436450000002       2.7500000000000000
+He       1.9445436450000002       1.9445436450000002      -2.7500000000000000
+"
+
+atoms = []
+for (li,line) in enumerate(split(rstrip(lstrip(molecule)), "\n"))
+    l = split(line)
+    push!(atoms, Atom(li, l[1], parse.(Float64,l[2:4])))
+end
+
+basis = "aug-cc-pvdz"
+
+# Create FermiCG.Molecule type
+mol_obj = Molecule(0, 1, atoms,basis);
+
+pyscf = pyimport("pyscf")
+
+n_steps = 35
+step_size = .05
+
+pymol_init = pyscf.gto.Mole(atom=molecule,
+                            symmetry = false, spin =0,charge=0,
+                            basis = basis)
+pymol_init.build()
+
+
+
+pymol_obj = deepcopy(pymol_init)
+
+U_old, Da_old, Db_old = first_iter(pymol_obj, mol_obj)
+run_pes(U_old, Da_old, Db_old, pymol_obj, mol_obj)
