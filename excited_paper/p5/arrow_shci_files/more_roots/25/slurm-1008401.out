@@ -1,0 +1,138 @@
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   tc-hm001
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+Semistochastic Heat-bath Configuration Interation (SHCI)
+
+Executable: /home/vibin1/tinkercliff_shci/shci_excited/shci/shci
+Start time: Tue Nov  1 00:24:48 2022
+Infrastructure: 24 nodes * 1 threads
+Master node: tc-hm001
+Configuration:
+{
+  "chem": {
+    "point_group": "C1"
+  },
+  "eps_pt": 1e-10,
+  "eps_vars": [
+    0.001
+  ],
+  "eps_vars_schedule": [
+    0.002,
+    0.001,
+    0.0005,
+    0.0002,
+    0.0001
+  ],
+  "n_dn": 18,
+  "n_states": 25,
+  "n_up": 18,
+  "s2": true,
+  "system": "chem"
+}
+Timing format: [DIFF/SECTION/TOTAL]
+
+BEG OF setup[0.0/10.7]GB [0.012/0.012/0.012]s
+
+BEG OF load integrals, setup[0.0/10.7]GB [0.015/0.000/0.015]s
+n_orbs: 36
+n_elecs (from FCIDUMP): 36
+orb_sym: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+END OF load fcidump [0.5/11.2]GB [0.191/0.191/0.205]s
+HF det up: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 
+HF det dn: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 
+Orbitals energy:
+#  0: E =  -0.398722900617, E_1b =  -4.320380554407, sym =  1, origin #  4
+#  1: E =  -0.398722900617, E_1b =  -4.320380554407, sym =  1, origin #  6
+#  2: E =  -0.398722900617, E_1b =  -4.320380554407, sym =  1, origin # 10
+#  3: E =  -0.398722900617, E_1b =  -4.320380554407, sym =  1, origin # 15
+#  4: E =  -0.398701227098, E_1b =  -4.320516556595, sym =  1, origin #  3
+#  5: E =  -0.398701227098, E_1b =  -4.320516556595, sym =  1, origin #  8
+#  6: E =  -0.398701227098, E_1b =  -4.320516556595, sym =  1, origin # 16
+#  7: E =  -0.398701227098, E_1b =  -4.320516556595, sym =  1, origin # 17
+#  8: E =  -0.398675637761, E_1b =  -4.319615546324, sym =  1, origin #  5
+#  9: E =  -0.398675637761, E_1b =  -4.319615546324, sym =  1, origin #  7
+# 10: E =  -0.398675637761, E_1b =  -4.319615546324, sym =  1, origin # 12
+# 11: E =  -0.398675637761, E_1b =  -4.319615546324, sym =  1, origin # 14
+# 12: E =  -0.397353278493, E_1b =  -4.731880856859, sym =  1, origin #  2
+# 13: E =  -0.397353278493, E_1b =  -4.731880856859, sym =  1, origin #  9
+# 14: E =  -0.397353278493, E_1b =  -4.731880856859, sym =  1, origin # 11
+# 15: E =  -0.397353278493, E_1b =  -4.731880856859, sym =  1, origin # 13
+# 16: E =  -0.397329479818, E_1b =  -4.732009597032, sym =  1, origin #  0
+# 17: E =  -0.397329479818, E_1b =  -4.732009597032, sym =  1, origin #  1
+# 18: E =   0.207282100481, E_1b =  -3.725332333425, sym =  1, origin # 22
+# 19: E =   0.207282100481, E_1b =  -3.725332333425, sym =  1, origin # 25
+# 20: E =   0.207295836128, E_1b =  -3.725071020628, sym =  1, origin # 19
+# 21: E =   0.207295836128, E_1b =  -3.725071020628, sym =  1, origin # 23
+# 22: E =   0.207295836128, E_1b =  -3.725071020628, sym =  1, origin # 24
+# 23: E =   0.207295836128, E_1b =  -3.725071020628, sym =  1, origin # 26
+# 24: E =   0.214676394815, E_1b =  -4.220015870260, sym =  1, origin # 18
+# 25: E =   0.214676394815, E_1b =  -4.220015870260, sym =  1, origin # 20
+# 26: E =   0.214676394815, E_1b =  -4.220015870260, sym =  1, origin # 29
+# 27: E =   0.214676394815, E_1b =  -4.220015870260, sym =  1, origin # 30
+# 28: E =   0.214754730987, E_1b =  -4.220391865456, sym =  1, origin # 21
+# 29: E =   0.214754730987, E_1b =  -4.220391865456, sym =  1, origin # 28
+# 30: E =   0.214754730987, E_1b =  -4.220391865456, sym =  1, origin # 31
+# 31: E =   0.214754730987, E_1b =  -4.220391865456, sym =  1, origin # 34
+# 32: E =   0.214774524431, E_1b =  -4.220451285206, sym =  1, origin # 27
+# 33: E =   0.214774524431, E_1b =  -4.220451285206, sym =  1, origin # 32
+# 34: E =   0.214774524431, E_1b =  -4.220451285206, sym =  1, origin # 33
+# 35: E =   0.214774524431, E_1b =  -4.220451285206, sym =  1, origin # 35
+HF det up: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 
+HF det dn: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 
+END OF reorder orbitals [0.4/11.1]GB [0.017/0.206/0.221]s
+FCIDUMP cache saved to: integrals_cache.dat
+END OF load integrals, setup[0.4/11.1]GB [0.105/0.309/0.324]s
+
+BEG OF setup hci queue, setup[0.4/11.1]GB [0.001/0.000/0.324]s
+Max hci queue elem: 0.0561726917 Ha
+Number of entries in hci queue: 1,166,680
+END OF setup hci queue, setup[0.9/11.6]GB [0.138/0.138/0.462]s
+
+BEG OF setup singles_queue, setup[0.9/11.6]GB [0.001/0.000/0.462]s
+Max singles_queue elem: 0.3280206945 Ha
+Number of entries in singles_queue: 1,260
+END OF setup singles_queue, setup[0.9/11.6]GB [0.006/0.006/0.468]s
+HF energy: -1377.3634496721 Ha
+END OF setup[0.9/11.6]GB [0.003/0.470/0.470]s
+
+BEG OF variation[0.9/11.6]GB [0.000/0.000/0.470]s
+Final iteration 0 HF ndets= 1 energy= -1377.36344967
+
+BEG OF eps_var=1.00e-03, variation[0.9/11.6]GB [0.000/0.000/0.471]s
+Try Loading Wavefunction wf_eps1_1.00e-03.dat
+
+BEG OF extra=2.00e-03, eps_var=1.00e-03, variation[0.9/11.6]GB [0.131/0.000/0.601]s
+20% 40% 60% 80% 100% 
+Number of dets / new dets: 1,831 / 1,830
+END OF get next det list [0.9/11.6]GB [0.015/0.015/0.616]s
+END OF update unique ab [0.9/11.6]GB [0.001/0.015/0.617]s
+END OF create abm1 [0.9/11.6]GB [0.002/0.017/0.619]s
+Outer size of a/b singles: 385 / 385
+Full size of absingles: 9,720
+END OF create absingles [0.9/11.6]GB [0.003/0.020/0.621]s
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+Number of nonzero elems: 155,455
+END OF generate sparse hamiltonian [0.9/11.6]GB [0.003/0.022/0.623]s
+Davidson #0:  -1377.3634496721  -1376.4202276252  -1376.4202276252  -1376.4202276252  -1376.4202276252  -1376.4202276252  -1376.4202276252  -1376.4202276252  -1376.4202276252  -1376.4202276252  -1376.4202276252  -1376.4202276252  -1376.4202276252  -nan  -nan  -nan  -nan  -nan  -nan  -nan  -nan  -nan  -nan  -nan  -nan
+Davidson #1:  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+END OF diagonalize sparse hamiltonian [1.0/11.7]GB [0.019/0.041/0.642]s
+Iteration 1 eps1= 2.00e-03 ndets= 1,831 energy= nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+END OF extra=2.00e-03, eps_var=1.00e-03, variation[1.0/11.7]GB [0.000/0.041/0.642]s
+
+BEG OF main, eps_var=1.00e-03, variation[1.0/11.7]GB [0.000/0.000/0.643]s
+
+BEG OF #1, main, eps_var=1.00e-03, variation[1.0/11.7]GB [0.000/0.000/0.643]s
+[tc-hm001:157765] 23 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[tc-hm001:157765] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 17 with PID 0 on node tc-hm001 exited on signal 9 (Killed).
+--------------------------------------------------------------------------
+slurmstepd: error: Detected 23 oom-kill event(s) in step 1008401.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
