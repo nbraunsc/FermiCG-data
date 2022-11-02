@@ -1,0 +1,345 @@
+tc020
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+Usage: sbatch submit.sh {input file} {data file} {data file}
+more_roots.jl
+more_roots.jl.out
+/home/nbraunsc/FermiCG-data/excited_paper/p1
+/localscratch/1010213
+sending incremental file list
+more_roots.jl.out
+
+sent 123 bytes  received 35 bytes  316.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+more_roots.jl.out
+
+sent 380,691 bytes  received 35 bytes  761,452.00 bytes/sec
+total size is 380,480  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 387,219 bytes  received 35 bytes  774,508.00 bytes/sec
+total size is 387,009  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 387,009  speedup is 4,252.85
+sending incremental file list
+more_roots.jl.out
+
+sent 397,325 bytes  received 35 bytes  794,720.00 bytes/sec
+total size is 397,106  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 400,933 bytes  received 35 bytes  801,936.00 bytes/sec
+total size is 400,714  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 402,747 bytes  received 35 bytes  805,564.00 bytes/sec
+total size is 402,528  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 411,123 bytes  received 35 bytes  822,316.00 bytes/sec
+total size is 410,905  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 414,732 bytes  received 35 bytes  829,534.00 bytes/sec
+total size is 414,513  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 416,546 bytes  received 35 bytes  833,162.00 bytes/sec
+total size is 416,328  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 424,422 bytes  received 35 bytes  848,914.00 bytes/sec
+total size is 424,203  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 427,470 bytes  received 35 bytes  855,010.00 bytes/sec
+total size is 427,243  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 435,037 bytes  received 35 bytes  870,144.00 bytes/sec
+total size is 434,810  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 438,077 bytes  received 35 bytes  876,224.00 bytes/sec
+total size is 437,850  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,166 bytes  received 35 bytes  294,134.00 bytes/sec
+total size is 440,940  speedup is 1.00
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 440,940  speedup is 4,845.49
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 440,940  speedup is 4,845.49
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 440,940  speedup is 4,845.49
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 440,940  speedup is 4,845.49
+sending incremental file list
+
+sent 79 bytes  received 12 bytes  182.00 bytes/sec
+total size is 440,940  speedup is 4,845.49
+sending incremental file list
+more_roots.jl.out
+
+sent 441,554 bytes  received 35 bytes  883,178.00 bytes/sec
+total size is 441,328  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,560 bytes  received 35 bytes  883,190.00 bytes/sec
+total size is 441,333  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,560 bytes  received 35 bytes  883,190.00 bytes/sec
+total size is 441,334  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,562 bytes  received 35 bytes  883,194.00 bytes/sec
+total size is 441,336  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,564 bytes  received 35 bytes  883,198.00 bytes/sec
+total size is 441,337  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,565 bytes  received 35 bytes  883,200.00 bytes/sec
+total size is 441,338  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,566 bytes  received 35 bytes  883,202.00 bytes/sec
+total size is 441,339  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,569 bytes  received 35 bytes  883,208.00 bytes/sec
+total size is 441,342  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,570 bytes  received 35 bytes  883,210.00 bytes/sec
+total size is 441,344  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,574 bytes  received 35 bytes  883,218.00 bytes/sec
+total size is 441,347  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,578 bytes  received 35 bytes  883,226.00 bytes/sec
+total size is 441,351  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,580 bytes  received 35 bytes  883,230.00 bytes/sec
+total size is 441,353  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,582 bytes  received 35 bytes  883,234.00 bytes/sec
+total size is 441,356  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,584 bytes  received 35 bytes  883,238.00 bytes/sec
+total size is 441,358  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,587 bytes  received 35 bytes  883,244.00 bytes/sec
+total size is 441,360  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,589 bytes  received 35 bytes  883,248.00 bytes/sec
+total size is 441,362  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,591 bytes  received 35 bytes  883,252.00 bytes/sec
+total size is 441,364  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,592 bytes  received 35 bytes  883,254.00 bytes/sec
+total size is 441,365  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,594 bytes  received 35 bytes  883,258.00 bytes/sec
+total size is 441,367  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,597 bytes  received 35 bytes  883,264.00 bytes/sec
+total size is 441,371  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,598 bytes  received 35 bytes  883,266.00 bytes/sec
+total size is 441,372  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,600 bytes  received 35 bytes  883,270.00 bytes/sec
+total size is 441,374  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,602 bytes  received 35 bytes  883,274.00 bytes/sec
+total size is 441,375  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,605 bytes  received 35 bytes  883,280.00 bytes/sec
+total size is 441,379  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,609 bytes  received 35 bytes  883,288.00 bytes/sec
+total size is 441,383  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,612 bytes  received 35 bytes  883,294.00 bytes/sec
+total size is 441,385  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,613 bytes  received 35 bytes  883,296.00 bytes/sec
+total size is 441,386  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,616 bytes  received 35 bytes  883,302.00 bytes/sec
+total size is 441,389  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,619 bytes  received 35 bytes  883,308.00 bytes/sec
+total size is 441,392  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,620 bytes  received 35 bytes  883,310.00 bytes/sec
+total size is 441,394  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,624 bytes  received 35 bytes  883,318.00 bytes/sec
+total size is 441,397  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 441,397  speedup is 4,797.79
+sending incremental file list
+more_roots.jl.out
+
+sent 441,625 bytes  received 35 bytes  883,320.00 bytes/sec
+total size is 441,398  speedup is 1.00
+sending incremental file list
+
+sent 80 bytes  received 12 bytes  184.00 bytes/sec
+total size is 441,398  speedup is 4,797.80
+sending incremental file list
+more_roots.jl.out
+
+sent 441,626 bytes  received 35 bytes  883,322.00 bytes/sec
+total size is 441,399  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,628 bytes  received 35 bytes  883,326.00 bytes/sec
+total size is 441,401  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,629 bytes  received 35 bytes  883,328.00 bytes/sec
+total size is 441,402  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,629 bytes  received 35 bytes  883,328.00 bytes/sec
+total size is 441,403  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,631 bytes  received 35 bytes  883,332.00 bytes/sec
+total size is 441,404  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,631 bytes  received 35 bytes  883,332.00 bytes/sec
+total size is 441,405  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,635 bytes  received 35 bytes  883,340.00 bytes/sec
+total size is 441,408  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,637 bytes  received 35 bytes  883,344.00 bytes/sec
+total size is 441,410  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,638 bytes  received 35 bytes  883,346.00 bytes/sec
+total size is 441,411  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,638 bytes  received 35 bytes  883,346.00 bytes/sec
+total size is 441,412  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,642 bytes  received 35 bytes  883,354.00 bytes/sec
+total size is 441,415  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,647 bytes  received 35 bytes  883,364.00 bytes/sec
+total size is 441,420  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,650 bytes  received 35 bytes  883,370.00 bytes/sec
+total size is 441,423  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,650 bytes  received 35 bytes  883,370.00 bytes/sec
+total size is 441,424  speedup is 1.00
+sending incremental file list
+more_roots.jl.out
+
+sent 441,651 bytes  received 35 bytes  883,372.00 bytes/sec
+total size is 441,425  speedup is 1.00
+rm: cannot remove ‘tmpfs’: Device or resource busy
