@@ -15,7 +15,9 @@ M = 150
 ref_fspace = FockConfig(init_fspace)
 ecore = ints.h0
 
-cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [3,3,3,3], ref_fspace, max_roots=M, verbose=1);
+@load  "/home/nbraunsc/FermiCG-data/excited_paper/p1/tucker_thresh_0.0004.jld2"
+
+#cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [3,3,3,3], ref_fspace, max_roots=M, verbose=1);
 
 clustered_ham = FermiCG.extract_ClusteredTerms(ints, clusters)
 cluster_ops = FermiCG.compute_cluster_ops(cluster_bases, ints);
@@ -50,16 +52,25 @@ ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,5,1,1])] = z
 ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,1,5,1])] = zeros(Float64,nroots)
 ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,1,1,5])] = zeros(Float64,nroots)
 
+#Forgot to add this eye command for almost all calcs in paper!!
+FermiCG.eye!(ci_vector)
+
 #ci_vector = FermiCG.add_spin_focksectors(ci_vector)
 
-eci, v = FermiCG.tps_ci_direct(ci_vector, cluster_ops, clustered_ham);
+#eci, v = FermiCG.tps_ci_direct(ci_vector, cluster_ops, clustered_ham);
 
-e0a, v0a = FermiCG.tpsci_ci(ci_vector, cluster_ops, clustered_ham,
-                            incremental  = true,
-                            thresh_cipsi = 1e-3,
-                            thresh_foi   = 1e-5,
-                            thresh_asci  = -1);
+#e0a, v0a = FermiCG.tpsci_ci(v, cluster_ops, clustered_ham,
+#                            incremental  = true,
+#                            thresh_cipsi = 1e-3,
+#                            thresh_foi   = 1e-5,
+#                            thresh_asci  = -1, 
+#                            max_mem_ci = 100.0);
+#
 
+@load  "/home/nbraunsc/FermiCG-data/excited_paper/p1/tucker_thresh_0.0004.jld2"
+
+v0a = v0b
+e0a = e0b
 
 rotations = FermiCG.hosvd(v0a, cluster_ops)
 for ci in clusters
@@ -68,14 +79,15 @@ for ci in clusters
     FermiCG.check_basis_orthogonality(cluster_bases[ci.idx])
 end
 
-tucker = [.8e-3, .6e-3, .4e-3, .2e-3, 1e-4]
+tucker = [.2e-3, .1e-3]
 
 for i in tucker
     e0b, v0b = FermiCG.tpsci_ci(ci_vector, cluster_ops, clustered_ham,
                                 incremental  = true,
                                 thresh_cipsi = i,
                                 thresh_foi   = 1e-5,
-                                thresh_asci  = -1);
+                                thresh_asci  = -1,
+                                max_mem_ci = 100.0);
 
     @time e2 = FermiCG.compute_pt2_energy(v0b, cluster_ops, clustered_ham, thresh_foi=1e-8);
     name = "tucker_thresh_"*string(i)*".jld2"
