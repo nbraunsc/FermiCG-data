@@ -8,19 +8,18 @@ using RDM
 using JLD2
 
 
-@load  "/home/nbraunsc/FermiCG-data/excited_paper/p1/cmf_diis.jld2"
+@load  "cmf_diis.jld2"
 
 M = 150
 
 ref_fspace = FockConfig(init_fspace)
 ecore = ints.h0
 
-@load  "/home/nbraunsc/FermiCG-data/excited_paper/p1/tucker_thresh_0.0004.jld2"
-
-#cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [3,3,3,3], ref_fspace, max_roots=M, verbose=1);
+@load  "tucker_clip/tucker_thresh_0.0004.jld2"
 
 clustered_ham = FermiCG.extract_ClusteredTerms(ints, clusters)
-cluster_ops = FermiCG.compute_cluster_ops(cluster_bases, ints);
+@save "clustered_ham.jld2" cluster_bases clustered_ham
+error("here")
 
 FermiCG.add_cmf_operators!(cluster_ops, cluster_bases, ints, d1.a, d1.b);
 
