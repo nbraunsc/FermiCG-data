@@ -6,7 +6,7 @@
 #SBATCH -t 80:00:00
 #SBATCH --account=nmayhall_group
 ##SBATCH --account=nmayhall_group-paid
-#SBATCH --job-name p3
+#SBATCH --job-name p3clip
 #SBATCH --exclusive
 
 export NTHREAD=16

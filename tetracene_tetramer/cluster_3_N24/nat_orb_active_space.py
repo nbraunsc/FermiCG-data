@@ -216,7 +216,7 @@ h0 = pyscf.gto.mole.energy_nuc(mol)
 print(h0)
 h  = pyscf.scf.hf.get_hcore(mol)
 j, k = pyscf.scf.hf.get_jk(mol, d1_embed, hermi=1)
-print("dont getting h, j, k")
+print("doneee getting h, j, k")
 
 h0 += np.trace(d1_embed @ ( h + .5*j - .25*k))
 

@@ -226,32 +226,6 @@ for R in 1:n_steps
         @printf("TCI %5s %12.8f %12.8f\n",r, e0[r] + ecore, e0[r] + e2[r] + ecore)
         display(v0,thresh=1e-4,root=r)
     end
-    
-    thresh_print = 1e-2
-    for r in 1:nroots
-        println("\n ### Root: ", r, " ###")
-        idx = 1
-        for (fock,configs) in v0.data
-            length(v0.clusters) == length(fock) || throw(Exception)
-            length(v0.data[fock]) > 0 || continue
-            @printf(" Dim %4i fock_space: ",length(v0.data[fock]))
-            [@printf(" %-2i(%i:%i) ",fii,fi[1],fi[2]) for (fii,fi) in enumerate(fock)]
-            println()
-
-            for (config, value) in v0.data[fock]
-                if abs(value[r]) > thresh_print
-                    @printf(" %5i",idx)
-                    for c in config
-                        @printf("%3i",c)
-                    end
-                    @printf(":%12.5f\n",value[r])
-                end
-                idx += 1
-            end
-        end
-    end
-    error("stop here")
-    #end
 
     push!(energies_ground, e0[1]+ecore)
     push!(energies_t1, e0[2]+ecore)

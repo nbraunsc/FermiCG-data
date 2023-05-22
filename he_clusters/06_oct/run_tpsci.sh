@@ -3,10 +3,10 @@
 #SBATCH --nodes=1
 #SBATCH -p normal_q
 #SBATCH --cpus-per-task=16
-#SBATCH -t 10:00:00
+#SBATCH -t 120:00:00
 #SBATCH --account=nmayhall_group
 ##SBATCH --account=nmayhall_group-paid
-#SBATCH --job-name pes
+#SBATCH --job-name pes_no_asci
 #SBATCH --exclusive
 
 export NTHREAD=16

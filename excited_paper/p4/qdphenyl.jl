@@ -46,6 +46,7 @@ M = 100
 ref_fock = FockConfig(init_fspace)
 
 # Build Cluster basis
+#cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [2,2,2,2], ref_fock, max_roots=M, verbose=1);
 cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [3,3,3,3], ref_fock, max_roots=M, verbose=1);
 #
 # Build ClusteredOperator
@@ -84,7 +85,9 @@ ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,5,1,1])] = z
 ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,1,5,1])] = zeros(Float64,nroots)
 ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,1,1,5])] = zeros(Float64,nroots)
 
-thresh = [0.003, 0.001, 0.0007, 0.0005, 0.0002, 0.0001]
+#thresh = [0.0005, 0.0002]
+thresh = [0.0006]
+#thresh = [0.003, 0.001, 0.0007, 0.0005, 0.0002, 0.0001]
 
 for i in thresh
     e0, v0 = FermiCG.tpsci_ci(ci_vector, cluster_ops, clustered_ham,
@@ -92,7 +95,7 @@ for i in thresh
                               thresh_foi  =1e-5,    # Threshold for keeping terms when defining FOIS
                               thresh_cipsi=i, # Threshold for adding to P-space
                               max_iter=10,
-                              max_mem_ci=60.0);
+                              max_mem_ci=100.0);
 
     @time e2 = FermiCG.compute_pt2_energy(v0, cluster_ops, clustered_ham, thresh_foi=1e-8);
     name = "17_thresh_"*string(i)*".jld2"

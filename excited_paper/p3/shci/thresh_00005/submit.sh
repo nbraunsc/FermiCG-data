@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#SBATCH --nodes=1
+#SBATCH --nodes=3
 #SBATCH --ntasks-per-node=128
-#SBATCH -t 40:00:00
-##SBATCH -p normal_q
-#SBATCH -p largemem_q
+#SBATCH -t 60:00:00
+#SBATCH -p normal_q
+##SBATCH -p largemem_q
 #SBATCH -A nmayhall_group
 #SBATCH --job-name p3shci_5
 #SBATCH --exclusive

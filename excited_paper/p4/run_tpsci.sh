@@ -2,11 +2,12 @@
 
 #SBATCH --nodes=1
 #SBATCH -p normal_q
+##SBATCH -p largemem_q
 #SBATCH --cpus-per-task=16
 #SBATCH -t 80:00:00
 #SBATCH --account=nmayhall_group
 ##SBATCH --account=nmayhall_group-paid
-#SBATCH --job-name p4
+#SBATCH --job-name p4clip
 #SBATCH --exclusive
 
 export NTHREAD=16
