@@ -1,0 +1,12 @@
+tc210
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+hexabenzo-fcidump.py
+hexabenzo-fcidump.py.out
+/home/nbraunsc/FermiCG-data/hexabenzocoronene
+/localscratch/1502431
+sending incremental file list
+hexabenzo-fcidump.py.out
+
+sent 130 bytes  received 35 bytes  330.00 bytes/sec
+total size is 0  speedup is 0.00
+rm: cannot remove ‘tmpfs’: Device or resource busy
