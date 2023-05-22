@@ -152,7 +152,7 @@ for R in 1:n_steps
 
     #rotate the integrals by the cmf calculation
     ints = FermiCG.orbital_rotation(ints, U);
-    max_roots = 40
+    max_roots = 10
 
     #Build Cluster Basis (delta n is here)
     cluster_bases = FermiCG.compute_cluster_eigenbasis(ints, clusters, verbose=1, max_roots=max_roots, init_fspace=init_fspace, rdm1a=Da, rdm1b=Db);
@@ -226,7 +226,11 @@ for R in 1:n_steps
         @printf("TCI %5s %12.8f %12.8f\n",r, e0[r] + ecore, e0[r] + e2[r] + ecore)
         display(v0,thresh=1e-4,root=r)
     end
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 2f779c7db25af09de041ad7ec025dc0238daa363
     push!(energies_ground, e0[1]+ecore)
     push!(energies_t1, e0[2]+ecore)
     push!(energies_t2, e0[3]+ecore)

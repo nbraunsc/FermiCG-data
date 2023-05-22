@@ -227,9 +227,13 @@ using ClusterMeanField
 #C_cmf = C_sorted * U_cmf
 #ints_cmf = orbital_rotation(ints_sorted, U_cmf);#=}}}=#
 #@save  "/home/nbraunsc/FermiCG-data/tetracene_tetramer/cluster_3_N40/cmf_tetracence.jld2" ints_cmf d1 clusters init_fspace C_cmf
+<<<<<<< HEAD
 #@load  "/home/nbraunsc/FermiCG-data/tetracene_tetramer/cluster_3_N40/cmf_tetracence.jld2"
 #@load  "/home/nbraunsc/FermiCG-data/tetracene_tetramer/cluster_3_N40/cmf_tetracence.jld2"
 @load  "/home/nbraunsc/FermiCG-data/tetracene_tetramer/cluster_3_N40/cmf_diis.jld2"
+=======
+@load  "/home/nbraunsc/FermiCG-data/tetracene_tetramer/cluster_3_N40/cmf_tetracence.jld2"
+>>>>>>> 2f779c7db25af09de041ad7ec025dc0238daa363
 
 
 ints = deepcopy(ints_cmf)
@@ -243,9 +247,13 @@ ref_fock = FockConfig(init_fspace)
 # Build Cluster basis
 #cluster_bases = FermiCG.compute_cluster_eigenbasis(ints, clusters, verbose=1, max_roots=max_roots,
 #        init_fspace=init_fspace, rdm1a=Da, rdm1b=Db, delta_elec=2);
+<<<<<<< HEAD
 #cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [5,5,5,5], ref_fock, max_roots=M, verbose=1);
 
 @load "/home/nbraunsc/FermiCG-data/excited_paper/tt/thresh_0004.jld2"
+=======
+cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [5,5,5,5], ref_fock, max_roots=M, verbose=1);
+>>>>>>> 2f779c7db25af09de041ad7ec025dc0238daa363
 #
 # Build ClusteredOperator
 clustered_ham = FermiCG.extract_ClusteredTerms(ints, clusters);
@@ -258,6 +266,7 @@ cluster_ops = FermiCG.compute_cluster_ops(cluster_bases, ints);
 # Add cmf hamiltonians for doing MP-style PT2 
 FermiCG.add_cmf_operators!(cluster_ops, cluster_bases, ints, d1.a, d1.b, verbose=0);
 
+<<<<<<< HEAD
 #nroots = 31
 #ci_vector = FermiCG.TPSCIstate(clusters, FermiCG.FockConfig(init_fspace), R=nroots);
 ##ci_vector = FermiCG.add_spin_focksectors(ci_vector)
@@ -389,6 +398,94 @@ clustered_S2 = FermiCG.extract_S2(v1.clusters)
 #    @save "/home/nbraunsc/FermiCG-data/excited_paper/tt/"*string(name) clusters d1 ints C cluster_bases ci_vector e0 v0 e2 ecore s2
 #end
 error("stop here")
+=======
+nroots = 31
+ci_vector = FermiCG.TPSCIstate(clusters, FermiCG.FockConfig(init_fspace), R=nroots);
+#ci_vector = FermiCG.add_spin_focksectors(ci_vector)
+
+# Add the lowest energy single exciton to basis
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,1,1,1])] = zeros(Float64,nroots)
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([2,1,1,1])] = zeros(Float64,nroots)
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,2,1,1])] = zeros(Float64,nroots)
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,1,2,1])] = zeros(Float64,nroots)
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,1,1,2])] = zeros(Float64,nroots)
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([3,1,1,1])] = zeros(Float64,nroots)
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,3,1,1])] = zeros(Float64,nroots)
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,1,3,1])] = zeros(Float64,nroots)
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,1,1,3])] = zeros(Float64,nroots)
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([4,1,1,1])] = zeros(Float64,nroots)
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,4,1,1])] = zeros(Float64,nroots)
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,1,4,1])] = zeros(Float64,nroots)
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,1,1,4])] = zeros(Float64,nroots)
+
+# TT states ms=0
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([2,2,1,1])] = zeros(Float64,nroots)
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([2,1,2,1])] = zeros(Float64,nroots)
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([2,1,1,2])] = zeros(Float64,nroots)
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,2,2,1])] = zeros(Float64,nroots)
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,2,1,2])] = zeros(Float64,nroots)
+ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,1,2,2])] = zeros(Float64,nroots)
+
+
+# Spin-flip states
+fspace_0 = FermiCG.FockConfig(init_fspace)
+
+## ba
+tmp_fspace = FermiCG.replace(fspace_0, (1,2), ([6,4],[4,6]))
+FermiCG.add_fockconfig!(ci_vector, tmp_fspace)
+ci_vector[tmp_fspace][FermiCG.ClusterConfig([1,1,1,1])] = zeros(Float64,nroots)
+tmp_fspace = FermiCG.replace(fspace_0, (1,3), ([6,4],[4,6]))
+FermiCG.add_fockconfig!(ci_vector, tmp_fspace)
+ci_vector[tmp_fspace][FermiCG.ClusterConfig([1,1,1,1])] = zeros(Float64,nroots)
+tmp_fspace = FermiCG.replace(fspace_0, (1,4), ([6,4],[4,6]))
+FermiCG.add_fockconfig!(ci_vector, tmp_fspace)
+ci_vector[tmp_fspace][FermiCG.ClusterConfig([1,1,1,1])] = zeros(Float64,nroots)
+tmp_fspace = FermiCG.replace(fspace_0, (2,3), ([6,4],[4,6]))
+FermiCG.add_fockconfig!(ci_vector, tmp_fspace)
+ci_vector[tmp_fspace][FermiCG.ClusterConfig([1,1,1,1])] = zeros(Float64,nroots)
+tmp_fspace = FermiCG.replace(fspace_0, (2,4), ([6,4],[4,6]))
+FermiCG.add_fockconfig!(ci_vector, tmp_fspace)
+ci_vector[tmp_fspace][FermiCG.ClusterConfig([1,1,1,1])] = zeros(Float64,nroots)
+tmp_fspace = FermiCG.replace(fspace_0, (3,4), ([6,4],[4,6]))
+FermiCG.add_fockconfig!(ci_vector, tmp_fspace)
+ci_vector[tmp_fspace][FermiCG.ClusterConfig([1,1,1,1])] = zeros(Float64,nroots)
+
+## ab
+tmp_fspace = FermiCG.replace(fspace_0, (1,2), ([4,6],[6,4]))
+FermiCG.add_fockconfig!(ci_vector, tmp_fspace)
+ci_vector[tmp_fspace][FermiCG.ClusterConfig([1,1,1,1])] = zeros(Float64,nroots)
+tmp_fspace = FermiCG.replace(fspace_0, (1,3), ([4,6],[6,4]))
+FermiCG.add_fockconfig!(ci_vector, tmp_fspace)
+ci_vector[tmp_fspace][FermiCG.ClusterConfig([1,1,1,1])] = zeros(Float64,nroots)
+tmp_fspace = FermiCG.replace(fspace_0, (1,4), ([4,6],[6,4]))
+FermiCG.add_fockconfig!(ci_vector, tmp_fspace)
+ci_vector[tmp_fspace][FermiCG.ClusterConfig([1,1,1,1])] = zeros(Float64,nroots)
+tmp_fspace = FermiCG.replace(fspace_0, (2,3), ([4,6],[6,4]))
+FermiCG.add_fockconfig!(ci_vector, tmp_fspace)
+ci_vector[tmp_fspace][FermiCG.ClusterConfig([1,1,1,1])] = zeros(Float64,nroots)
+tmp_fspace = FermiCG.replace(fspace_0, (2,4), ([4,6],[6,4]))
+FermiCG.add_fockconfig!(ci_vector, tmp_fspace)
+ci_vector[tmp_fspace][FermiCG.ClusterConfig([1,1,1,1])] = zeros(Float64,nroots)
+tmp_fspace = FermiCG.replace(fspace_0, (3,4), ([4,6],[6,4]))
+FermiCG.add_fockconfig!(ci_vector, tmp_fspace)
+ci_vector[tmp_fspace][FermiCG.ClusterConfig([1,1,1,1])] = zeros(Float64,nroots)
+
+
+FermiCG.eye!(ci_vector)
+
+e0, v0 = FermiCG.tpsci_ci(ci_vector, cluster_ops, clustered_ham,
+                            thresh_asci =-1,     # Threshold of P-space configs to search from
+                            thresh_foi  =1e-5,    # Threshold for keeping terms when defining FOIS
+                            thresh_cipsi=1e-3, # Threshold for adding to P-space
+                            max_iter=10,
+                            incremental=false);	# turn this off,  as it wasn't well tested for multistate
+
+@time e2 = FermiCG.compute_pt2_energy(ci_vector, cluster_ops, clustered_ham, thresh_foi=1e-8);
+
+@time e2 = FermiCG.compute_pt2_energy(v0, cluster_ops, clustered_ham, thresh_foi=1e-8);
+
+@save "/home/nbraunsc/FermiCG-data/tetracene_tetramer/cluster_3_N40/M10.jld2" clusters d1 ints C cluster_bases ci_vector e0 v0 e2 
+>>>>>>> 2f779c7db25af09de041ad7ec025dc0238daa363
 
 M = 20
 
