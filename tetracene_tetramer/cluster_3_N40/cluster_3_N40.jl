@@ -227,13 +227,10 @@ using ClusterMeanField
 #C_cmf = C_sorted * U_cmf
 #ints_cmf = orbital_rotation(ints_sorted, U_cmf);#=}}}=#
 #@save  "/home/nbraunsc/FermiCG-data/tetracene_tetramer/cluster_3_N40/cmf_tetracence.jld2" ints_cmf d1 clusters init_fspace C_cmf
-<<<<<<< HEAD
 #@load  "/home/nbraunsc/FermiCG-data/tetracene_tetramer/cluster_3_N40/cmf_tetracence.jld2"
 #@load  "/home/nbraunsc/FermiCG-data/tetracene_tetramer/cluster_3_N40/cmf_tetracence.jld2"
 @load  "/home/nbraunsc/FermiCG-data/tetracene_tetramer/cluster_3_N40/cmf_diis.jld2"
-=======
-@load  "/home/nbraunsc/FermiCG-data/tetracene_tetramer/cluster_3_N40/cmf_tetracence.jld2"
->>>>>>> 2f779c7db25af09de041ad7ec025dc0238daa363
+#@load  "/home/nbraunsc/FermiCG-data/tetracene_tetramer/cluster_3_N40/cmf_tetracence.jld2"
 
 
 ints = deepcopy(ints_cmf)
