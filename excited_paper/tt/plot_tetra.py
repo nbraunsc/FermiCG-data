@@ -55,13 +55,12 @@ extrap = []
 
 
 for key in energy_var:
-    #print(energy_var[key],energy_pt2[key])
-
     x = energy_var[key] - energy_pt2[key]
-    #z = energy_pt2[key] + 74961.16852588826
-    #y = energy_var[key] + 74961.16852588826
     z = energy_pt2[key]
     y = energy_var[key]
+    # use the ones below if you want to shift by extrapolated value
+    #z = energy_pt2[key] + 74961.16852588826
+    #y = energy_var[key] + 74961.16852588826
     m, b = np.polyfit(x, y, 1)
     print(x,z)
     m2,b = np.polyfit(x, z, 1)
