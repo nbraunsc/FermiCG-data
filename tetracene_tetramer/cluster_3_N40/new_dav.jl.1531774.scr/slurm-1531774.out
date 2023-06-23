@@ -1,0 +1,3994 @@
+tc134
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+Usage: sbatch submit.sh {input file} {data file} {data file}
+new_dav.jl
+new_dav.jl.out
+/home/nbraunsc/FermiCG-data/tetracene_tetramer/cluster_3_N40
+/localscratch/1531774
+sending incremental file list
+new_dav.jl.out
+
+sent 120 bytes  received 35 bytes  310.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+new_dav.jl.out
+
+sent 327 bytes  received 35 bytes  724.00 bytes/sec
+total size is 203  speedup is 0.56
+sending incremental file list
+new_dav.jl.out
+
+sent 1,288 bytes  received 35 bytes  2,646.00 bytes/sec
+total size is 1,165  speedup is 0.88
+sending incremental file list
+new_dav.jl.out
+
+sent 1,865 bytes  received 35 bytes  3,800.00 bytes/sec
+total size is 1,742  speedup is 0.92
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,742  speedup is 19.80
+sending incremental file list
+new_dav.jl.out
+
+sent 2,506 bytes  received 35 bytes  5,082.00 bytes/sec
+total size is 2,383  speedup is 0.94
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 2,383  speedup is 27.08
+sending incremental file list
+new_dav.jl.out
+
+sent 3,212 bytes  received 35 bytes  6,494.00 bytes/sec
+total size is 3,088  speedup is 0.95
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 3,088  speedup is 34.70
+sending incremental file list
+new_dav.jl.out
+
+sent 3,572 bytes  received 35 bytes  7,214.00 bytes/sec
+total size is 3,448  speedup is 0.96
+sending incremental file list
+new_dav.jl.out
+
+sent 3,981 bytes  received 35 bytes  8,032.00 bytes/sec
+total size is 3,857  speedup is 0.96
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 3,857  speedup is 43.34
+sending incremental file list
+new_dav.jl.out
+
+sent 4,685 bytes  received 35 bytes  9,440.00 bytes/sec
+total size is 4,562  speedup is 0.97
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 4,562  speedup is 51.84
+sending incremental file list
+new_dav.jl.out
+
+sent 5,327 bytes  received 35 bytes  10,724.00 bytes/sec
+total size is 5,203  speedup is 0.97
+sending incremental file list
+new_dav.jl.out
+
+sent 5,903 bytes  received 35 bytes  11,876.00 bytes/sec
+total size is 5,780  speedup is 0.97
+sending incremental file list
+new_dav.jl.out
+
+sent 48,083 bytes  received 35 bytes  96,236.00 bytes/sec
+total size is 47,955  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 174,800 bytes  received 35 bytes  349,670.00 bytes/sec
+total size is 174,640  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 253,949 bytes  received 35 bytes  507,968.00 bytes/sec
+total size is 253,773  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 254,461 bytes  received 35 bytes  508,992.00 bytes/sec
+total size is 254,286  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 255,039 bytes  received 35 bytes  510,148.00 bytes/sec
+total size is 254,863  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 255,334 bytes  received 35 bytes  170,246.00 bytes/sec
+total size is 255,159  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 255,679 bytes  received 35 bytes  511,428.00 bytes/sec
+total size is 255,504  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 255,847 bytes  received 35 bytes  511,764.00 bytes/sec
+total size is 255,672  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 256,385 bytes  received 35 bytes  512,840.00 bytes/sec
+total size is 256,209  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 256,209  speedup is 2,878.75
+sending incremental file list
+new_dav.jl.out
+
+sent 257,153 bytes  received 35 bytes  514,376.00 bytes/sec
+total size is 256,978  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 256,978  speedup is 2,920.20
+sending incremental file list
+new_dav.jl.out
+
+sent 257,859 bytes  received 35 bytes  515,788.00 bytes/sec
+total size is 257,683  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 257,683  speedup is 2,895.31
+sending incremental file list
+new_dav.jl.out
+
+sent 258,500 bytes  received 35 bytes  517,070.00 bytes/sec
+total size is 258,324  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 259,077 bytes  received 35 bytes  518,224.00 bytes/sec
+total size is 258,901  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 265,172 bytes  received 35 bytes  530,414.00 bytes/sec
+total size is 264,988  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 359,230 bytes  received 35 bytes  718,530.00 bytes/sec
+total size is 359,030  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 487,962 bytes  received 35 bytes  975,994.00 bytes/sec
+total size is 487,730  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 507,439 bytes  received 35 bytes  1,014,948.00 bytes/sec
+total size is 507,199  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 508,016 bytes  received 35 bytes  338,700.67 bytes/sec
+total size is 507,776  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 507,776  speedup is 5,705.35
+sending incremental file list
+new_dav.jl.out
+
+sent 508,656 bytes  received 35 bytes  1,017,382.00 bytes/sec
+total size is 508,417  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 508,417  speedup is 5,777.47
+sending incremental file list
+new_dav.jl.out
+
+sent 509,361 bytes  received 35 bytes  1,018,792.00 bytes/sec
+total size is 509,122  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 509,122  speedup is 5,785.48
+sending incremental file list
+new_dav.jl.out
+
+sent 509,466 bytes  received 35 bytes  1,019,002.00 bytes/sec
+total size is 509,226  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 510,131 bytes  received 35 bytes  1,020,332.00 bytes/sec
+total size is 509,891  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 509,891  speedup is 5,729.11
+sending incremental file list
+new_dav.jl.out
+
+sent 510,836 bytes  received 35 bytes  1,021,742.00 bytes/sec
+total size is 510,596  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 510,596  speedup is 5,737.03
+sending incremental file list
+new_dav.jl.out
+
+sent 511,477 bytes  received 35 bytes  1,023,024.00 bytes/sec
+total size is 511,237  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 512,054 bytes  received 35 bytes  1,024,178.00 bytes/sec
+total size is 511,814  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 538,441 bytes  received 35 bytes  1,076,952.00 bytes/sec
+total size is 538,194  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 658,165 bytes  received 35 bytes  1,316,400.00 bytes/sec
+total size is 657,885  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 760,181 bytes  received 35 bytes  1,520,432.00 bytes/sec
+total size is 759,878  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 761,040 bytes  received 35 bytes  1,522,150.00 bytes/sec
+total size is 760,736  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 761,617 bytes  received 35 bytes  1,523,304.00 bytes/sec
+total size is 761,313  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 761,313  speedup is 8,554.08
+sending incremental file list
+new_dav.jl.out
+
+sent 762,258 bytes  received 35 bytes  1,524,586.00 bytes/sec
+total size is 761,954  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 761,954  speedup is 8,561.28
+sending incremental file list
+new_dav.jl.out
+
+sent 762,962 bytes  received 35 bytes  1,525,994.00 bytes/sec
+total size is 762,659  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 762,659  speedup is 8,666.58
+sending incremental file list
+new_dav.jl.out
+
+sent 763,323 bytes  received 35 bytes  1,526,716.00 bytes/sec
+total size is 763,019  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 763,732 bytes  received 35 bytes  509,178.00 bytes/sec
+total size is 763,428  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 763,428  speedup is 8,577.84
+sending incremental file list
+new_dav.jl.out
+
+sent 764,437 bytes  received 35 bytes  1,528,944.00 bytes/sec
+total size is 764,133  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 764,133  speedup is 8,585.76
+sending incremental file list
+new_dav.jl.out
+
+sent 765,078 bytes  received 35 bytes  1,530,226.00 bytes/sec
+total size is 764,774  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 765,655 bytes  received 35 bytes  1,531,380.00 bytes/sec
+total size is 765,351  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 800,024 bytes  received 35 bytes  1,600,118.00 bytes/sec
+total size is 799,713  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 919,631 bytes  received 35 bytes  1,839,332.00 bytes/sec
+total size is 919,287  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,013,487 bytes  received 35 bytes  675,681.33 bytes/sec
+total size is 1,013,127  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,127  speedup is 11,383.45
+sending incremental file list
+new_dav.jl.out
+
+sent 1,013,546 bytes  received 35 bytes  2,027,162.00 bytes/sec
+total size is 1,013,186  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  59.33 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,186  speedup is 11,384.11
+sending incremental file list
+new_dav.jl.out
+
+sent 1,013,605 bytes  received 35 bytes  2,027,280.00 bytes/sec
+total size is 1,013,245  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  59.33 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  59.33 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,245  speedup is 11,384.78
+sending incremental file list
+new_dav.jl.out
+
+sent 1,013,664 bytes  received 35 bytes  2,027,398.00 bytes/sec
+total size is 1,013,304  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,013,304  speedup is 11,385.44
+sending incremental file list
+new_dav.jl.out
+
+sent 1,014,133 bytes  received 35 bytes  2,028,336.00 bytes/sec
+total size is 1,013,774  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,028,069 bytes  received 35 bytes  2,056,208.00 bytes/sec
+total size is 1,027,701  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,027,701  speedup is 11,547.20
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,027,701  speedup is 11,547.20
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,027,701  speedup is 11,547.20
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,027,701  speedup is 11,547.20
+sending incremental file list
+new_dav.jl.out
+
+sent 1,034,233 bytes  received 35 bytes  2,068,536.00 bytes/sec
+total size is 1,033,865  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,042,014 bytes  received 35 bytes  694,699.33 bytes/sec
+total size is 1,041,646  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,041,646  speedup is 11,703.89
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,041,646  speedup is 11,703.89
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,041,646  speedup is 11,703.89
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,041,646  speedup is 11,703.89
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,041,646  speedup is 11,703.89
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,041,646  speedup is 11,703.89
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,041,646  speedup is 11,703.89
+sending incremental file list
+new_dav.jl.out
+
+sent 1,043,987 bytes  received 35 bytes  2,088,044.00 bytes/sec
+total size is 1,043,619  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,044,717 bytes  received 35 bytes  2,089,504.00 bytes/sec
+total size is 1,044,349  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,050,341 bytes  received 35 bytes  2,100,752.00 bytes/sec
+total size is 1,049,965  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,059,435 bytes  received 35 bytes  2,118,940.00 bytes/sec
+total size is 1,059,060  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,059,060  speedup is 12,034.77
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,059,060  speedup is 12,034.77
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,059,060  speedup is 12,034.77
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,059,060  speedup is 12,034.77
+sending incremental file list
+new_dav.jl.out
+
+sent 1,062,020 bytes  received 35 bytes  2,124,110.00 bytes/sec
+total size is 1,061,644  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,070,899 bytes  received 35 bytes  2,141,868.00 bytes/sec
+total size is 1,070,523  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,072,212 bytes  received 35 bytes  2,144,494.00 bytes/sec
+total size is 1,071,837  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,079,993 bytes  received 35 bytes  2,160,056.00 bytes/sec
+total size is 1,079,618  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,079,618  speedup is 12,268.39
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,079,618  speedup is 12,268.39
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,079,618  speedup is 12,268.39
+sending incremental file list
+new_dav.jl.out
+
+sent 1,277,219 bytes  received 35 bytes  2,554,508.00 bytes/sec
+total size is 1,276,795  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,276,795  speedup is 14,346.01
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,276,795  speedup is 14,346.01
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,276,795  speedup is 14,346.01
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,276,795  speedup is 14,346.01
+sending incremental file list
+new_dav.jl.out
+
+sent 1,301,249 bytes  received 35 bytes  2,602,568.00 bytes/sec
+total size is 1,300,817  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,300,817  speedup is 14,615.92
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,300,817  speedup is 14,615.92
+sending incremental file list
+new_dav.jl.out
+
+sent 1,310,548 bytes  received 35 bytes  2,621,166.00 bytes/sec
+total size is 1,310,116  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,318,337 bytes  received 35 bytes  2,636,744.00 bytes/sec
+total size is 1,317,897  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,317,897  speedup is 14,807.83
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,317,897  speedup is 14,807.83
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,317,897  speedup is 14,807.83
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,317,897  speedup is 14,807.83
+sending incremental file list
+new_dav.jl.out
+
+sent 1,320,921 bytes  received 35 bytes  2,641,912.00 bytes/sec
+total size is 1,320,481  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,330,607 bytes  received 35 bytes  2,661,284.00 bytes/sec
+total size is 1,330,167  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,331,920 bytes  received 35 bytes  2,663,910.00 bytes/sec
+total size is 1,331,481  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,339,701 bytes  received 35 bytes  2,679,472.00 bytes/sec
+total size is 1,339,262  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,339,262  speedup is 15,218.89
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,339,262  speedup is 15,218.89
+sending incremental file list
+new_dav.jl.out
+
+sent 1,340,078 bytes  received 35 bytes  2,680,226.00 bytes/sec
+total size is 1,339,638  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,352,752 bytes  received 35 bytes  2,705,574.00 bytes/sec
+total size is 1,352,305  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,361,848 bytes  received 35 bytes  2,723,766.00 bytes/sec
+total size is 1,361,400  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,361,400  speedup is 15,296.63
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,361,400  speedup is 15,296.63
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,361,400  speedup is 15,296.63
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,308 bytes  received 35 bytes  2,732,686.00 bytes/sec
+total size is 1,365,861  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,365,861  speedup is 15,521.15
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,365,861  speedup is 15,521.15
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,365,861  speedup is 15,521.15
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,477 bytes  received 35 bytes  2,733,024.00 bytes/sec
+total size is 1,366,029  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,697 bytes  received 35 bytes  2,733,464.00 bytes/sec
+total size is 1,366,249  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,700 bytes  received 35 bytes  2,733,470.00 bytes/sec
+total size is 1,366,253  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,701 bytes  received 35 bytes  2,733,472.00 bytes/sec
+total size is 1,366,254  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,366,254  speedup is 15,525.61
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,703 bytes  received 35 bytes  2,733,476.00 bytes/sec
+total size is 1,366,256  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,705 bytes  received 35 bytes  2,733,480.00 bytes/sec
+total size is 1,366,257  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,706 bytes  received 35 bytes  2,733,482.00 bytes/sec
+total size is 1,366,258  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,710 bytes  received 35 bytes  2,733,490.00 bytes/sec
+total size is 1,366,262  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,710 bytes  received 35 bytes  2,733,490.00 bytes/sec
+total size is 1,366,263  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,713 bytes  received 35 bytes  2,733,496.00 bytes/sec
+total size is 1,366,265  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,715 bytes  received 35 bytes  2,733,500.00 bytes/sec
+total size is 1,366,267  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,718 bytes  received 35 bytes  911,168.67 bytes/sec
+total size is 1,366,270  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,270  speedup is 15,351.35
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,720 bytes  received 35 bytes  2,733,510.00 bytes/sec
+total size is 1,366,272  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,721 bytes  received 35 bytes  2,733,512.00 bytes/sec
+total size is 1,366,273  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,722 bytes  received 35 bytes  2,733,514.00 bytes/sec
+total size is 1,366,274  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,724 bytes  received 35 bytes  2,733,518.00 bytes/sec
+total size is 1,366,276  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,725 bytes  received 35 bytes  2,733,520.00 bytes/sec
+total size is 1,366,277  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,277  speedup is 15,351.43
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,727 bytes  received 35 bytes  2,733,524.00 bytes/sec
+total size is 1,366,279  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,279  speedup is 15,351.45
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,729 bytes  received 35 bytes  2,733,528.00 bytes/sec
+total size is 1,366,281  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,730 bytes  received 35 bytes  2,733,530.00 bytes/sec
+total size is 1,366,283  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,732 bytes  received 35 bytes  2,733,534.00 bytes/sec
+total size is 1,366,285  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,366,285  speedup is 15,525.97
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,734 bytes  received 35 bytes  2,733,538.00 bytes/sec
+total size is 1,366,287  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,366,287  speedup is 15,525.99
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,736 bytes  received 35 bytes  2,733,542.00 bytes/sec
+total size is 1,366,288  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,736 bytes  received 35 bytes  2,733,542.00 bytes/sec
+total size is 1,366,289  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,738 bytes  received 35 bytes  911,182.00 bytes/sec
+total size is 1,366,291  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,742 bytes  received 35 bytes  2,733,554.00 bytes/sec
+total size is 1,366,294  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,745 bytes  received 35 bytes  2,733,560.00 bytes/sec
+total size is 1,366,297  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,745 bytes  received 35 bytes  2,733,560.00 bytes/sec
+total size is 1,366,298  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,748 bytes  received 35 bytes  2,733,566.00 bytes/sec
+total size is 1,366,300  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,750 bytes  received 35 bytes  2,733,570.00 bytes/sec
+total size is 1,366,302  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,302  speedup is 15,351.71
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,754 bytes  received 35 bytes  2,733,578.00 bytes/sec
+total size is 1,366,306  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,756 bytes  received 35 bytes  2,733,582.00 bytes/sec
+total size is 1,366,308  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,757 bytes  received 35 bytes  2,733,584.00 bytes/sec
+total size is 1,366,309  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,757 bytes  received 35 bytes  2,733,584.00 bytes/sec
+total size is 1,366,310  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,759 bytes  received 35 bytes  2,733,588.00 bytes/sec
+total size is 1,366,311  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,759 bytes  received 35 bytes  2,733,588.00 bytes/sec
+total size is 1,366,313  speedup is 1.00
+sending incremental file list
+
+sent 75 bytes  received 12 bytes  174.00 bytes/sec
+total size is 1,366,313  speedup is 15,704.75
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,765 bytes  received 35 bytes  2,733,600.00 bytes/sec
+total size is 1,366,317  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,317  speedup is 15,351.88
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,766 bytes  received 35 bytes  2,733,602.00 bytes/sec
+total size is 1,366,318  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,769 bytes  received 35 bytes  2,733,608.00 bytes/sec
+total size is 1,366,321  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,770 bytes  received 35 bytes  911,203.33 bytes/sec
+total size is 1,366,323  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,772 bytes  received 35 bytes  2,733,614.00 bytes/sec
+total size is 1,366,324  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,773 bytes  received 35 bytes  2,733,616.00 bytes/sec
+total size is 1,366,325  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,325  speedup is 15,351.97
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,775 bytes  received 35 bytes  2,733,620.00 bytes/sec
+total size is 1,366,327  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,777 bytes  received 35 bytes  2,733,624.00 bytes/sec
+total size is 1,366,329  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,779 bytes  received 35 bytes  2,733,628.00 bytes/sec
+total size is 1,366,331  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,780 bytes  received 35 bytes  2,733,630.00 bytes/sec
+total size is 1,366,332  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,332  speedup is 15,352.04
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,332  speedup is 15,352.04
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,332  speedup is 15,352.04
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,332  speedup is 15,352.04
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,332  speedup is 15,352.04
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,332  speedup is 15,352.04
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,332  speedup is 15,352.04
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,780 bytes  received 35 bytes  2,733,630.00 bytes/sec
+total size is 1,366,333  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,782 bytes  received 35 bytes  2,733,634.00 bytes/sec
+total size is 1,366,334  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,784 bytes  received 35 bytes  2,733,638.00 bytes/sec
+total size is 1,366,336  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,784 bytes  received 35 bytes  2,733,638.00 bytes/sec
+total size is 1,366,337  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,786 bytes  received 35 bytes  2,733,642.00 bytes/sec
+total size is 1,366,338  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,338  speedup is 15,352.11
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,338  speedup is 15,352.11
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,787 bytes  received 35 bytes  2,733,644.00 bytes/sec
+total size is 1,366,339  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,788 bytes  received 35 bytes  2,733,646.00 bytes/sec
+total size is 1,366,340  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,340  speedup is 15,352.13
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,340  speedup is 15,352.13
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,340  speedup is 15,352.13
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,340  speedup is 15,352.13
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,789 bytes  received 35 bytes  2,733,648.00 bytes/sec
+total size is 1,366,341  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,341  speedup is 15,352.15
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,341  speedup is 15,352.15
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,790 bytes  received 35 bytes  2,733,650.00 bytes/sec
+total size is 1,366,342  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,342  speedup is 15,352.16
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,791 bytes  received 35 bytes  2,733,652.00 bytes/sec
+total size is 1,366,343  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,343  speedup is 15,352.17
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,343  speedup is 15,352.17
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,343  speedup is 15,352.17
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,343  speedup is 15,352.17
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,343  speedup is 15,352.17
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,343  speedup is 15,352.17
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,343  speedup is 15,352.17
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,343  speedup is 15,352.17
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,343  speedup is 15,352.17
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,343  speedup is 15,352.17
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,343  speedup is 15,352.17
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,343  speedup is 15,352.17
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,792 bytes  received 35 bytes  2,733,654.00 bytes/sec
+total size is 1,366,344  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,344  speedup is 15,352.18
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,366,344  speedup is 15,352.18
+sending incremental file list
+new_dav.jl.out
+
+sent 1,366,835 bytes  received 35 bytes  2,733,740.00 bytes/sec
+total size is 1,366,388  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,516,080 bytes  received 35 bytes  3,032,230.00 bytes/sec
+total size is 1,515,592  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,515,592  speedup is 17,029.12
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,515,592  speedup is 17,029.12
+sending incremental file list
+new_dav.jl.out
+
+sent 1,572,803 bytes  received 35 bytes  3,145,676.00 bytes/sec
+total size is 1,572,307  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,572,307  speedup is 17,666.37
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,572,307  speedup is 17,666.37
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,572,307  speedup is 17,666.37
+sending incremental file list
+new_dav.jl.out
+
+sent 1,581,586 bytes  received 35 bytes  3,163,242.00 bytes/sec
+total size is 1,581,082  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,590,681 bytes  received 35 bytes  3,181,432.00 bytes/sec
+total size is 1,590,177  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,590,177  speedup is 17,867.16
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,590,177  speedup is 17,867.16
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,590,177  speedup is 17,867.16
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,590,177  speedup is 17,867.16
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,590,177  speedup is 17,867.16
+sending incremental file list
+new_dav.jl.out
+
+sent 1,593,114 bytes  received 35 bytes  3,186,298.00 bytes/sec
+total size is 1,592,611  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,593,265 bytes  received 35 bytes  3,186,600.00 bytes/sec
+total size is 1,592,761  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,601,370 bytes  received 35 bytes  1,067,603.33 bytes/sec
+total size is 1,600,866  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,602,683 bytes  received 35 bytes  3,205,436.00 bytes/sec
+total size is 1,602,180  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,610,473 bytes  received 35 bytes  3,221,016.00 bytes/sec
+total size is 1,609,961  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,609,961  speedup is 18,089.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,609,961  speedup is 18,089.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,609,961  speedup is 18,089.45
+sending incremental file list
+new_dav.jl.out
+
+sent 1,613,057 bytes  received 35 bytes  3,226,184.00 bytes/sec
+total size is 1,612,545  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,624,306 bytes  received 35 bytes  3,248,682.00 bytes/sec
+total size is 1,623,795  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,625,621 bytes  received 35 bytes  3,251,312.00 bytes/sec
+total size is 1,625,109  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,633,401 bytes  received 35 bytes  3,266,872.00 bytes/sec
+total size is 1,632,890  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,632,890  speedup is 18,555.57
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,632,890  speedup is 18,555.57
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,632,890  speedup is 18,555.57
+sending incremental file list
+new_dav.jl.out
+
+sent 1,633,778 bytes  received 35 bytes  3,267,626.00 bytes/sec
+total size is 1,633,266  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,637,863 bytes  received 35 bytes  3,275,796.00 bytes/sec
+total size is 1,637,351  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,351  speedup is 18,397.20
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,351  speedup is 18,397.20
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,351  speedup is 18,397.20
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,351  speedup is 18,397.20
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,351  speedup is 18,397.20
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,351  speedup is 18,397.20
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,031 bytes  received 35 bytes  3,276,132.00 bytes/sec
+total size is 1,637,520  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,253 bytes  received 35 bytes  3,276,576.00 bytes/sec
+total size is 1,637,741  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,257 bytes  received 35 bytes  3,276,584.00 bytes/sec
+total size is 1,637,745  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,745  speedup is 18,401.63
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,745  speedup is 18,401.63
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,259 bytes  received 35 bytes  3,276,588.00 bytes/sec
+total size is 1,637,747  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,747  speedup is 18,401.65
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,747  speedup is 18,401.65
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,261 bytes  received 35 bytes  3,276,592.00 bytes/sec
+total size is 1,637,749  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,262 bytes  received 35 bytes  3,276,594.00 bytes/sec
+total size is 1,637,750  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,262 bytes  received 35 bytes  3,276,594.00 bytes/sec
+total size is 1,637,751  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,266 bytes  received 35 bytes  3,276,602.00 bytes/sec
+total size is 1,637,754  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,266 bytes  received 35 bytes  3,276,602.00 bytes/sec
+total size is 1,637,755  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,271 bytes  received 35 bytes  3,276,612.00 bytes/sec
+total size is 1,637,759  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,273 bytes  received 35 bytes  3,276,616.00 bytes/sec
+total size is 1,637,761  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,273 bytes  received 35 bytes  3,276,616.00 bytes/sec
+total size is 1,637,762  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,276 bytes  received 35 bytes  3,276,622.00 bytes/sec
+total size is 1,637,764  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,277 bytes  received 35 bytes  3,276,624.00 bytes/sec
+total size is 1,637,765  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,278 bytes  received 35 bytes  3,276,626.00 bytes/sec
+total size is 1,637,766  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,766  speedup is 18,401.87
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,279 bytes  received 35 bytes  3,276,628.00 bytes/sec
+total size is 1,637,767  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,767  speedup is 18,401.88
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,281 bytes  received 35 bytes  3,276,632.00 bytes/sec
+total size is 1,637,769  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,282 bytes  received 35 bytes  3,276,634.00 bytes/sec
+total size is 1,637,770  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,770  speedup is 18,401.91
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,283 bytes  received 35 bytes  3,276,636.00 bytes/sec
+total size is 1,637,772  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,637,772  speedup is 18,611.05
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,285 bytes  received 35 bytes  3,276,640.00 bytes/sec
+total size is 1,637,773  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,286 bytes  received 35 bytes  3,276,642.00 bytes/sec
+total size is 1,637,774  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,774  speedup is 18,401.96
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,287 bytes  received 35 bytes  3,276,644.00 bytes/sec
+total size is 1,637,775  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,288 bytes  received 35 bytes  3,276,646.00 bytes/sec
+total size is 1,637,777  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,289 bytes  received 35 bytes  3,276,648.00 bytes/sec
+total size is 1,637,778  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,292 bytes  received 35 bytes  3,276,654.00 bytes/sec
+total size is 1,637,780  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,780  speedup is 18,402.02
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,294 bytes  received 35 bytes  3,276,658.00 bytes/sec
+total size is 1,637,782  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,782  speedup is 18,402.04
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,295 bytes  received 35 bytes  3,276,660.00 bytes/sec
+total size is 1,637,783  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,296 bytes  received 35 bytes  3,276,662.00 bytes/sec
+total size is 1,637,784  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,299 bytes  received 35 bytes  3,276,668.00 bytes/sec
+total size is 1,637,787  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,302 bytes  received 35 bytes  3,276,674.00 bytes/sec
+total size is 1,637,790  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,790  speedup is 18,402.13
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,302 bytes  received 35 bytes  3,276,674.00 bytes/sec
+total size is 1,637,791  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,306 bytes  received 35 bytes  3,276,682.00 bytes/sec
+total size is 1,637,794  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,307 bytes  received 35 bytes  3,276,684.00 bytes/sec
+total size is 1,637,795  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,795  speedup is 18,402.19
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,308 bytes  received 35 bytes  3,276,686.00 bytes/sec
+total size is 1,637,796  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,311 bytes  received 35 bytes  3,276,692.00 bytes/sec
+total size is 1,637,800  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,313 bytes  received 35 bytes  3,276,696.00 bytes/sec
+total size is 1,637,801  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,315 bytes  received 35 bytes  3,276,700.00 bytes/sec
+total size is 1,637,804  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,317 bytes  received 35 bytes  3,276,704.00 bytes/sec
+total size is 1,637,805  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,805  speedup is 18,402.30
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,318 bytes  received 35 bytes  3,276,706.00 bytes/sec
+total size is 1,637,806  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,319 bytes  received 35 bytes  3,276,708.00 bytes/sec
+total size is 1,637,807  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,807  speedup is 18,402.33
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,321 bytes  received 35 bytes  3,276,712.00 bytes/sec
+total size is 1,637,809  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,809  speedup is 18,402.35
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,323 bytes  received 35 bytes  3,276,716.00 bytes/sec
+total size is 1,637,811  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,324 bytes  received 35 bytes  1,092,239.33 bytes/sec
+total size is 1,637,812  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,327 bytes  received 35 bytes  3,276,724.00 bytes/sec
+total size is 1,637,815  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,815  speedup is 18,402.42
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,815  speedup is 18,402.42
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,329 bytes  received 35 bytes  3,276,728.00 bytes/sec
+total size is 1,637,817  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,817  speedup is 18,402.44
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,329 bytes  received 35 bytes  3,276,728.00 bytes/sec
+total size is 1,637,818  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,637,818  speedup is 18,611.57
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,331 bytes  received 35 bytes  3,276,732.00 bytes/sec
+total size is 1,637,819  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,332 bytes  received 35 bytes  3,276,734.00 bytes/sec
+total size is 1,637,820  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,333 bytes  received 35 bytes  3,276,736.00 bytes/sec
+total size is 1,637,821  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,334 bytes  received 35 bytes  3,276,738.00 bytes/sec
+total size is 1,637,823  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,637,823  speedup is 18,611.62
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,637,823  speedup is 18,611.62
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,336 bytes  received 35 bytes  3,276,742.00 bytes/sec
+total size is 1,637,824  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,824  speedup is 18,402.52
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,824  speedup is 18,402.52
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,824  speedup is 18,402.52
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,824  speedup is 18,402.52
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,824  speedup is 18,402.52
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,824  speedup is 18,402.52
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,337 bytes  received 35 bytes  3,276,744.00 bytes/sec
+total size is 1,637,825  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,338 bytes  received 35 bytes  3,276,746.00 bytes/sec
+total size is 1,637,826  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,826  speedup is 18,402.54
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,338 bytes  received 35 bytes  3,276,746.00 bytes/sec
+total size is 1,637,827  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,637,827  speedup is 18,611.67
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,637,827  speedup is 18,611.67
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,340 bytes  received 35 bytes  3,276,750.00 bytes/sec
+total size is 1,637,828  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,341 bytes  received 35 bytes  3,276,752.00 bytes/sec
+total size is 1,637,829  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,829  speedup is 18,402.57
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,343 bytes  received 35 bytes  3,276,756.00 bytes/sec
+total size is 1,637,831  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,831  speedup is 18,402.60
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,831  speedup is 18,402.60
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,831  speedup is 18,402.60
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,831  speedup is 18,402.60
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,831  speedup is 18,402.60
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,831  speedup is 18,402.60
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,344 bytes  received 35 bytes  3,276,758.00 bytes/sec
+total size is 1,637,832  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,345 bytes  received 35 bytes  3,276,760.00 bytes/sec
+total size is 1,637,833  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,833  speedup is 18,402.62
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,833  speedup is 18,402.62
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,833  speedup is 18,402.62
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,345 bytes  received 35 bytes  3,276,760.00 bytes/sec
+total size is 1,637,834  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,637,834  speedup is 18,611.75
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,637,834  speedup is 18,611.75
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,637,834  speedup is 18,611.75
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,637,834  speedup is 18,611.75
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,347 bytes  received 35 bytes  3,276,764.00 bytes/sec
+total size is 1,637,835  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,835  speedup is 18,402.64
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,835  speedup is 18,402.64
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,835  speedup is 18,402.64
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,835  speedup is 18,402.64
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,835  speedup is 18,402.64
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,835  speedup is 18,402.64
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,835  speedup is 18,402.64
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,835  speedup is 18,402.64
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,835  speedup is 18,402.64
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,835  speedup is 18,402.64
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,835  speedup is 18,402.64
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,835  speedup is 18,402.64
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,835  speedup is 18,402.64
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,835  speedup is 18,402.64
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,835  speedup is 18,402.64
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,637,835  speedup is 18,402.64
+sending incremental file list
+new_dav.jl.out
+
+sent 1,638,392 bytes  received 35 bytes  3,276,854.00 bytes/sec
+total size is 1,637,880  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,736,073 bytes  received 35 bytes  3,472,216.00 bytes/sec
+total size is 1,735,537  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,839,058 bytes  received 35 bytes  3,678,186.00 bytes/sec
+total size is 1,838,491  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,838,491  speedup is 20,891.94
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,838,491  speedup is 20,891.94
+sending incremental file list
+new_dav.jl.out
+
+sent 1,863,080 bytes  received 35 bytes  3,726,230.00 bytes/sec
+total size is 1,862,513  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,862,513  speedup is 21,164.92
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,862,513  speedup is 21,164.92
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,862,513  speedup is 21,164.92
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,862,513  speedup is 21,164.92
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,862,513  speedup is 21,164.92
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,862,513  speedup is 21,164.92
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,862,513  speedup is 21,164.92
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,862,513  speedup is 21,164.92
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,862,513  speedup is 21,164.92
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,862,513  speedup is 21,164.92
+sending incremental file list
+new_dav.jl.out
+
+sent 1,865,538 bytes  received 35 bytes  3,731,146.00 bytes/sec
+total size is 1,864,970  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,871,865 bytes  received 35 bytes  3,743,800.00 bytes/sec
+total size is 1,871,290  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,873,180 bytes  received 35 bytes  3,746,430.00 bytes/sec
+total size is 1,872,604  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,880,961 bytes  received 35 bytes  3,761,992.00 bytes/sec
+total size is 1,880,385  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,880,385  speedup is 21,127.92
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,880,385  speedup is 21,127.92
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,880,385  speedup is 21,127.92
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,880,385  speedup is 21,127.92
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,880,385  speedup is 21,127.92
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,880,385  speedup is 21,127.92
+sending incremental file list
+new_dav.jl.out
+
+sent 1,881,185 bytes  received 35 bytes  3,762,440.00 bytes/sec
+total size is 1,880,609  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,883,545 bytes  received 35 bytes  3,767,160.00 bytes/sec
+total size is 1,882,970  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,882,970  speedup is 21,397.39
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,882,970  speedup is 21,397.39
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,882,970  speedup is 21,397.39
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,882,970  speedup is 21,397.39
+sending incremental file list
+new_dav.jl.out
+
+sent 1,883,666 bytes  received 35 bytes  3,767,402.00 bytes/sec
+total size is 1,883,090  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,890,072 bytes  received 35 bytes  3,780,214.00 bytes/sec
+total size is 1,889,497  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,891,653 bytes  received 35 bytes  3,783,376.00 bytes/sec
+total size is 1,891,077  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,892,968 bytes  received 35 bytes  3,786,006.00 bytes/sec
+total size is 1,892,392  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,892,392  speedup is 21,262.83
+sending incremental file list
+new_dav.jl.out
+
+sent 1,900,748 bytes  received 35 bytes  3,801,566.00 bytes/sec
+total size is 1,900,173  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,900,173  speedup is 21,592.88
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,900,173  speedup is 21,592.88
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,900,173  speedup is 21,592.88
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,900,173  speedup is 21,592.88
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,900,173  speedup is 21,592.88
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,900,173  speedup is 21,592.88
+sending incremental file list
+new_dav.jl.out
+
+sent 1,903,243 bytes  received 35 bytes  3,806,556.00 bytes/sec
+total size is 1,902,659  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,903,342 bytes  received 35 bytes  3,806,754.00 bytes/sec
+total size is 1,902,758  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,911,448 bytes  received 35 bytes  3,822,966.00 bytes/sec
+total size is 1,910,864  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,913,028 bytes  received 35 bytes  3,826,126.00 bytes/sec
+total size is 1,912,444  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,912,444  speedup is 21,488.13
+sending incremental file list
+new_dav.jl.out
+
+sent 1,914,343 bytes  received 35 bytes  3,828,756.00 bytes/sec
+total size is 1,913,759  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,922,124 bytes  received 35 bytes  3,844,318.00 bytes/sec
+total size is 1,921,540  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,921,540  speedup is 21,590.34
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,921,540  speedup is 21,590.34
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,921,540  speedup is 21,590.34
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,921,540  speedup is 21,590.34
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,921,540  speedup is 21,590.34
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,921,540  speedup is 21,590.34
+sending incremental file list
+new_dav.jl.out
+
+sent 1,922,500 bytes  received 35 bytes  3,845,070.00 bytes/sec
+total size is 1,921,917  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,925,834 bytes  received 35 bytes  3,851,738.00 bytes/sec
+total size is 1,925,250  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,584 bytes  received 35 bytes  3,853,238.00 bytes/sec
+total size is 1,926,000  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,000  speedup is 21,640.45
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,972 bytes  received 35 bytes  1,284,671.33 bytes/sec
+total size is 1,926,388  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,973 bytes  received 35 bytes  3,854,016.00 bytes/sec
+total size is 1,926,390  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,977 bytes  received 35 bytes  3,854,024.00 bytes/sec
+total size is 1,926,393  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,978 bytes  received 35 bytes  3,854,026.00 bytes/sec
+total size is 1,926,394  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,394  speedup is 21,644.88
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,980 bytes  received 35 bytes  3,854,030.00 bytes/sec
+total size is 1,926,396  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,396  speedup is 21,644.90
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,396  speedup is 21,644.90
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,396  speedup is 21,644.90
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,981 bytes  received 35 bytes  3,854,032.00 bytes/sec
+total size is 1,926,397  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,982 bytes  received 35 bytes  3,854,034.00 bytes/sec
+total size is 1,926,399  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,986 bytes  received 35 bytes  3,854,042.00 bytes/sec
+total size is 1,926,402  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,402  speedup is 21,644.97
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,986 bytes  received 35 bytes  3,854,042.00 bytes/sec
+total size is 1,926,403  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,403  speedup is 21,890.94
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,988 bytes  received 35 bytes  3,854,046.00 bytes/sec
+total size is 1,926,404  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,404  speedup is 21,644.99
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,989 bytes  received 35 bytes  3,854,048.00 bytes/sec
+total size is 1,926,405  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,405  speedup is 21,645.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,990 bytes  received 35 bytes  3,854,050.00 bytes/sec
+total size is 1,926,407  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,993 bytes  received 35 bytes  3,854,056.00 bytes/sec
+total size is 1,926,409  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,996 bytes  received 35 bytes  3,854,062.00 bytes/sec
+total size is 1,926,412  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,412  speedup is 21,645.08
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,412  speedup is 21,645.08
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,998 bytes  received 35 bytes  3,854,066.00 bytes/sec
+total size is 1,926,414  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,414  speedup is 21,645.10
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,998 bytes  received 35 bytes  3,854,066.00 bytes/sec
+total size is 1,926,415  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,415  speedup is 21,891.08
+sending incremental file list
+new_dav.jl.out
+
+sent 1,926,999 bytes  received 35 bytes  3,854,068.00 bytes/sec
+total size is 1,926,416  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,001 bytes  received 35 bytes  3,854,072.00 bytes/sec
+total size is 1,926,418  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,002 bytes  received 35 bytes  3,854,074.00 bytes/sec
+total size is 1,926,419  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,419  speedup is 21,891.12
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,419  speedup is 21,891.12
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,419  speedup is 21,891.12
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,419  speedup is 21,891.12
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,419  speedup is 21,891.12
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,005 bytes  received 35 bytes  3,854,080.00 bytes/sec
+total size is 1,926,421  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,421  speedup is 21,645.18
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,421  speedup is 21,645.18
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,421  speedup is 21,645.18
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,005 bytes  received 35 bytes  3,854,080.00 bytes/sec
+total size is 1,926,422  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,007 bytes  received 35 bytes  3,854,084.00 bytes/sec
+total size is 1,926,423  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,008 bytes  received 35 bytes  1,284,695.33 bytes/sec
+total size is 1,926,424  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,009 bytes  received 35 bytes  3,854,088.00 bytes/sec
+total size is 1,926,425  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,425  speedup is 21,645.22
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,012 bytes  received 35 bytes  3,854,094.00 bytes/sec
+total size is 1,926,428  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,013 bytes  received 35 bytes  3,854,096.00 bytes/sec
+total size is 1,926,429  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,429  speedup is 21,645.27
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,429  speedup is 21,645.27
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,013 bytes  received 35 bytes  3,854,096.00 bytes/sec
+total size is 1,926,430  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,430  speedup is 21,891.25
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,015 bytes  received 35 bytes  3,854,100.00 bytes/sec
+total size is 1,926,431  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,431  speedup is 21,645.29
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,016 bytes  received 35 bytes  3,854,102.00 bytes/sec
+total size is 1,926,432  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,432  speedup is 21,645.30
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,018 bytes  received 35 bytes  3,854,106.00 bytes/sec
+total size is 1,926,434  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,021 bytes  received 35 bytes  3,854,112.00 bytes/sec
+total size is 1,926,437  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,022 bytes  received 35 bytes  3,854,114.00 bytes/sec
+total size is 1,926,439  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,026 bytes  received 35 bytes  3,854,122.00 bytes/sec
+total size is 1,926,442  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,442  speedup is 21,645.42
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,442  speedup is 21,645.42
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,442  speedup is 21,645.42
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,442  speedup is 21,645.42
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,029 bytes  received 35 bytes  3,854,128.00 bytes/sec
+total size is 1,926,445  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,031 bytes  received 35 bytes  3,854,132.00 bytes/sec
+total size is 1,926,447  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,032 bytes  received 35 bytes  3,854,134.00 bytes/sec
+total size is 1,926,448  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,033 bytes  received 35 bytes  3,854,136.00 bytes/sec
+total size is 1,926,449  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,034 bytes  received 35 bytes  3,854,138.00 bytes/sec
+total size is 1,926,450  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,035 bytes  received 35 bytes  3,854,140.00 bytes/sec
+total size is 1,926,451  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,036 bytes  received 35 bytes  3,854,142.00 bytes/sec
+total size is 1,926,452  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,452  speedup is 21,645.53
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,037 bytes  received 35 bytes  3,854,144.00 bytes/sec
+total size is 1,926,454  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,039 bytes  received 35 bytes  3,854,148.00 bytes/sec
+total size is 1,926,455  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,041 bytes  received 35 bytes  3,854,152.00 bytes/sec
+total size is 1,926,457  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,042 bytes  received 35 bytes  3,854,154.00 bytes/sec
+total size is 1,926,458  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,043 bytes  received 35 bytes  3,854,156.00 bytes/sec
+total size is 1,926,459  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,459  speedup is 21,645.61
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,044 bytes  received 35 bytes  3,854,158.00 bytes/sec
+total size is 1,926,460  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,460  speedup is 21,645.62
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,460  speedup is 21,645.62
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,045 bytes  received 35 bytes  1,284,720.00 bytes/sec
+total size is 1,926,462  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,047 bytes  received 35 bytes  3,854,164.00 bytes/sec
+total size is 1,926,464  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,464  speedup is 21,891.64
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,464  speedup is 21,891.64
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,050 bytes  received 35 bytes  3,854,170.00 bytes/sec
+total size is 1,926,466  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,466  speedup is 21,645.69
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,466  speedup is 21,645.69
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,051 bytes  received 35 bytes  3,854,172.00 bytes/sec
+total size is 1,926,467  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,467  speedup is 21,645.70
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,467  speedup is 21,645.70
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,052 bytes  received 35 bytes  3,854,174.00 bytes/sec
+total size is 1,926,468  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,053 bytes  received 35 bytes  3,854,176.00 bytes/sec
+total size is 1,926,470  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,470  speedup is 21,891.70
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,470  speedup is 21,891.70
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,470  speedup is 21,891.70
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,055 bytes  received 35 bytes  3,854,180.00 bytes/sec
+total size is 1,926,471  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,056 bytes  received 35 bytes  3,854,182.00 bytes/sec
+total size is 1,926,472  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,472  speedup is 21,645.75
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,057 bytes  received 35 bytes  3,854,184.00 bytes/sec
+total size is 1,926,473  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,473  speedup is 21,645.76
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,473  speedup is 21,645.76
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,058 bytes  received 35 bytes  3,854,186.00 bytes/sec
+total size is 1,926,474  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  59.33 bytes/sec
+total size is 1,926,474  speedup is 21,645.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,474  speedup is 21,645.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,474  speedup is 21,645.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,474  speedup is 21,645.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,474  speedup is 21,645.78
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,474  speedup is 21,645.78
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,058 bytes  received 35 bytes  3,854,186.00 bytes/sec
+total size is 1,926,475  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,475  speedup is 21,891.76
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,475  speedup is 21,891.76
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,475  speedup is 21,891.76
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,060 bytes  received 35 bytes  3,854,190.00 bytes/sec
+total size is 1,926,477  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,477  speedup is 21,891.78
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,477  speedup is 21,891.78
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,477  speedup is 21,891.78
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,477  speedup is 21,891.78
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,477  speedup is 21,891.78
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,062 bytes  received 35 bytes  3,854,194.00 bytes/sec
+total size is 1,926,479  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,065 bytes  received 35 bytes  3,854,200.00 bytes/sec
+total size is 1,926,481  speedup is 1.00
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,066 bytes  received 35 bytes  3,854,202.00 bytes/sec
+total size is 1,926,482  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,482  speedup is 21,645.87
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,482  speedup is 21,645.87
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,482  speedup is 21,645.87
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,482  speedup is 21,645.87
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,482  speedup is 21,645.87
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,067 bytes  received 35 bytes  3,854,204.00 bytes/sec
+total size is 1,926,483  speedup is 1.00
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,483  speedup is 21,645.88
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,483  speedup is 21,645.88
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,483  speedup is 21,645.88
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,483  speedup is 21,645.88
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,483  speedup is 21,645.88
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,483  speedup is 21,645.88
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,483  speedup is 21,645.88
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,483  speedup is 21,645.88
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,483  speedup is 21,645.88
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,483  speedup is 21,645.88
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,483  speedup is 21,645.88
+sending incremental file list
+
+sent 77 bytes  received 12 bytes  178.00 bytes/sec
+total size is 1,926,483  speedup is 21,645.88
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,067 bytes  received 35 bytes  3,854,204.00 bytes/sec
+total size is 1,926,484  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,484  speedup is 21,891.86
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,484  speedup is 21,891.86
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,484  speedup is 21,891.86
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,484  speedup is 21,891.86
+sending incremental file list
+new_dav.jl.out
+
+sent 1,927,068 bytes  received 35 bytes  1,284,735.33 bytes/sec
+total size is 1,926,485  speedup is 1.00
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,485  speedup is 21,891.88
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,485  speedup is 21,891.88
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,485  speedup is 21,891.88
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,485  speedup is 21,891.88
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,485  speedup is 21,891.88
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,485  speedup is 21,891.88
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,485  speedup is 21,891.88
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,485  speedup is 21,891.88
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,485  speedup is 21,891.88
+sending incremental file list
+
+sent 76 bytes  received 12 bytes  176.00 bytes/sec
+total size is 1,926,485  speedup is 21,891.88
+/cm/local/apps/slurm/var/spool/job1531774/slurm_script: line 59: 246319 Killed                  julia --project=$JULIAENV -t $NTHREAD $INFILE &>$OUTFILE
+rm: cannot remove ‘tmpfs’: Device or resource busy
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=1531774.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
