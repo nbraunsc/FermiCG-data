@@ -21,16 +21,16 @@ pymol = pyscf.gto.Mole(
         atom    =   molecule,
         symmetry=   True,
         spin    =   10, # number of unpaired electrons
-        charge  =   -2,
+        charge  =   0,
         basis   =   basis)
 
 
 pymol.build()
 print(pymol.nelectron)
 
-nelec = 18
+nelec = 16
 nmo = 26
-ms = -2
+ms = 0
 
 h0 = np.load("ints_h0.npy")
 h1 = np.load("ints_h1.npy")
