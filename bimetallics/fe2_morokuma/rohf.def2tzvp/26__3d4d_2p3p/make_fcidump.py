@@ -20,7 +20,11 @@ basis = "def2-tzvp"
 pymol = pyscf.gto.Mole(
         atom    =   molecule,
         symmetry=   True,
+<<<<<<< HEAD
+        spin    =   10, # number of unpaired electrons
+=======
         spin    =   0, # number of unpaired electrons
+>>>>>>> ef26398330eb8def75e3d4261ae2679e9ddd8a06
         charge  =   0,
         basis   =   basis)
 
