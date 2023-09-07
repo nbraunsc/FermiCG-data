@@ -1,0 +1,52 @@
+ClusterBasis for Cluster:    1
+   FockSector = ( 1α,  2β): Total Dim =     9: Dim =    9
+   FockSector = ( 3α,  1β): Total Dim =     3: Dim =    3
+   FockSector = ( 0α,  2β): Total Dim =     3: Dim =    3
+   FockSector = ( 1α,  3β): Total Dim =     3: Dim =    3
+   FockSector = ( 0α,  3β): Total Dim =     1: Dim =    1
+   FockSector = ( 3α,  2β): Total Dim =     3: Dim =    3
+   FockSector = ( 2α,  0β): Total Dim =     3: Dim =    3
+   FockSector = ( 3α,  3β): Total Dim =     1: Dim =    1
+   FockSector = ( 2α,  1β): Total Dim =     9: Dim =    9
+   FockSector = ( 2α,  2β): Total Dim =     9: Dim =    9
+   FockSector = ( 2α,  3β): Total Dim =     3: Dim =    3
+   FockSector = ( 1α,  0β): Total Dim =     3: Dim =    3
+   FockSector = ( 0α,  0β): Total Dim =     1: Dim =    1
+   FockSector = ( 1α,  1β): Total Dim =     9: Dim =    9
+   FockSector = ( 0α,  1β): Total Dim =     3: Dim =    3
+   FockSector = ( 3α,  0β): Total Dim =     1: Dim =    1
+   -----------------------------
+   Total Dim =    64: Dim =   64
+
+ ClusterBasis for Cluster:    2
+   FockSector = ( 0α,  0β): Total Dim =     1: Dim =    1
+   FockSector = ( 1α,  2β): Total Dim =     2: Dim =    2
+   FockSector = ( 1α,  1β): Total Dim =     4: Dim =    4
+   FockSector = ( 0α,  2β): Total Dim =     1: Dim =    1
+   FockSector = ( 0α,  1β): Total Dim =     2: Dim =    2
+   FockSector = ( 2α,  0β): Total Dim =     1: Dim =    1
+   FockSector = ( 2α,  2β): Total Dim =     1: Dim =    1
+   FockSector = ( 2α,  1β): Total Dim =     2: Dim =    2
+   FockSector = ( 1α,  0β): Total Dim =     2: Dim =    2
+   -----------------------------
+   Total Dim =    16: Dim =   16
+
+ ClusterBasis for Cluster:    3
+   FockSector = ( 1α,  2β): Total Dim =     9: Dim =    9
+   FockSector = ( 3α,  1β): Total Dim =     3: Dim =    3
+   FockSector = ( 0α,  2β): Total Dim =     3: Dim =    3
+   FockSector = ( 1α,  3β): Total Dim =     3: Dim =    3
+   FockSector = ( 0α,  3β): Total Dim =     1: Dim =    1
+   FockSector = ( 3α,  2β): Total Dim =     3: Dim =    3
+   FockSector = ( 2α,  0β): Total Dim =     3: Dim =    3
+   FockSector = ( 3α,  3β): Total Dim =     1: Dim =    1
+   FockSector = ( 2α,  1β): Total Dim =     9: Dim =    9
+   FockSector = ( 2α,  2β): Total Dim =     9: Dim =    9
+   FockSector = ( 2α,  3β): Total Dim =     3: Dim =    3
+   FockSector = ( 1α,  0β): Total Dim =     3: Dim =    3
+   FockSector = ( 0α,  0β): Total Dim =     1: Dim =    1
+   FockSector = ( 1α,  1β): Total Dim =     9: Dim =    9
+   FockSector = ( 0α,  1β): Total Dim =     3: Dim =    3
+   FockSector = ( 3α,  0β): Total Dim =     1: Dim =    1
+   -----------------------------
+   Total Dim =    64: Dim =   64
