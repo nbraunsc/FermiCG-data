@@ -3,11 +3,13 @@ using LinearAlgebra
 using Printf
 using QCBase
 using RDM
-#using ClusterMeanField
 using ActiveSpaceSolvers
 
 #@load "/Users/nicole/My Drive/code/FermiCG-data/he_clusters/he8_2cluster/cmf_ras_doubles_diis.jld2"
-@load "/Users/nicole/My Drive/code/FermiCG-data/he_clusters/he8_2cluster/cmf_rascas_diis.jld2"
+#@load "/Users/nicole/My Drive/code/FermiCG-data/he_clusters/he8_2cluster/cmf_rascas_diis.jld2"
+#@load "/Users/nicole/My Drive/code/FermiCG-data/he_clusters/he8_2cluster/cmf_fci_diis.jld2"
+#@load "/Users/nicole/My Drive/code/FermiCG-data/he_clusters/he8_2cluster/cmf_ras_cas_3A.jld2"
+@load "/Users/nicole/My Drive/code/FermiCG-data/he_clusters/he8_2cluster/cmf_fci_3A.jld2"
 
 ints = deepcopy(ints_cmf)
 C = deepcopy(C_cmf);
@@ -15,20 +17,22 @@ ecore = ints.h0
 
 M = 118
 
+n_clusters = 2
+cluster_list = [collect(1:8), collect(9:16)]
+clusters = [MOCluster(i,collect(cluster_list[i])) for i = 1:length(cluster_list)]
+init_fspace = [ (4,4) for i in 1:n_clusters]
+
 ref_fock = FockConfig(init_fspace)
-ansatze = [RASCIAnsatz(8, 4, 4, (3,2,3), max_h=1, max_p=1), RASCIAnsatz(8,4,4,(3,2,3), max_h=1, max_p=1)] #Doubles
+ansatze = [RASCIAnsatz(8, 4, 4, (3,2,3), max_h=1, max_p=1), RASCIAnsatz(8,4,4,(3,2,3), max_h=1, max_p=1)] #Singles
 #
 # Build Cluster basis
-cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [0,0], ref_fock, ansatze, max_roots=M, verbose=0);
-#cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [6,6], ref_fock, ansatze, max_roots=M, verbose=0);
+cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [0,0], ref_fock, ansatze, max_roots=M, verbose=1);
 #
-nroots = 7
+nroots = 19
 ci_vector = FermiCG.TPSCIstate(clusters, FermiCG.FockConfig(init_fspace), R=nroots);
 ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,1])] = zeros(Float64,nroots)
+FermiCG.expand_each_fock_space!(ci_vector, cluster_bases)
 FermiCG.eye!(ci_vector)
-FermiCG.expand_to_full_space!(ci_vector, cluster_bases,8,8)
-FermiCG.eye!(ci_vector)
-display(ci_vector)
 
 # Build ClusteredOperator
 clustered_ham = FermiCG.extract_ClusteredTerms(ints, clusters);
@@ -41,27 +45,16 @@ cluster_ops = FermiCG.compute_cluster_ops(cluster_bases, ints);
 # Add cmf hamiltonians for doing MP-style PT2 
 FermiCG.add_cmf_operators!(cluster_ops, cluster_bases, ints, d1.a, d1.b, verbose=0);
 
-#ci_vector = FermiCG.add_spin_focksectors(ci_vector)
-
-# Add the lowest energy single exciton to basis
-#ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,1])] = zeros(Float64,nroots)
-#ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([2,1])] = zeros(Float64,nroots)
-#ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,2])] = zeros(Float64,nroots)
-#ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([3,1])] = zeros(Float64,nroots)
-#ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,3])] = zeros(Float64,nroots)
-#ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([4,1])] = zeros(Float64,nroots)
-#ci_vector[FermiCG.FockConfig(init_fspace)][FermiCG.ClusterConfig([1,4])] = zeros(Float64,nroots)
-#FermiCG.eye!(ci_vector)
-
 e0b, v0b = FermiCG.tpsci_ci(ci_vector, cluster_ops, clustered_ham,
                             incremental  = true,
                             thresh_cipsi = 0.0001,
-                            thresh_foi   = 1e-5,
+                            thresh_foi   = 1e-6,
                             thresh_asci  = -1,
+                            ci_max_iter = 200,
                             max_mem_ci = 30.0);
 
-@time e2 = FermiCG.compute_pt2_energy(v0b, cluster_ops, clustered_ham, thresh_foi=1e-8, verbose=0)
-
+#@time e2 = FermiCG.compute_pt2_energy(v0b, cluster_ops, clustered_ham, thresh_foi=1e-8, verbose=0)
+e2=0
 println()
 println("   *======TPSCI results======*")
 @printf("TCI Thresh: %8.6f  Dim:%8d\n",0.0001,size(v0b)[1])
@@ -83,5 +76,4 @@ println("   *======TPSCI S2 results======*")
 for r in 1:nroots
     @printf(" %5s %12.8f %12.8f\n",r, e0b[r]+ecore, abs(s2[r]))
 end
-@save "/Users/nicole/My Drive/code/FermiCG-data/he_clusters/he8_2cluster/ras_tpsci_singles_m118.jld2" cluster_bases e0b v0b s2 ecore
-#@save "/Users/nicole/My Drive/code/FermiCG-data/he_clusters/he8_2cluster/ras_tpsci_singles.jld2" cluster_bases e0b v0b s2 ecore
+@save "/Users/nicole/My Drive/code/FermiCG-data/he_clusters/he8_2cluster/ras_tpsci_singles_19roots_3A.jld2" cluster_bases e0b v0b s2 e2 ecore
